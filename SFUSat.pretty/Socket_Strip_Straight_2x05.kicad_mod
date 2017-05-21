@@ -1,4 +1,4 @@
-(module Socket_Strip_Straight_2x05 (layer F.Cu) (tedit 59152B4B)
+(module Socket_Strip_Straight_2x05 (layer F.Cu) (tedit 59221A69)
   (descr "Through hole socket strip")
   (tags "socket strip")
   (fp_text reference REF** (at 0 -5.1) (layer F.SilkS)

@@ -1,6 +1,6 @@
 # KiCad-Lib
 Schematic and footprint component library for KiCad EDA tool.
-Use this library for all satellite KiCad schematic and layouts by adding this repository as a git submodule.
+Use this library for all satellite KiCad schematic and layouts by adding this repository as a git submodule. Component datasheets should be present in the "Doc" file with the same name as the footprint or symbol that it is associated with.
 
 # Normal Usage
 Go to the KiCad-Lib folder in your KiCad project folder. Create a branch on your local repositry:

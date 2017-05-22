@@ -11,7 +11,7 @@ git checkout [your name]
 and edit the libray. Once done commit and push to the remote repository:
 ```
 git add .
-git commit -m "[enter commit message]"
+git commit -m "[enter commit message]" -m "[this is optional; allows for extra notes]"
 git push
 ```
 and send a pull request through the github web interface.

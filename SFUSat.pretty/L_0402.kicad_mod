@@ -1,4 +1,4 @@
-(module L_0402 (layer F.Cu) (tedit 58307A8A)
+(module L_0402 (layer F.Cu) (tedit 5929F49D)
   (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
   (tags "resistor 0402")
   (attr smd)
@@ -18,8 +18,10 @@
   (fp_line (start 0.95 -0.65) (end 0.95 0.65) (layer F.CrtYd) (width 0.05))
   (fp_line (start 0.25 -0.53) (end -0.25 -0.53) (layer F.SilkS) (width 0.12))
   (fp_line (start -0.25 0.53) (end 0.25 0.53) (layer F.SilkS) (width 0.12))
-  (pad 1 smd rect (at -0.45 0) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.45 0) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -0.55 0) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin -0.05))
+  (pad 2 smd rect (at 0.55 0) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin -0.05))
   (model Inductors_SMD.3dshapes\L_0402.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

@@ -1,4 +1,4 @@
-(module C_1210_HandSoldering (layer F.Cu) (tedit 58AA84FB)
+(module C_1210_HandSoldering (layer F.Cu) (tedit 5929F410)
   (descr "Capacitor SMD 1210, hand soldering")
   (tags "capacitor 1210")
   (attr smd)
@@ -21,8 +21,10 @@
   (fp_line (start -3.25 -1.5) (end -3.25 1.5) (layer F.CrtYd) (width 0.05))
   (fp_line (start 3.25 1.5) (end 3.25 -1.5) (layer F.CrtYd) (width 0.05))
   (fp_line (start 3.25 1.5) (end -3.25 1.5) (layer F.CrtYd) (width 0.05))
-  (pad 1 smd rect (at -2 0) (size 2 2.5) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2 0) (size 2 2.5) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -2 0) (size 2 2.5) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin -0.05))
+  (pad 2 smd rect (at 2 0) (size 2 2.5) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin -0.05))
   (model Capacitors_SMD.3dshapes/C_1210.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

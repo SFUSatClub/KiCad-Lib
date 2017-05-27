@@ -1,4 +1,4 @@
-(module EXPOSED (layer F.Cu) (tedit 58918180)
+(module EXPOSED (layer F.Cu) (tedit 592A0131)
   (fp_text reference REF** (at 0.254 4.064) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

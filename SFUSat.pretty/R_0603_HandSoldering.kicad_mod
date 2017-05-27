@@ -1,4 +1,4 @@
-(module R_0603_HandSoldering (layer F.Cu) (tedit 58AAD9E8)
+(module R_0603_HandSoldering (layer F.Cu) (tedit 5929F4CE)
   (descr "Resistor SMD 0603, hand soldering")
   (tags "resistor 0603")
   (attr smd)
@@ -21,8 +21,10 @@
   (fp_line (start -1.96 -0.7) (end -1.96 0.7) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.95 0.7) (end 1.95 -0.7) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.95 0.7) (end -1.96 0.7) (layer F.CrtYd) (width 0.05))
-  (pad 1 smd rect (at -1.1 0) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.1 0) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -1.1 0) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin -0.05))
+  (pad 2 smd rect (at 1.1 0) (size 1.2 0.9) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin -0.05))
   (model Resistors_SMD.3dshapes/R_0603.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

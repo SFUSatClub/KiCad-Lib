@@ -31,3 +31,8 @@ Exit back to the KiCad home window and go to Pcbnew > Preferences > Footprint Li
 1. "Add Library"
 2. Nickname: SFUSat
 3. Library Path: ${KIPRJMOD}/KiCad-Lib/SFUSat.pretty
+
+The stencil aperture (.Paste layer) should be defined by this library. Strencil aperture should be baset off of manufacturer recomemndation or the IPC-7525 Stencil Design Guide. It is then nessesary to disable global aperture settings in any project using this library by going to PCBNew > Dimentions > Pad Mask Clearence and set:
+Solder mask clearence 0.075mm
+Solder paste clearence 0mm
+Make sure to set the Solder mask min width in accordance with your PCB manufacturer.

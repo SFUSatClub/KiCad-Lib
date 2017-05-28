@@ -1,4 +1,4 @@
-(module JS2020_TH (layer F.Cu) (tedit 587BDBA9)
+(module JS2020_TH (layer F.Cu) (tedit 592A0163)
   (fp_text reference REF** (at 0.254 4.191) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

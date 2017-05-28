@@ -1,4 +1,4 @@
-(module 1877285-2 (layer F.Cu) (tedit 5886E39A)
+(module 1877285-2 (layer F.Cu) (tedit 592A00B0)
   (fp_text reference REF** (at 0 3.2385) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,5 +1,6 @@
 (module MCM-28 (layer F.Cu) (tedit 592E3A0B)
   (solder_mask_margin 0.05)
+  (solder_paste_margin -0.01)
   (fp_text reference U5 (at -0.0215 4.2705 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

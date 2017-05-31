@@ -1,4 +1,4 @@
-(module CC1101-Q1 (layer F.Cu) (tedit 592E35C9)
+(module CC1101-Q1 (layer F.Cu) (tedit 592E37BB)
   (solder_mask_margin 0.07)
   (solder_paste_margin -0.05)
   (fp_text reference REF** (at 0 3.75) (layer F.SilkS)

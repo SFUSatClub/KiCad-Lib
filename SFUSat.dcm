@@ -5,4 +5,14 @@ D Photodiode
 K photodiode diode opto
 $ENDCMP
 #
+$CMP OPA380
+D Precision, High-Speed Transimpedance Amplifier. Abs max 7V. Drive current 150mA
+F http://www.ti.com/lit/ds/symlink/opa380.pdf
+$ENDCMP
+#
+$CMP OPA381
+D Precision, High-Speed Transimpedance Amplifier. Abs max 7V. Drive current 150mA
+F http://www.ti.com/lit/ds/symlink/opa380.pdf
+$ENDCMP
+#
 #End Doc Library

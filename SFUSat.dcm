@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADG728
+D CMOS, Low Voltage, 2-Wire Serially Controlled, Matrix Switches
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf
+$ENDCMP
+#
 $CMP D_Photo
 D Photodiode
 K photodiode diode opto

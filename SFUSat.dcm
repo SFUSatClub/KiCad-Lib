@@ -15,4 +15,8 @@ D Connector, single row, 01x04
 K connector
 $ENDCMP
 #
+$CMP CSD17551Q3A
+D MOSFET N-CH 30V 12A 8VSON
+$ENDCMP
+#
 #End Doc Library

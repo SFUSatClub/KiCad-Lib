@@ -1,3 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CONN_01X02
+D Connector, single row, 01x02
+K connector
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector, single row, 01x03
+K connector
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector, single row, 01x04
+K connector
+$ENDCMP
+#
 #End Doc Library

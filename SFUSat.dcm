@@ -1,23 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ADG728
-D CMOS, Low Voltage, 2-Wire Serially Controlled, Matrix Switches
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf
+$CMP CONN_01X02
+D Connector, single row, 01x02
+K connector
 $ENDCMP
 #
-$CMP D_Photo
-D Photodiode
-K photodiode diode opto
+$CMP CONN_01X03
+D Connector, single row, 01x03
+K connector
 $ENDCMP
 #
-$CMP OPA380
-D Precision, High-Speed Transimpedance Amplifier. Abs max 7V. Drive current 150mA
-F http://www.ti.com/lit/ds/symlink/opa380.pdf
-$ENDCMP
-#
-$CMP OPA381
-D Precision, High-Speed Transimpedance Amplifier. Abs max 7V. Drive current 150mA
-F http://www.ti.com/lit/ds/symlink/opa380.pdf
+$CMP CONN_01X04
+D Connector, single row, 01x04
+K connector
 $ENDCMP
 #
 #End Doc Library

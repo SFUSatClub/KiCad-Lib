@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 """
-KiCAD Library Populator (Python 3.6) V0.0.1
+KiCAD Library Populator (Python 3.6) V0.0.2
 
 DESCRIPTION:
 The purpose of this library is to be able to populate KiCAD libraries with
 components using only Digi-Key part numbers
 
 USAGE:
-Currently, this only works as a Python script in Python 3.6. To run the script,
+Currently, this only works as a Python script in Python 3.6 with Digi-Key. To run the script,
 add in either one or a group of Digi-Key part numbers to the list "partNum".
 Only capacitors, inductors, and resistors are supported at this time.
 
 Created: Wed 20180131-0007
-Last updated: Mon 20180205-0134
+Last updated: Mon 20180205-1304
 Author: Alex Naylor
 
 FUTURE ADDITIONS:
@@ -20,10 +20,12 @@ FUTURE ADDITIONS:
 -Ability to add more components to other libraries (i.e. diodes, connectors, 
  etc.)
 -Make the script runnable from the CLI
+-Add Mouser support
 
-CHANGELOG (V0.0.1):
+CHANGELOG (V0.0.2):
 AN:
--
+-Changed attribute population so that part attributes are set up for multiple
+ manufacturers and suppliers
 """
 
 import bs4
@@ -93,7 +95,7 @@ partNums = ["490-5523-1-ND",
             "490-1520-1-ND",
             "490-1522-1-ND",
             "399-7752-1-ND",
-            "490-5307-1-ND", #duplicate items in BOM
+            "490-5307-1-ND", #duplicate item in BOM
             "399-1063-1-ND",
             "490-1524-1-ND",
             "399-8099-1-ND",
@@ -501,7 +503,12 @@ def getProdDetails(soup,productAttrDict):
         field = row.find_all("th")[0].get_text().rstrip(" \r\n ").lstrip(" \r\n ")
         value = row.find_all("td")[0].get_text().rstrip(" \r\n ").lstrip(" \r\n ")
         
+        if field == "Digi-Key Part Number": field = "Supplier Part Number 1"
+        if "Manufacturer" in field: field += " 1"
+        
         productAttrDict[field] = value
+
+    productAttrDict["Supplier 1"] = "Digi-Key"
         
     return(productAttrDict)
 
@@ -517,6 +524,8 @@ def getProdAttrs(soup,productAttrDict):
         
         try: field = row.find_all("th")[0].get_text().rstrip(" \r\n ").lstrip(" \r\n ")
         except: appendLastField = True
+        
+        if field == "Manufacturer": continue #Already populate the manufacturer from the details table
         
         value = row.find_all("td")[0].get_text().rstrip(" \r\n ").lstrip(" \r\n ")
 

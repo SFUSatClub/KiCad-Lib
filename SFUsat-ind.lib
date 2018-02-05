@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+# 
+# L_2u2_20%_8.5A_8030
+#
+DEF L_2u2_20%_8.5A_8030 L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_2u2_20%_8.5A_8030" 0 -50 50 H V C TNN
+F2 "SFUSat-ind:L_8030" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Inductors, Coils, Chokes - Fixed Inductors" 0 0 50 H I C CNN "Categories"
+F5 "15.5A" 0 0 50 H I C CNN "Current - Saturation"
+F6 "8.5A" 0 0 50 H I C CNN "Current Rating"
+F7 "20.3 mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F9 "732-7201-1-ND" 0 0 50 H I C CNN "Digi-Key Part Number"
+F10 "24MHz" 0 0 50 H I C CNN "Frequency - Self Resonant"
+F11 "100kHz" 0 0 50 H I C CNN "Frequency - Test"
+F12 "0.118\" (3.00mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F13 "2.2µH" 0 0 50 H I C CNN "Inductance"
+F14 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F15 "Wurth Electronics Inc." 0 0 50 H I C CNN "Manufacturer"
+F16 "74437356022" 0 0 50 H I C CNN "Manufacturer Part Number"
+F17 "12 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time"
+F18 "Powdered Iron" 0 0 50 H I C CNN "Material - Core"
+F19 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F20 "-40°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F21 "Nonstandard" 0 0 50 H I C CNN "Package / Case"
+F22 "Active" 0 0 50 H I C CNN "Part Status"
+F23 "-" 0 0 50 H I C CNN "Q @ Freq"
+F24 "-" 0 0 50 H I C CNN "Ratings"
+F25 "WE-LHMI" 0 0 50 H I C CNN "Series"
+F26 "Shielded" 0 0 50 H I C CNN "Shielding"
+F27 "0.362\" L x 0.335\" W (9.20mm x 8.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F28 "8030" 0 0 50 H I C CNN "Supplier Device Package"
+F29 "±20%" 0 0 50 H I C CNN "Tolerance"
+F30 "Molded" 0 0 50 H I C CNN "Type"
+DRAW
+A -75 0 25 1 -1801 0 1 0 N -50 0 -100 0
+A -25 0 25 1 -1801 0 1 0 N 0 0 -50 0
+A 25 0 25 1 -1801 0 1 0 N 50 0 0 0
+A 75 0 25 1 -1801 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

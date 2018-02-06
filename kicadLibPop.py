@@ -12,7 +12,7 @@ add in either one or a group of Digi-Key part numbers to the list "partNum".
 Only capacitors, inductors, and resistors are supported at this time.
 
 Created: Wed 20180131-0007
-Last updated: Mon 20180205-2350
+Last updated: Mon 20180205-2354
 Author: Alex Naylor
 
 FUTURE ADDITIONS:
@@ -551,6 +551,8 @@ def makeFixedAttrs(productAttrDict):
             fixedAttrDict["Reference"] = "D"
         elif "Crystals" in productAttrDict["Categories"]:
             fixedAttrDict["Reference"] = "X"
+        else:
+            fixedAttrDict["Reference"] = "U"
         
     fixedAttrDict["Value"] = symbolName
     fixedAttrDict["Footprint"] = footprint

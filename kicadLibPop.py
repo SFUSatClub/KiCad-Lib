@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-KiCAD Library Populator (Python 3.6) V0.0.2
+KiCAD Library Populator (Python 3.6) V0.0.3
 
 DESCRIPTION:
 The purpose of this library is to be able to populate KiCAD libraries with
@@ -12,7 +12,7 @@ add in either one or a group of Digi-Key part numbers to the list "partNum".
 Only capacitors, inductors, and resistors are supported at this time.
 
 Created: Wed 20180131-0007
-Last updated: Mon 20180205-1304
+Last updated: Mon 20180205-2350
 Author: Alex Naylor
 
 FUTURE ADDITIONS:
@@ -22,10 +22,10 @@ FUTURE ADDITIONS:
 -Make the script runnable from the CLI
 -Add Mouser support
 
-CHANGELOG (V0.0.2):
+CHANGELOG (V0.0.3):
 AN:
--Changed attribute population so that part attributes are set up for multiple
- manufacturers and suppliers
+-Added support for some other general components that can be added to the main 
+ SFUSat.lib
 """
 
 import bs4
@@ -44,38 +44,46 @@ fieldsToIgnore = ["Detailed Description",
 capLibFile = "SFUSat-cap.lib"
 indLibFile = "SFUSat-ind.lib"
 resLibFile = "SFUSat-res.lib"
+otherLibFile = "SFUSat.lib"
 
 capDescFile = "SFUSat-cap.dcm"
 indDescFile = "SFUSat-ind.dcm"
 resDescFile = "SFUSat-res.dcm"
+otherDescFile = "SFUSat.dcm"
 
 dirName = os.path.dirname(os.path.abspath(__file__))
 
 capLibFilePath = dirName+"\\"+capLibFile
 indLibFilePath = dirName+"\\"+indLibFile
 resLibFilePath = dirName+"\\"+resLibFile
+otherLibFilePath = dirName+"\\"+otherLibFile
 
 capDescFilePath = dirName+"\\"+capDescFile
 indDescFilePath = dirName+"\\"+indDescFile
 resDescFilePath = dirName+"\\"+resDescFile
+otherDescFilePath = dirName+"\\"+otherDescFile
 
 capLibContents = None
 indLibContents = None
 resLibContents = None
+otherLibContents = None
 
 capDescContents = None
 indDescContents = None
 resDescContents = None
+otherDescContents = None
 
 #To hold all of the parts for the library file
 capParts = []
 indParts = []
 resParts = []
+otherParts = []
 
 #To hold all of the descriptions for the description file
 capDesc = []
 indDesc = []
 resDesc = []
+otherDesc = []
 
 productList = {} #For processing multiple parts
 productAttrDict = {} #Product attributes that are not required for a KiCAD part
@@ -83,10 +91,12 @@ fixedAttrDict = {} #Fixed attributes in KiCAD
 
 partDict = {"capParts":[],#list of all of the parts to be written to various libraries
             "indParts":[],
-            "resParts":[]} 
+            "resParts":[],
+            "otherParts":[]} 
 libDict = {"capLib":{capLibFile:capLibContents},#list of all of the libraries to be written to
            "indLib":{indLibFile:indLibContents},
-           "resLib":{resLibFile:resLibContents}}
+           "resLib":{resLibFile:resLibContents},
+           "otherLib":{otherLibFile:otherLibContents}}
 
 dataToWrite = [] #data to write to the library file
 
@@ -134,7 +144,8 @@ partNums = ["490-5523-1-ND",
             "541-10.0KHCT-ND", #duplicate item in BOM
             "541-30.1KHCT-ND",
             "541-3953-1-ND",
-            "541-2.0MGCT-ND"] #end of resistors
+            "541-2.0MGCT-ND",#end of resistors
+            "296-35025-1-ND"] 
 
 partNums = list(set(partNums)) #Ensures no duplicates
 
@@ -154,7 +165,13 @@ unitsLocked = "F" #can be "L" (units cannot be swapped) or "F" (units can be swa
 optionFlag = "N" #can be "N" for normal component or "P" for power 
 
 #attribute locations on the symbol
-capAttrConfig = {"ref":{"posx":0,
+capAttrConfig = {"name": {"textOffset":10,
+                          "drawPinnumber":"N", #Can be "Y" or "N"
+                          "drawPinname":"N", #Can be "Y" or "N"
+                          "unitCount":1, #number of parts in a package; maximum 26
+                          "unitsLocked":"F", #can be "L" (units cannot be swapped) or "F" (units can be swapped)
+                          "optionFlag":"N"}, #can be "N" for normal component or "P" for power 
+                 "ref":{"posx":0,
                         "posy":50,
                         "textSize":50,
                         "textOrient":"H", #"V" for vertical, "H" for horizontal
@@ -176,7 +193,13 @@ capAttrConfig = {"ref":{"posx":0,
                         "hTextJustify":"C", #"L" for left, "R" for right, "C" for center
                         "vTextJustify":"CNN"}} #"T" for top, "B" for bottom, "C" for center (not sure why it's CNN though)
 
-resAttrConfig = {"ref":{"posx":0,
+resAttrConfig = {"name": {"textOffset":10,
+                          "drawPinnumber":"N", #Can be "Y" or "N"
+                          "drawPinname":"N", #Can be "Y" or "N"
+                          "unitCount":1, #number of parts in a package; maximum 26
+                          "unitsLocked":"F", #can be "L" (units cannot be swapped) or "F" (units can be swapped)
+                          "optionFlag":"N"}, #can be "N" for normal component or "P" for power 
+                 "ref":{"posx":0,
                         "posy":50,
                         "textSize":50,
                         "textOrient":"H", #"V" for vertical, "H" for horizontal
@@ -198,7 +221,13 @@ resAttrConfig = {"ref":{"posx":0,
                         "hTextJustify":"C", #"L" for left, "R" for right, "C" for center
                         "vTextJustify":"CNN"}} #"T" for top, "B" for bottom, "C" for center (not sure why it's CNN though)
 
-indAttrConfig = {"ref":{"posx":0,
+indAttrConfig = {"name": {"textOffset":10,
+                          "drawPinnumber":"N", #Can be "Y" or "N"
+                          "drawPinname":"N", #Can be "Y" or "N"
+                          "unitCount":1, #number of parts in a package; maximum 26
+                          "unitsLocked":"F", #can be "L" (units cannot be swapped) or "F" (units can be swapped)
+                          "optionFlag":"N"}, #can be "N" for normal component or "P" for power 
+                 "ref":{"posx":0,
                         "posy":50,
                         "textSize":50,
                         "textOrient":"H", #"V" for vertical, "H" for horizontal
@@ -219,12 +248,40 @@ indAttrConfig = {"ref":{"posx":0,
                         "visible":"I", #"V" for visible, "I" for invisible
                         "hTextJustify":"C", #"L" for left, "R" for right, "C" for center
                         "vTextJustify":"CNN"}} #"T" for top, "B" for bottom, "C" for center (not sure why it's CNN though)
+
+otherAttrConfig = {"name": {"textOffset":10,
+                          "drawPinnumber":"Y", #Can be "Y" or "N"
+                          "drawPinname":"Y", #Can be "Y" or "N"
+                          "unitCount":1, #number of parts in a package; maximum 26
+                          "unitsLocked":"F", #can be "L" (units cannot be swapped) or "F" (units can be swapped)
+                          "optionFlag":"N"}, #can be "N" for normal component or "P" for power 
+                   "ref":{"posx":0,
+                          "posy":50,
+                          "textSize":50,
+                          "textOrient":"H", #"V" for vertical, "H" for horizontal
+                          "visible":"V", #"V" for visible, "I" for invisible
+                          "hTextJustify":"C", #"L" for left, "R" for right, "C" for center
+                          "vTextJustify":"BNN"}, #"T" for top, "B" for bottom, "C" for center (not sure why it's CNN though)
+                   "val":{"posx":0,
+                          "posy":-50,
+                          "textSize":50,
+                          "textOrient":"H", #"V" for vertical, "H" for horizontal
+                          "visible":"V", #"V" for visible, "I" for invisible
+                          "hTextJustify":"C", #"L" for left, "R" for right, "C" for center
+                          "vTextJustify":"TNN"}, #"T" for top, "B" for bottom, "C" for center (not sure why it's CNN though)
+                  "other":{"posx":0,
+                           "posy":0,
+                           "textSize":50,
+                           "textOrient":"H", #"V" for vertical, "H" for horizontal
+                           "visible":"I", #"V" for visible, "I" for invisible
+                           "hTextJustify":"C", #"L" for left, "R" for right, "C" for center
+                           "vTextJustify":"CNN"}} #"T" for top, "B" for bottom, "C" for center (not sure why it's CNN though)
 
 #The physical symbols (too lazy to do it all line by line right now, so I'm just pasting it as a block (i.e. only works for chip components with 2 leads))
 capSymbolShape = "DRAW\nP 2 0 1 20 -80 -30 80 -30 N\nP 2 0 1 20 -80 30 80 30 N\nX ~ 1 0 150 110 D 50 50 1 1 P\nX ~ 2 0 -150 110 U 50 50 1 1 P\nENDDRAW"
 indSymbolShape = "DRAW\nA -75 0 25 1 -1801 0 1 0 N -50 0 -100 0\nA -25 0 25 1 -1801 0 1 0 N 0 0 -50 0\nA 25 0 25 1 -1801 0 1 0 N 50 0 0 0\nA 75 0 25 1 -1801 0 1 0 N 100 0 50 0\nX 1 1 -150 0 50 R 50 50 1 1 P\nX 2 2 150 0 50 L 50 50 1 1 P\nENDDRAW"
 resSymbolShape = "DRAW\nS 100 -40 -100 40 0 1 10 N\nX ~ 1 -150 0 50 R 50 50 1 1 P\nX ~ 2 150 0 50 L 50 50 1 1 P\nENDDRAW"
-
+otherSymbolShape = "DRAW\nENDDRAW" #If the symbol is not standard
 ###############################################################################
 ### HELPER FUNCTIONS ###
 ###############################################################################
@@ -253,12 +310,12 @@ def makeLibPart(productAttrDict,fixedAttrDict,attrConfig,symbolShape):
     dataToWrite.append("# \n# {0}\n#".format(fixedAttrDict["Value"])) #header
     dataToWrite.append("DEF {0} {1} 0 {2} {3} {4} {5} {6} {7}".format(fixedAttrDict["Value"], #part definition
                                                                       fixedAttrDict["Reference"],
-                                                                      textOffset,
-                                                                      drawPinnumber,
-                                                                      drawPinname,
-                                                                      unitCount,
-                                                                      unitsLocked,
-                                                                      optionFlag))
+                                                                      attrConfig['name']['textOffset'],
+                                                                      attrConfig['name']['drawPinnumber'],
+                                                                      attrConfig['name']['drawPinname'],
+                                                                      attrConfig['name']['unitCount'],
+                                                                      attrConfig['name']['unitsLocked'],
+                                                                      attrConfig['name']['optionFlag']))
     
     dataToWrite.append('F0 "{0}" {1} {2} {3} {4} {5} {6} {7}'.format(fixedAttrDict["Reference"],
                                                                      attrConfig['ref']['posx'],
@@ -477,9 +534,24 @@ def makeFixedAttrs(productAttrDict):
         fixedAttrDict["Reference"] = "R"
 
     else:
-        print("Sorry, there's only functionality for chip capacitors, resistors, and inductors at this time")
-        sys.exit()
+#        print("Sorry, there's only functionality for chip capacitors, resistors, and inductors at this time")
+#        sys.exit()
+    
+        symbolName = productAttrDict["Manufacturer Part Number 1"]
+        
+        footprint = symbolName
 
+        if not any(footprint in file for file in os.listdir(path="SFUSat.pretty")):
+            print("No footprint '{0}' found for {1}".format(footprint,symbolName))
+            footprint = ""
+        
+        if ("FET" in productAttrDict["Categories"]) or ("BJT" in productAttrDict["Categories"]):
+            fixedAttrDict["Reference"] = "Q"
+        elif "Diodes" in productAttrDict["Categories"]:
+            fixedAttrDict["Reference"] = "D"
+        elif "Crystals" in productAttrDict["Categories"]:
+            fixedAttrDict["Reference"] = "X"
+        
     fixedAttrDict["Value"] = symbolName
     fixedAttrDict["Footprint"] = footprint
     fixedAttrDict["Datasheet"] = ""
@@ -646,8 +718,23 @@ for partNum in partNums:
         resDesc.append(makeDesc(productAttrDict["Description"],fixedAttrDict["Value"]))
 
     else:
-        print("Sorry, currently only chip capacitors, inductors, and resistors are supported.")
-        continue
+        if otherLibContents == None:
+            otherLibContents = readFile(otherLibFilePath) #read the library file so we can see whether or not the part number/name already exists
+            otherDescContents = readFile(otherDescFilePath) #read the description file to populate it later
+
+        if partNum in otherLibContents:
+            print("Part number ({0}) already exists in library, checking next part...".format(partNum))
+            continue
+        
+        if fixedAttrDict["Value"] in otherLibContents:
+            print("Similar part ({0}) already exists in library, checking next part...".format(fixedAttrDict["Value"]))
+            continue
+
+        otherParts.append(makeLibPart(productAttrDict,fixedAttrDict,otherAttrConfig,otherSymbolShape))
+        otherDesc.append(makeDesc(productAttrDict["Description"],fixedAttrDict["Value"]))                
+
+#        print("Sorry, currently only chip capacitors, inductors, and resistors are supported.")
+#        continue
 
 if not capParts == []:
     writeToLibFile(capLibFilePath,capLibContents,capParts)
@@ -658,5 +745,8 @@ if not indParts == []:
 if not resParts == []:
     writeToLibFile(resLibFilePath,resLibContents,resParts)
     writeToDescFile(resDescFilePath,resDescContents,resDesc)
+if not otherParts == []:
+    writeToLibFile(otherLibFilePath,otherLibContents,otherParts)
+    writeToDescFile(otherDescFilePath,otherDescContents,otherDesc)
 
 print("Library updating complete.")

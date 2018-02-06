@@ -376,11 +376,35 @@ ENDDEF
 #
 # CSD17551Q3A
 #
-DEF CSD17551Q3A Q 0 40 Y Y 1 F N
-F0 "Q" -300 300 50 H V L BNN
-F1 "CSD17551Q3A" -300 -300 50 H V L TNN
-F2 "" 135 -60 50 H V C CNN
-F3 "" -65 40 50 H V C CNN
+DEF CSD17551Q3A Q 0 10 Y Y 1 F N
+F0 "Q" 0 300 50 H V C BNN
+F1 "CSD17551Q3A" 0 -300 50 H V C TNN
+F2 "CSD17551Q3A" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
+F5 "12A (Tc)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
+F6 "30V" 0 0 50 H I C CNN "Drain to Source Voltage (Vdss)"
+F7 "4.5V, 10V" 0 0 50 H I C CNN "Drive Voltage (Max Rds On,  Min Rds On)"
+F8 "-" 0 0 50 H I C CNN "FET Feature"
+F9 "N-Channel" 0 0 50 H I C CNN "FET Type"
+F10 "7.8nC @ 4.5V" 0 0 50 H I C CNN "Gate Charge (Qg) (Max) @ Vgs"
+F11 "1370pF @ 15V" 0 0 50 H I C CNN "Input Capacitance (Ciss) (Max) @ Vds"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "CSD17551Q3A" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F16 "-55°C ~ 150°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
+F17 "8-PowerVDFN" 0 0 50 H I C CNN "Package / Case"
+F18 "Not For New Designs" 0 0 50 H I C CNN "Part Status"
+F19 "2.6W (Ta)" 0 0 50 H I C CNN "Power Dissipation (Max)"
+F20 "9 mOhm @ 11A, 10V" 0 0 50 H I C CNN "Rds On (Max) @ Id, Vgs"
+F21 "NexFET™" 0 0 50 H I C CNN "Series"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "8-SON (3.3x3.3)" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "296-35025-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "MOSFET (Metal Oxide)" 0 0 50 H I C CNN "Technology"
+F26 "±20V" 0 0 50 H I C CNN "Vgs (Max)"
+F27 "2.1V @ 250µA" 0 0 50 H I C CNN "Vgs(th) (Max) @ Id"
 DRAW
 A -130 -95 16 1616 184 0 1 0 N -145 -90 -115 -90
 C 0 40 111 0 1 10 N

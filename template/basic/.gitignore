@@ -1,0 +1,6 @@
+#Ignore shcematic library backup file
+*.bck
+*.bak
+*-cache.lib
+*.kicad_pcb-bak
+*-rescue.lib

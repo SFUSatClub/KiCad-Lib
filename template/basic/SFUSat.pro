@@ -29,8 +29,8 @@ LibDir=
 [eeschema/libraries]
 LibName1=KiCad-Lib/SFUSat
 LibName2=KiCad-Lib/SFUSat-power
-LibName3=KiCad-Lib/SFUsat-cap
-LibName4=KiCad-Lib/SFUsat-ind
-LibName5=KiCad-Lib/SFUsat-res
+LibName3=KiCad-Lib/SFUSat-cap
+LibName4=KiCad-Lib/SFUSat-ind
+LibName5=KiCad-Lib/SFUSat-res
 [general]
 version=1

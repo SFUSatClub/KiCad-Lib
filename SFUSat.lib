@@ -384,7 +384,7 @@ F3 "" 0 0 50 H I C CNN
 F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
 F5 "12A (Tc)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
 F6 "30V" 0 0 50 H I C CNN "Drain to Source Voltage (Vdss)"
-F7 "4.5V, 10V" 0 0 50 H I C CNN "Drive Voltage (Max Rds On,  Min Rds On)"
+F7 "4.5V, 0V" 0 0 50 H I C CNN "Drive Voltage (Max Rds On,  Min Rds On)"
 F8 "-" 0 0 50 H I C CNN "FET Feature"
 F9 "N-Channel" 0 0 50 H I C CNN "FET Type"
 F10 "7.8nC @ 4.5V" 0 0 50 H I C CNN "Gate Charge (Qg) (Max) @ Vgs"
@@ -397,7 +397,7 @@ F16 "-55°C ~ 150°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
 F17 "8-PowerVDFN" 0 0 50 H I C CNN "Package / Case"
 F18 "Not For New Designs" 0 0 50 H I C CNN "Part Status"
 F19 "2.6W (Ta)" 0 0 50 H I C CNN "Power Dissipation (Max)"
-F20 "9 mOhm @ 11A, 10V" 0 0 50 H I C CNN "Rds On (Max) @ Id, Vgs"
+F20 "9 mOhm @ 11A, 0V" 0 0 50 H I C CNN "Rds On (Max) @ Id, Vgs"
 F21 "NexFET™" 0 0 50 H I C CNN "Series"
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "8-SON (3.3x3.3)" 0 0 50 H I C CNN "Supplier Device Package"
@@ -406,32 +406,32 @@ F25 "MOSFET (Metal Oxide)" 0 0 50 H I C CNN "Technology"
 F26 "±20V" 0 0 50 H I C CNN "Vgs (Max)"
 F27 "2.1V @ 250µA" 0 0 50 H I C CNN "Vgs(th) (Max) @ Id"
 DRAW
-A -130 -95 16 1616 184 0 1 0 N -145 -90 -115 -90
-C 0 40 111 0 1 10 N
-C 35 -30 11 0 1 0 F
-C 35 110 11 0 1 0 F
+A -130 -130 16 1616 184 0 1 0 N -145 -125 -115 -125
+C 0 0 111 0 1 10 N
+C 35 -70 11 0 1 0 F
+C 35 70 11 0 1 0 F
 S -300 250 300 -250 0 1 0 N
-S 50 60 80 60 0 1 0 N
-P 2 0 1 10 -35 -50 -35 -10 N
-P 2 0 1 0 -35 -30 35 -30 N
-P 2 0 1 10 -35 20 -35 60 N
-P 2 0 1 0 -35 40 35 40 N
-P 2 0 1 10 -35 90 -35 130 N
-P 2 0 1 0 -35 110 35 110 N
-P 2 0 1 0 35 110 35 40 N
+S 50 20 80 20 0 1 0 N
+P 2 0 1 10 -35 -90 -35 -50 N
+P 2 0 1 0 -35 -70 35 -70 N
+P 2 0 1 10 -35 -20 -35 20 N
+P 2 0 1 0 -35 0 35 0 N
+P 2 0 1 10 -35 50 -35 90 N
+P 2 0 1 0 -35 70 35 70 N
+P 2 0 1 0 35 70 35 0 N
 P 2 0 1 0 150 0 190 0 N
 P 2 0 1 0 150 100 190 100 N
-P 3 0 1 0 -150 0 -150 -90 -145 -90 N
 P 3 0 1 0 -150 100 -150 0 -190 0 N
-P 3 0 1 10 -55 -35 -55 115 -55 115 N
-P 3 0 1 0 55 -30 55 -90 -115 -90 N
+P 3 0 1 0 -145 -125 -150 -125 -150 0 N
+P 3 0 1 10 -55 -75 -55 75 -55 75 N
+P 3 0 1 0 35 -70 35 -125 -115 -125 N
+P 3 0 1 0 35 70 35 200 150 200 N
 P 4 0 1 0 -190 200 -150 200 -150 100 -190 100 N
-P 4 0 1 0 -30 40 10 55 10 25 -30 40 F
-P 4 0 1 0 35 110 35 170 35 200 150 200 N
-P 4 0 1 0 35 110 65 110 65 -30 35 -30 N
-P 4 0 1 0 65 55 50 30 80 30 65 55 N
+P 4 0 1 0 -55 0 -130 0 -130 -200 -190 -200 N
+P 4 0 1 0 -30 0 10 15 10 -15 -30 0 F
+P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
+P 4 0 1 0 65 15 50 -10 80 -10 65 15 N
 P 4 0 1 0 190 -100 150 -100 150 200 190 200 N
-P 5 0 1 0 -190 -200 -170 -200 -130 -200 -130 40 -25 40 N
 X S 1 -400 200 100 R 50 50 1 1 I
 X S 2 -400 100 100 R 50 50 1 1 I
 X S 3 -400 0 100 R 50 50 1 1 I
@@ -440,6 +440,74 @@ X D 5 400 -100 100 L 50 50 1 1 O
 X D 6 400 0 100 L 50 50 1 1 O
 X D 7 400 100 100 L 50 50 1 1 O
 X D 8 400 200 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# CSD25402Q3A
+#
+DEF CSD25402Q3A Q 0 10 Y Y 1 F N
+F0 "Q" 0 300 50 H V C BNN
+F1 "CSD25402Q3A" 0 -300 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
+F5 "76A (Tc)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
+F6 "20V" 0 0 50 H I C CNN "Drain to Source Voltage (Vdss)"
+F7 "1.8V, 4.5V" 0 0 50 H I C CNN "Drive Voltage (Max Rds On,  Min Rds On)"
+F8 "-" 0 0 50 H I C CNN "FET Feature"
+F9 "P-Channel" 0 0 50 H I C CNN "FET Type"
+F10 "9.7nC @ 4.5V" 0 0 50 H I C CNN "Gate Charge (Qg) (Max) @ Vgs"
+F11 "1790pF @ 10V" 0 0 50 H I C CNN "Input Capacitance (Ciss) (Max) @ Vds"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "CSD25402Q3A" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "17 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 150°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
+F18 "8-PowerVDFN" 0 0 50 H I C CNN "Package / Case"
+F19 "Active" 0 0 50 H I C CNN "Part Status"
+F20 "2.8W (Ta), 69W (Tc)" 0 0 50 H I C CNN "Power Dissipation (Max)"
+F21 "8.9 mOhm @ 10A, 4.5V" 0 0 50 H I C CNN "Rds On (Max) @ Id, Vgs"
+F22 "NexFET™" 0 0 50 H I C CNN "Series"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "8-VSON (3.3x3.3)" 0 0 50 H I C CNN "Supplier Device Package"
+F25 "296-38916-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F26 "MOSFET (Metal Oxide)" 0 0 50 H I C CNN "Technology"
+F27 "±12V" 0 0 50 H I C CNN "Vgs (Max)"
+F28 "1.15V @ 250µA" 0 0 50 H I C CNN "Vgs(th) (Max) @ Id"
+DRAW
+C 0 0 111 0 1 10 N
+C 35 -70 11 0 1 0 F
+C 35 70 11 0 1 0 F
+S -300 250 300 -250 0 1 0 N
+S 50 -20 80 -20 0 1 0 N
+P 2 0 1 10 -35 -90 -35 -50 N
+P 2 0 1 0 -35 -70 35 -70 N
+P 2 0 1 10 -35 -20 -35 20 N
+P 2 0 1 0 -35 0 35 0 N
+P 2 0 1 10 -35 50 -35 90 N
+P 2 0 1 0 -35 70 35 70 N
+P 2 0 1 0 35 70 35 0 N
+P 2 0 1 0 150 0 190 0 N
+P 2 0 1 0 150 100 190 100 N
+P 3 0 1 0 -150 100 -150 0 -190 0 N
+P 3 0 1 10 -55 -75 -55 75 -55 75 N
+P 3 0 1 0 35 70 35 200 -150 200 N
+P 3 0 1 0 150 -100 35 -100 35 -70 N
+P 4 0 1 0 -190 200 -150 200 -150 100 -190 100 N
+P 4 0 1 0 -55 0 -130 0 -130 -200 -195 -200 N
+P 4 0 1 0 30 0 -10 15 -10 -15 30 0 F
+P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
+P 4 0 1 0 65 -15 50 10 80 10 65 -15 N
+P 4 0 1 0 190 -100 150 -100 150 200 190 200 N
+X D 1 -400 200 100 R 50 50 1 1 I
+X D 2 -400 100 100 R 50 50 1 1 I
+X D 3 -400 0 100 R 50 50 1 1 I
+X G 4 -400 -200 100 R 50 50 1 1 I
+X S 5 400 -100 100 L 50 50 1 1 O
+X S 6 400 0 100 L 50 50 1 1 O
+X S 7 400 100 100 L 50 50 1 1 O
+X S 8 400 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #

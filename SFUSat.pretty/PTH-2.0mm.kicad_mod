@@ -1,0 +1,9 @@
+(module PTH-2.0mm (layer F.Cu) (tedit 5A83AAA5)
+  (fp_text reference REF** (at 0 2.1) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value PTH-2.0mm (at 0 -2.2) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3.5 3.5) (drill 2) (layers *.Cu *.Mask))
+)

@@ -53,15 +53,22 @@ otherDescFile = "SFUSat.dcm"
 
 dirName = os.path.dirname(os.path.abspath(__file__))
 
-capLibFilePath = dirName+"\\"+capLibFile
-indLibFilePath = dirName+"\\"+indLibFile
-resLibFilePath = dirName+"\\"+resLibFile
-otherLibFilePath = dirName+"\\"+otherLibFile
+environment = sys.platform
+if environment == "linux":
+  pathDelim = "/"
+if environment == "windows":
+  pathDelim = "\\"
 
-capDescFilePath = dirName+"\\"+capDescFile
-indDescFilePath = dirName+"\\"+indDescFile
-resDescFilePath = dirName+"\\"+resDescFile
-otherDescFilePath = dirName+"\\"+otherDescFile
+
+capLibFilePath = dirName+pathDelim+capLibFile
+indLibFilePath = dirName+pathDelim+indLibFile
+resLibFilePath = dirName+pathDelim+resLibFile
+otherLibFilePath = dirName+pathDelim+otherLibFile
+
+capDescFilePath = dirName+pathDelim+capDescFile
+indDescFilePath = dirName+pathDelim+indDescFile
+resDescFilePath = dirName+pathDelim+resDescFile
+otherDescFilePath = dirName+pathDelim+otherDescFile
 
 capLibContents = None
 indLibContents = None

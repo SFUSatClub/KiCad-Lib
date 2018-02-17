@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002ET1G
+D MOSFET N-CH 60V 260MA SOT-23
+$ENDCMP
+#
 $CMP CONN_01X02
 D Connector, single row, 01x02
 K connector

@@ -37,6 +37,42 @@ X D2 6 450 -50 200 L 50 50 1 1 C
 ENDDRAW
 ENDDEF
 #
+# 2N7002ET1G
+#
+DEF 2N7002ET1G Q 0 10 Y Y 1 F N
+F0 "Q" 0 50 50 H V C BNN
+F1 "2N7002ET1G" 0 -50 50 H V C TNN
+F2 "SFUSat:SOT-23" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
+F5 "260mA (Ta)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
+F6 "60V" 0 0 50 H I C CNN "Drain to Source Voltage (Vdss)"
+F7 "4.5V, 10V" 0 0 50 H I C CNN "Drive Voltage (Max Rds On,  Min Rds On)"
+F8 "-" 0 0 50 H I C CNN "FET Feature"
+F9 "N-Channel" 0 0 50 H I C CNN "FET Type"
+F10 "0.81nC @ 5V" 0 0 50 H I C CNN "Gate Charge (Qg) (Max) @ Vgs"
+F11 "26.7pF @ 25V" 0 0 50 H I C CNN "Input Capacitance (Ciss) (Max) @ Vds"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "ON Semiconductor" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "2N7002ET1G" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "46 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 150°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
+F18 "TO-236-3, SC-59, SOT-23-3" 0 0 50 H I C CNN "Package / Case"
+F19 "Active" 0 0 50 H I C CNN "Part Status"
+F20 "300mW (Tj)" 0 0 50 H I C CNN "Power Dissipation (Max)"
+F21 "2.5 Ohm @ 240mA, 10V" 0 0 50 H I C CNN "Rds On (Max) @ Id, Vgs"
+F22 "-" 0 0 50 H I C CNN "Series"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "SOT-23-3 (TO-236)" 0 0 50 H I C CNN "Supplier Device Package"
+F25 "2N7002ET1GOSCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F26 "MOSFET (Metal Oxide)" 0 0 50 H I C CNN "Technology"
+F27 "±20V" 0 0 50 H I C CNN "Vgs (Max)"
+F28 "2.5V @ 250µA" 0 0 50 H I C CNN "Vgs(th) (Max) @ Id"
+DRAW
+ENDDRAW
+ENDDEF
+#
 # 3pin-DC-power
 #
 DEF 3pin-DC-power P 0 40 Y Y 1 F N

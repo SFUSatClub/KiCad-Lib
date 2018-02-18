@@ -42,7 +42,7 @@ ENDDEF
 DEF 2N7002ET1G Q 0 10 Y N 1 F N
 F0 "Q" -65 110 50 H V R BNN
 F1 "2N7002ET1G" 125 5 50 H V L CNN
-F2 "SFUSat:SOT-23" 0 0 50 H I C CNN
+F2 "SFUSat:SOT-23-3" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
 F5 "260mA (Ta)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"

@@ -1019,6 +1019,40 @@ X ~ 1 -150 0 50 R 50 50 1 1 P
 X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
+#
+# R_10k0_5%_0.1W_0603
+#
+DEF R_10k0_5%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10k0_5%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "-" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060310K0JNEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW-C" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "541-3957-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "±5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
 # 
 # R_1k0_0.1%_0.125W_0805
 #
@@ -1165,3 +1199,4 @@ ENDDRAW
 ENDDEF
 #
 #End Library
+

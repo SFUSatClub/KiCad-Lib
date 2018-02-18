@@ -778,5 +778,200 @@ X ~ 1 0 150 110 D 50 50 1 1 P
 X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
+# 
+# C_1n0_5%_50V_NP0_0805
+#
+DEF C_1n0_5%_50V_NP0_0805 C 0 10 N N 1 F N
+F0 "C" 0 50 50 H V L BNN
+F1 "C_1n0_5%_50V_NP0_0805" 0 -50 50 H V L TNN
+F2 "SFUSat-cap:C_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "General Purpose" 0 0 50 H I C CNN "Applications"
+F5 "1000pF" 0 0 50 H I C CNN "Capacitance"
+F6 "Capacitors - Ceramic Capacitors" 0 0 50 H I C CNN "Categories"
+F8 "-" 0 0 50 H I C CNN "Failure Rate"
+F9 "Low ESL" 0 0 50 H I C CNN "Features"
+F10 "-" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F12 "-" 0 0 50 H I C CNN "Lead Spacing"
+F13 "-" 0 0 50 H I C CNN "Lead Style"
+F14 "TDK Corporation" 0 0 50 H I C CNN "Manufacturer 1"
+F15 "C2012C0G1H102J060AA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F16 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F19 "Not For New Designs" 0 0 50 H I C CNN "Part Status"
+F20 "-" 0 0 50 H I C CNN "Ratings"
+F21 "C" 0 0 50 H I C CNN "Series"
+F22 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "445-1330-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "C0G, NP0" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "0.030\" (0.75mm)" 0 0 50 H I C CNN "Thickness (Max)"
+F27 "±5%" 0 0 50 H I C CNN "Tolerance"
+F28 "50V" 0 0 50 H I C CNN "Voltage - Rated"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# C_4u7_10%_6.3V_X5R_0805
+#
+DEF C_4u7_10%_6.3V_X5R_0805 C 0 10 N N 1 F N
+F0 "C" 0 50 50 H V L BNN
+F1 "C_4u7_10%_6.3V_X5R_0805" 0 -50 50 H V L TNN
+F2 "SFUSat-cap:C_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "General Purpose" 0 0 50 H I C CNN "Applications"
+F5 "4.7µF" 0 0 50 H I C CNN "Capacitance"
+F6 "Capacitors - Ceramic Capacitors" 0 0 50 H I C CNN "Categories"
+F8 "-" 0 0 50 H I C CNN "Features"
+F9 "-" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "-" 0 0 50 H I C CNN "Lead Spacing"
+F12 "-" 0 0 50 H I C CNN "Lead Style"
+F13 "Taiyo Yuden" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "JMK212BJ475KG-T" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "19 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 85°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F19 "Active" 0 0 50 H I C CNN "Part Status"
+F20 "-" 0 0 50 H I C CNN "Ratings"
+F21 "M" 0 0 50 H I C CNN "Series"
+F22 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "587-1302-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "X5R" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "0.053\" (1.35mm)" 0 0 50 H I C CNN "Thickness (Max)"
+F27 "±10%" 0 0 50 H I C CNN "Tolerance"
+F28 "6.3V" 0 0 50 H I C CNN "Voltage - Rated"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# C_1u0_10%_16V_X7R_0805
+#
+DEF C_1u0_10%_16V_X7R_0805 C 0 10 N N 1 F N
+F0 "C" 0 50 50 H V L BNN
+F1 "C_1u0_10%_16V_X7R_0805" 0 -50 50 H V L TNN
+F2 "SFUSat-cap:C_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "General Purpose" 0 0 50 H I C CNN "Applications"
+F5 "1µF" 0 0 50 H I C CNN "Capacitance"
+F6 "Capacitors - Ceramic Capacitors" 0 0 50 H I C CNN "Categories"
+F8 "-" 0 0 50 H I C CNN "Failure Rate"
+F9 "Low ESL" 0 0 50 H I C CNN "Features"
+F10 "-" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F12 "-" 0 0 50 H I C CNN "Lead Spacing"
+F13 "-" 0 0 50 H I C CNN "Lead Style"
+F14 "TDK Corporation" 0 0 50 H I C CNN "Manufacturer 1"
+F15 "C2012X7R1C105K125AA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F16 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F19 "Not For New Designs" 0 0 50 H I C CNN "Part Status"
+F20 "-" 0 0 50 H I C CNN "Ratings"
+F21 "C" 0 0 50 H I C CNN "Series"
+F22 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "445-1358-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "X7R" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "0.057\" (1.45mm)" 0 0 50 H I C CNN "Thickness (Max)"
+F27 "±10%" 0 0 50 H I C CNN "Tolerance"
+F28 "16V" 0 0 50 H I C CNN "Voltage - Rated"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# C_100n0_10%_50V_X5R_0805
+#
+DEF C_100n0_10%_50V_X5R_0805 C 0 10 N N 1 F N
+F0 "C" 0 50 50 H V L BNN
+F1 "C_100n0_10%_50V_X5R_0805" 0 -50 50 H V L TNN
+F2 "SFUSat-cap:C_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "General Purpose" 0 0 50 H I C CNN "Applications"
+F5 "0.1µF" 0 0 50 H I C CNN "Capacitance"
+F6 "Capacitors - Ceramic Capacitors" 0 0 50 H I C CNN "Categories"
+F8 "-" 0 0 50 H I C CNN "Failure Rate"
+F9 "Low ESL" 0 0 50 H I C CNN "Features"
+F10 "-" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F12 "-" 0 0 50 H I C CNN "Lead Spacing"
+F13 "-" 0 0 50 H I C CNN "Lead Style"
+F14 "TDK Corporation" 0 0 50 H I C CNN "Manufacturer 1"
+F15 "C2012X5R1H104K085AA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F16 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 85°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F19 "Not For New Designs" 0 0 50 H I C CNN "Part Status"
+F20 "-" 0 0 50 H I C CNN "Ratings"
+F21 "C" 0 0 50 H I C CNN "Series"
+F22 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "445-14401-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "X5R" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "0.039\" (1.00mm)" 0 0 50 H I C CNN "Thickness (Max)"
+F27 "±10%" 0 0 50 H I C CNN "Tolerance"
+F28 "50V" 0 0 50 H I C CNN "Voltage - Rated"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# C_10u0_10%_10V_X5R_0805
+#
+DEF C_10u0_10%_10V_X5R_0805 C 0 10 N N 1 F N
+F0 "C" 0 50 50 H V L BNN
+F1 "C_10u0_10%_10V_X5R_0805" 0 -50 50 H V L TNN
+F2 "SFUSat-cap:C_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "General Purpose" 0 0 50 H I C CNN "Applications"
+F5 "10µF" 0 0 50 H I C CNN "Capacitance"
+F6 "Capacitors - Ceramic Capacitors" 0 0 50 H I C CNN "Categories"
+F8 "-" 0 0 50 H I C CNN "Failure Rate"
+F9 "Low ESL" 0 0 50 H I C CNN "Features"
+F10 "-" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F12 "-" 0 0 50 H I C CNN "Lead Spacing"
+F13 "-" 0 0 50 H I C CNN "Lead Style"
+F14 "TDK Corporation" 0 0 50 H I C CNN "Manufacturer 1"
+F15 "C2012X5R1A106K085AB" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F16 "Surface Mount, MLCC" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 85°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F19 "Not For New Designs" 0 0 50 H I C CNN "Part Status"
+F20 "-" 0 0 50 H I C CNN "Ratings"
+F21 "C" 0 0 50 H I C CNN "Series"
+F22 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "445-7658-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "X5R" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "0.037\" (0.95mm)" 0 0 50 H I C CNN "Thickness (Max)"
+F27 "±10%" 0 0 50 H I C CNN "Tolerance"
+F28 "10V" 0 0 50 H I C CNN "Voltage - Rated"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
 #
 #End Library

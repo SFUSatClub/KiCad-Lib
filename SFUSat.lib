@@ -40,8 +40,8 @@ ENDDEF
 # 2N7002ET1G
 #
 DEF 2N7002ET1G Q 0 10 Y Y 1 F N
-F0 "Q" 0 50 50 H V C BNN
-F1 "2N7002ET1G" 0 -50 50 H V C TNN
+F0 "Q" -65 110 50 H V R BNN
+F1 "2N7002ET1G" 125 5 50 H V L CNN
 F2 "SFUSat:SOT-23" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
@@ -70,6 +70,27 @@ F26 "MOSFET (Metal Oxide)" 0 0 50 H I C CNN "Technology"
 F27 "±20V" 0 0 50 H I C CNN "Vgs (Max)"
 F28 "2.5V @ 250µA" 0 0 50 H I C CNN "Vgs(th) (Max) @ Id"
 DRAW
+C 0 0 111 0 1 10 N
+C 35 -70 11 0 1 0 F
+C 35 70 11 0 1 0 F
+S 50 20 80 20 0 1 0 N
+P 2 0 1 10 -55 0 -135 0 N
+P 2 0 1 10 -35 -90 -35 -50 N
+P 2 0 1 0 -35 -70 35 -70 N
+P 2 0 1 10 -35 -20 -35 20 N
+P 2 0 1 0 -35 0 35 0 N
+P 2 0 1 10 -35 50 -35 90 N
+P 2 0 1 0 -35 70 35 70 N
+P 2 0 1 0 35 -70 35 0 N
+P 3 0 1 10 -55 -75 -55 75 -55 75 N
+P 4 0 1 0 -30 0 10 15 10 -15 -30 0 F
+P 4 0 1 0 35 -70 35 -90 0 -90 0 -140 N
+P 4 0 1 0 35 70 35 90 0 90 0 140 N
+P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
+P 4 0 1 0 65 15 50 -10 80 -10 65 15 N
+X G 1 -300 0 100 R 50 50 1 1 I
+X S 2 0 -300 100 U 50 50 1 1 I
+X D 3 0 300 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -415,7 +436,7 @@ ENDDEF
 DEF CSD17551Q3A Q 0 10 Y Y 1 F N
 F0 "Q" 0 300 50 H V C BNN
 F1 "CSD17551Q3A" 0 -300 50 H V C TNN
-F2 "CSD17551Q3A" 0 0 50 H I C CNN
+F2 "SFUSat:8-PowerWDFN" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
 F5 "12A (Tc)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
@@ -454,7 +475,7 @@ P 2 0 1 10 -35 -20 -35 20 N
 P 2 0 1 0 -35 0 35 0 N
 P 2 0 1 10 -35 50 -35 90 N
 P 2 0 1 0 -35 70 35 70 N
-P 2 0 1 0 35 70 35 0 N
+P 2 0 1 0 35 -70 35 0 N
 P 2 0 1 0 150 0 190 0 N
 P 2 0 1 0 150 100 190 100 N
 P 3 0 1 0 -150 100 -150 0 -190 0 N
@@ -484,7 +505,7 @@ ENDDEF
 DEF CSD25402Q3A Q 0 10 Y Y 1 F N
 F0 "Q" 0 300 50 H V C BNN
 F1 "CSD25402Q3A" 0 -300 50 H V C TNN
-F2 "" 0 0 50 H I C CNN
+F2 "SFUSat:8-PowerWDFN" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
 F5 "76A (Tc)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
@@ -523,7 +544,7 @@ P 2 0 1 10 -35 -20 -35 20 N
 P 2 0 1 0 -35 0 35 0 N
 P 2 0 1 10 -35 50 -35 90 N
 P 2 0 1 0 -35 70 35 70 N
-P 2 0 1 0 35 70 35 0 N
+P 2 0 1 0 35 -70 35 0 N
 P 2 0 1 0 150 0 190 0 N
 P 2 0 1 0 150 100 190 100 N
 P 3 0 1 0 -150 100 -150 0 -190 0 N
@@ -601,6 +622,74 @@ P 4 0 1 0 -100 -100 -50 -50 -50 -150 -100 -100 f
 X D 1 0 300 200 D 50 50 1 1 I
 X G 2 -400 0 200 R 50 50 1 1 I
 X S 3 0 -300 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DMP3035SFG-7
+#
+DEF DMP3035SFG-7 Q 0 10 Y Y 1 F N
+F0 "Q" 0 300 50 H V C BNN
+F1 "DMP3035SFG-7" 0 -300 50 H V C TNN
+F2 "SFUSat:8-PowerWDFN" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
+F5 "8.5A (Ta)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
+F6 "30V" 0 0 50 H I C CNN "Drain to Source Voltage (Vdss)"
+F7 "5V, 10V" 0 0 50 H I C CNN "Drive Voltage (Max Rds On,  Min Rds On)"
+F8 "-" 0 0 50 H I C CNN "FET Feature"
+F9 "P-Channel" 0 0 50 H I C CNN "FET Type"
+F10 "17nC @ 10V" 0 0 50 H I C CNN "Gate Charge (Qg) (Max) @ Vgs"
+F11 "1633pF @ 15V" 0 0 50 H I C CNN "Input Capacitance (Ciss) (Max) @ Vds"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "Diodes Incorporated" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "DMP3035SFG-7" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 150°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
+F18 "8-PowerWDFN" 0 0 50 H I C CNN "Package / Case"
+F19 "Active" 0 0 50 H I C CNN "Part Status"
+F20 "950mW (Ta)" 0 0 50 H I C CNN "Power Dissipation (Max)"
+F21 "20 mOhm @ 8A, 10V" 0 0 50 H I C CNN "Rds On (Max) @ Id, Vgs"
+F22 "-" 0 0 50 H I C CNN "Series"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "PowerDI3333-8" 0 0 50 H I C CNN "Supplier Device Package"
+F25 "DMP3035SFG-7DI-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F26 "MOSFET (Metal Oxide)" 0 0 50 H I C CNN "Technology"
+F27 "±25V" 0 0 50 H I C CNN "Vgs (Max)"
+F28 "2.5V @ 250µA" 0 0 50 H I C CNN "Vgs(th) (Max) @ Id"
+DRAW
+C 0 0 111 0 1 10 N
+C 35 -70 11 0 1 0 F
+C 35 70 11 0 1 0 F
+S -300 250 300 -250 0 1 0 N
+S 50 15 80 15 0 1 0 N
+P 2 0 1 10 -35 -90 -35 -50 N
+P 2 0 1 0 -35 -70 35 -70 N
+P 2 0 1 10 -35 -20 -35 20 N
+P 2 0 1 0 -35 0 35 0 N
+P 2 0 1 10 -35 50 -35 90 N
+P 2 0 1 0 -35 70 35 70 N
+P 2 0 1 0 35 0 35 70 N
+P 2 0 1 0 150 0 190 0 N
+P 2 0 1 0 150 100 190 100 N
+P 3 0 1 0 -150 100 -150 0 -190 0 N
+P 3 0 1 10 -55 -75 -55 75 -55 75 N
+P 3 0 1 0 35 70 35 200 -150 200 N
+P 3 0 1 0 150 -100 35 -100 35 -70 N
+P 4 0 1 0 -190 200 -150 200 -150 100 -190 100 N
+P 4 0 1 0 -55 0 -130 0 -130 -200 -195 -200 N
+P 4 0 1 0 30 0 -10 15 -10 -15 30 0 F
+P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
+P 4 0 1 0 65 10 50 -15 80 -15 65 10 N
+P 4 0 1 0 190 -100 150 -100 150 200 190 200 N
+X S 1 -400 200 100 R 50 50 1 1 I
+X S 2 -400 100 100 R 50 50 1 1 I
+X S 3 -400 0 100 R 50 50 1 1 I
+X G 4 -400 -200 100 R 50 50 1 1 I
+X D 5 400 -100 100 L 50 50 1 1 O
+X D 6 400 0 100 L 50 50 1 1 O
+X D 7 400 100 100 L 50 50 1 1 O
+X D 8 400 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -1203,6 +1292,46 @@ DRAW
 S -100 100 200 -150 0 1 0 N
 X INNER 1 -300 50 200 R 50 50 1 1 P
 X OUTER 2 -300 -100 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SMAJ26CA
+#
+DEF ~SMAJ26CA D 0 10 N N 1 F N
+F0 "D" 0 60 50 H V C BNN
+F1 "SMAJ26CA" 0 -65 50 H I C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "General Purpose" 0 0 50 H I C CNN "Applications"
+F5 "1" 0 0 50 H I C CNN "Bidirectional Channels"
+F6 "-" 0 0 50 H I C CNN "Capacitance @ Frequency"
+F7 "Circuit Protection - TVS - Diodes" 0 0 50 H I C CNN "Categories"
+F8 "9.5A" 0 0 50 H I C CNN "Current - Peak Pulse (10/1000µs)"
+F9 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F10 "Littelfuse Inc." 0 0 50 H I C CNN "Manufacturer 1"
+F11 "SMAJ26CA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F12 "13 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F13 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F14 "-55°C ~ 150°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
+F15 "DO-214AC, SMA" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "400W" 0 0 50 H I C CNN "Power - Peak Pulse"
+F18 "No" 0 0 50 H I C CNN "Power Line Protection"
+F19 "SMAJ" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "DO-214AC (SMA)" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "SMAJ26CALFCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "Zener" 0 0 50 H I C CNN "Type"
+F24 "28.9V" 0 0 50 H I C CNN "Voltage - Breakdown (Min)"
+F25 "42.1V" 0 0 50 H I C CNN "Voltage - Clamping (Max) @ Ipp"
+F26 "26V" 0 0 50 H I C CNN "Voltage - Reverse Standoff (Typ)"
+DRAW
+P 3 0 1 0 0 0 0 -25 25 -50 N
+P 3 0 1 0 0 0 0 25 -25 50 N
+P 4 0 1 0 -5 0 -55 -50 -55 50 -5 0 N
+P 5 0 1 0 55 0 55 50 5 0 55 -50 55 0 N
+X 1 1 -100 0 45 R 50 50 1 1 I
+X 2 2 100 0 45 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

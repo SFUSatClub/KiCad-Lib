@@ -154,7 +154,7 @@ dataToWrite = [] #data to write to the library file
 #            "541-2.0MGCT-ND",#end of resistors
 #            "296-35025-1-ND"] 
 
-partNums = ["P422KDACT-ND"]
+partNums = ["541-3957-1-ND"]
 
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace

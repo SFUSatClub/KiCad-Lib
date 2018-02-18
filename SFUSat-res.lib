@@ -1197,6 +1197,41 @@ X ~ 1 -150 0 50 R 50 50 1 1 P
 X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
+# 
+# R_357k0_0.1%_0.125W_0805
+#
+DEF R_357k0_0.1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_357k0_0.1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.024\" (0.60mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERA-6AEB3573V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "22 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "357 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "ERA-6A" 0 0 50 H I C CNN "Series"
+F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "P357KDACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "±25ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "±0.1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
 #
 #End Library
-

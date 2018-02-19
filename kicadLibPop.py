@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-KiCAD Library Populator (Python 3.6) V0.0.3
+KiCAD Library Populator (Python 3.6) V0.0.4
 
 DESCRIPTION:
 The purpose of this library is to be able to populate KiCAD libraries with
@@ -12,7 +12,7 @@ add in either one or a group of Digi-Key part numbers to the list "partNum".
 Only capacitors, inductors, and resistors are supported at this time.
 
 Created: Wed 20180131-0007
-Last updated: Mon 20180205-2354
+Last updated: Mon 20180219-
 Author: Alex Naylor
 
 FUTURE ADDITIONS:
@@ -22,10 +22,10 @@ FUTURE ADDITIONS:
 -Make the script runnable from the CLI
 -Add Mouser support
 
-CHANGELOG (V0.0.3):
+CHANGELOG (V0.0.4):
 AN:
--Added support for some other general components that can be added to the main 
- SFUSat.lib
+-Changed the search term to use a Digi-Key script mentioned here:
+ https://electronics.stackexchange.com/questions/3329/how-to-retrieve-part-information-from-digi-key-automatically
 """
 
 import bs4
@@ -154,7 +154,7 @@ dataToWrite = [] #data to write to the library file
 #            "541-2.0MGCT-ND",#end of resistors
 #            "296-35025-1-ND"] 
 
-partNums = ["541-3957-1-ND"]
+partNums = ["BAT54HT1GOSCT-ND"]
 
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace
@@ -297,7 +297,7 @@ otherSymbolShape = "DRAW\nENDDRAW" #If the symbol is not standard
 ###############################################################################
 #Open the part's webpage
 def openUrl(partNum):
-    dkUrl = "https://www.digikey.ca/products/en?keywords={0}".format(partNum) 
+    dkUrl = "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name={0}".format(partNum) 
     webpage = urlopen(dkUrl).read().decode("utf-8")
     soup = bs4.BeautifulSoup(webpage,"html5lib")
 

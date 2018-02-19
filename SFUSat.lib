@@ -1693,5 +1693,38 @@ X 8 8 650 200 200 D 50 50 1 1 I
 X 9 9 800 200 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
+# 
+# BAT54HT1G
+#
+DEF BAT54HT1G D 0 10 Y Y 1 F N
+F0 "D" 0 50 50 H V C BNN
+F1 "BAT54HT1G" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BAT54H" 0 0 50 H I C CNN "Base Part Number"
+F5 "10pF @ 1V, 1MHz" 0 0 50 H I C CNN "Capacitance @ Vr, F"
+F6 "Discrete Semiconductor Products - Diodes - Rectifiers - Single" 0 0 50 H I C CNN "Categories"
+F7 "200mA (DC)" 0 0 50 H I C CNN "Current - Average Rectified (Io)"
+F8 "2µA @ 25V" 0 0 50 H I C CNN "Current - Reverse Leakage @ Vr"
+F10 "Schottky" 0 0 50 H I C CNN "Diode Type"
+F11 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F12 "ON Semiconductor" 0 0 50 H I C CNN "Manufacturer 1"
+F13 "BAT54HT1G" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F14 "22 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F15 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F16 "-55°C ~ 150°C" 0 0 50 H I C CNN "Operating Temperature - Junction"
+F17 "SC-76, SOD-323" 0 0 50 H I C CNN "Package / Case"
+F18 "Active" 0 0 50 H I C CNN "Part Status"
+F19 "5ns" 0 0 50 H I C CNN "Reverse Recovery Time (trr)"
+F20 "-" 0 0 50 H I C CNN "Series"
+F21 "Small Signal =< 200mA (Io), Any Speed" 0 0 50 H I C CNN "Speed"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "SOD-323" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "BAT54HT1GOSCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "30V" 0 0 50 H I C CNN "Voltage - DC Reverse (Vr) (Max)"
+F26 "800mV @ 100mA" 0 0 50 H I C CNN "Voltage - Forward (Vf) (Max) @ If"
+DRAW
+ENDDRAW
+ENDDEF
 #
 #End Library

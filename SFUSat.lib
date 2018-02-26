@@ -39,10 +39,10 @@ ENDDEF
 #
 # 2N7002ET1G
 #
-DEF 2N7002ET1G Q 0 10 Y Y 1 F N
-F0 "Q" 0 50 50 H V C BNN
-F1 "2N7002ET1G" 0 -50 50 H V C TNN
-F2 "SFUSat:SOT-23" 0 0 50 H I C CNN
+DEF 2N7002ET1G Q 0 10 Y N 1 F N
+F0 "Q" -65 110 50 H V R BNN
+F1 "2N7002ET1G" 125 5 50 H V L CNN
+F2 "SFUSat:SOT-23-3" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
 F5 "260mA (Ta)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
@@ -70,6 +70,27 @@ F26 "MOSFET (Metal Oxide)" 0 0 50 H I C CNN "Technology"
 F27 "±20V" 0 0 50 H I C CNN "Vgs (Max)"
 F28 "2.5V @ 250µA" 0 0 50 H I C CNN "Vgs(th) (Max) @ Id"
 DRAW
+C 0 0 111 0 1 10 N
+C 35 -70 11 0 1 0 F
+C 35 70 11 0 1 0 F
+S 50 20 80 20 0 1 0 N
+P 2 0 1 0 -55 0 -135 0 N
+P 2 0 1 10 -35 -90 -35 -50 N
+P 2 0 1 0 -35 -70 35 -70 N
+P 2 0 1 10 -35 -20 -35 20 N
+P 2 0 1 0 -35 0 35 0 N
+P 2 0 1 10 -35 50 -35 90 N
+P 2 0 1 0 -35 70 35 70 N
+P 2 0 1 0 35 -70 35 0 N
+P 3 0 1 10 -55 -75 -55 75 -55 75 N
+P 4 0 1 0 -30 0 10 15 10 -15 -30 0 F
+P 4 0 1 0 35 -70 35 -90 0 -90 0 -140 N
+P 4 0 1 0 35 70 35 90 0 90 0 140 N
+P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
+P 4 0 1 0 65 15 50 -10 80 -10 65 15 N
+X G 1 -200 0 65 R 50 50 1 1 I
+X S 2 0 -200 60 U 50 50 1 1 I
+X D 3 0 200 60 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -107,6 +128,42 @@ X INT 7 550 -150 200 L 50 50 1 1 I
 X CE 8 550 0 200 L 50 50 1 1 I
 X Vbackup 9 550 150 200 L 50 50 1 1 I
 X SDI 10 550 300 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ADG728
+#
+DEF ADG728 U 0 40 Y Y 1 F N
+F0 "U" 150 350 60 H V C CNN
+F1 "ADG728" -300 500 60 H V C CNN
+F2 "" 0 -500 60 H I C CNN
+F3 "" 0 -500 60 H I C CNN
+$FPLIST
+ TSSOP-16
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -200 400 -200 -450 N
+P 2 0 1 0 -200 450 -200 400 N
+P 2 0 1 0 200 -250 -200 -450 N
+P 2 0 1 0 200 200 200 -250 N
+P 2 0 1 0 200 250 -200 450 N
+P 2 0 1 0 200 250 200 200 N
+X SCL 1 0 -550 200 U 50 50 1 1 I
+X !RESET 2 500 -550 200 U 50 50 1 1 I
+X SDA 3 100 -500 200 U 50 50 1 1 B
+X S1 4 -400 350 200 R 50 50 1 1 I
+X S2 5 -400 250 200 R 50 50 1 1 I
+X S3 6 -400 150 200 R 50 50 1 1 I
+X S4 7 -400 50 200 R 50 50 1 1 I
+X D 8 400 0 200 L 50 50 1 1 O
+X S8 9 -400 -350 200 R 50 50 1 1 I
+X S7 10 -400 -250 200 R 50 50 1 1 I
+X S6 11 -400 -150 200 R 50 50 1 1 I
+X S5 12 -400 -50 200 R 50 50 1 1 I
+X VDD 13 0 550 200 D 50 50 1 1 W
+X GND 14 600 -550 200 U 50 50 1 1 P
+X A1 15 400 -550 200 U 50 50 1 1 P
+X A0 16 300 -550 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -161,6 +218,42 @@ X Vdd 6 0 500 200 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# B220A-13-F
+#
+DEF ~B220A-13-F D 0 10 N N 1 F N
+F0 "D" 0 60 50 H V C BNN
+F1 "B220A-13-F" 0 -60 50 H I C TNN
+F2 "SFUSat:DO-214AC" -105 -35 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "B220" 0 0 50 H I C CNN "Base Part Number"
+F5 "200pF @ 4V, 1MHz" 0 0 50 H I C CNN "Capacitance @ Vr, F"
+F6 "Discrete Semiconductor Products - Diodes - Rectifiers - Single" 0 0 50 H I C CNN "Categories"
+F7 "2A" 0 0 50 H I C CNN "Current - Average Rectified (Io)"
+F8 "500µA @ 20V" 0 0 50 H I C CNN "Current - Reverse Leakage @ Vr"
+F9 "Schottky" 0 0 50 H I C CNN "Diode Type"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Diodes Incorporated" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "B220A-13-F" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F14 "-65°C ~ 150°C" 0 0 50 H I C CNN "Operating Temperature - Junction"
+F15 "DO-214AC, SMA" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "-" 0 0 50 H I C CNN "Series"
+F18 "Fast Recovery =< 500ns, > 200mA (Io)" 0 0 50 H I C CNN "Speed"
+F19 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F20 "SMA" 0 0 50 H I C CNN "Supplier Device Package"
+F21 "B220A-FDICT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F22 "20V" 0 0 50 H I C CNN "Voltage - DC Reverse (Vr) (Max)"
+F23 "500mV @ 2A" 0 0 50 H I C CNN "Voltage - Forward (Vf) (Max) @ If"
+DRAW
+P 4 0 1 0 20 0 -30 -50 -30 50 20 0 N
+P 4 0 1 0 20 0 20 -50 30 -50 30 -40 N
+P 4 0 1 0 20 0 20 50 10 50 10 40 N
+X 1 1 -100 0 70 R 50 50 1 1 I
+X 2 2 100 0 80 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # BALF-112X-02D3
 #
 DEF BALF-112X-02D3 U 0 40 Y Y 1 F N
@@ -178,6 +271,44 @@ X LNA+ A3 -700 200 200 R 50 50 1 1 O
 X LAN- B3 -700 50 200 R 50 50 1 1 O
 X TRX_SWITCH D3 -700 -100 200 R 50 50 1 1 I
 X PA_OUT E3 -700 -250 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# BAT54HT1G
+#
+DEF ~BAT54HT1G D 0 10 N N 1 F N
+F0 "D" 0 60 50 H V C BNN
+F1 "BAT54HT1G" 0 -55 50 H I C TNN
+F2 "SFUSat:SOD-323" -100 -40 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "BAT54H" 0 0 50 H I C CNN "Base Part Number"
+F5 "10pF @ 1V, 1MHz" 0 0 50 H I C CNN "Capacitance @ Vr, F"
+F6 "Discrete Semiconductor Products - Diodes - Rectifiers - Single" 0 0 50 H I C CNN "Categories"
+F7 "200mA (DC)" 0 0 50 H I C CNN "Current - Average Rectified (Io)"
+F8 "2µA @ 25V" 0 0 50 H I C CNN "Current - Reverse Leakage @ Vr"
+F9 "Schottky" 0 0 50 H I C CNN "Diode Type"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "ON Semiconductor" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "BAT54HT1G" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "22 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F15 "-55°C ~ 150°C" 0 0 50 H I C CNN "Operating Temperature - Junction"
+F16 "SC-76, SOD-323" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "5ns" 0 0 50 H I C CNN "Reverse Recovery Time (trr)"
+F19 "-" 0 0 50 H I C CNN "Series"
+F20 "Small Signal =< 200mA (Io), Any Speed" 0 0 50 H I C CNN "Speed"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "SOD-323" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "BAT54HT1GOSCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "30V" 0 0 50 H I C CNN "Voltage - DC Reverse (Vr) (Max)"
+F25 "800mV @ 100mA" 0 0 50 H I C CNN "Voltage - Forward (Vf) (Max) @ If"
+DRAW
+P 4 0 1 0 20 0 -30 -50 -30 50 20 0 N
+P 4 0 1 0 20 0 20 -50 30 -50 30 -40 N
+P 4 0 1 0 20 0 20 50 10 50 10 40 N
+X 1 1 -100 0 70 R 50 50 1 1 I
+X 2 2 100 0 80 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -653,6 +784,19 @@ X GND 17 100 -700 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# GPS_ANTENNA
+#
+DEF GPS_ANTENNA A 0 40 Y Y 1 F N
+F0 "A" 50 -50 60 H V C CNN
+F1 "GPS_ANTENNA" 0 200 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -50 150 100 0 0 1 0 N
+X RF 1 -250 50 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # INA301
 #
 DEF INA301 U 0 40 Y Y 1 F N
@@ -911,6 +1055,36 @@ X GND 9 0 -650 200 U 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# MOLEX_FFC-14
+#
+DEF MOLEX_FFC-14 J 0 40 Y Y 1 F N
+F0 "J" 150 -1400 60 H V C CNN
+F1 "MOLEX_FFC-14" 0 450 60 H V C CNN
+F2 "" 200 0 60 H I C CNN
+F3 "" 200 0 60 H I C CNN
+$FPLIST
+ MOLEX_FFC-14
+$ENDFPLIST
+DRAW
+P 6 0 1 0 200 -1300 200 -1350 -150 -1350 -150 350 200 350 200 300 N
+X ~ 1 300 200 200 L 50 50 1 1 B
+X ~ 2 300 100 200 L 50 50 1 1 B
+X ~ 3 300 0 200 L 50 50 1 1 B
+X ~ 4 300 -100 200 L 50 50 1 1 B
+X ~ 5 300 -200 200 L 50 50 1 1 B
+X ~ 6 300 -300 200 L 50 50 1 1 B
+X ~ 7 300 -400 200 L 50 50 1 1 B
+X ~ 8 300 -500 200 L 50 50 1 1 B
+X ~ 9 300 -600 200 L 50 50 1 1 B
+X ~ 10 300 -700 200 L 50 50 1 1 B
+X ~ 11 300 -800 200 L 50 50 1 1 B
+X ~ 12 300 -900 200 L 50 50 1 1 B
+X ~ 13 300 -1000 200 L 50 50 1 1 B
+X ~ 14 300 -1100 200 L 50 50 1 1 B
+X ~ SHLD 400 -1250 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # NX3225GA
 #
 DEF NX3225GA X 0 40 Y Y 1 F N
@@ -926,6 +1100,38 @@ X XTAL 1 -300 0 200 R 50 0 1 1 P
 X NC 2 -300 -150 200 R 50 0 1 1 N N
 X XTAL 3 300 0 200 L 50 0 1 1 P
 X NC 4 300 -150 200 L 50 0 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# OEM719
+#
+DEF OEM719 J 0 40 Y Y 1 F N
+F0 "J" 1200 -450 60 H V C CNN
+F1 "OEM719" 1200 -350 60 H V C CNN
+F2 "" 1250 -150 60 H I C CNN
+F3 "" 1250 -150 60 H I C CNN
+DRAW
+S 2000 -50 400 -1700 0 1 0 N
+X NC 1 2200 -1550 200 L 50 50 1 1 N
+X 3V3 2 200 -1550 200 R 50 50 1 1 W
+X USB_D- 3 2200 -1400 200 L 50 50 1 1 B
+X USB_D+/RXD3 4 200 -1400 200 R 50 50 1 1 B
+X nRESET_IN 5 2200 -1250 200 L 50 50 1 1 I I
+X VARF/CAN1RX 6 200 -1250 200 R 50 50 1 1 B
+X EVENT2/CAN1TX 7 2200 -1100 200 L 50 50 1 1 B
+X CAN2RX 8 200 -1100 200 R 50 50 1 1 I
+X EVENT1/TXD3 9 2200 -950 200 L 50 50 1 1 B
+X GND 10 200 -950 200 R 50 50 1 1 W
+X CAN2TX 20 200 -200 200 R 50 50 1 1 O
+X TXD1 11 2200 -800 200 L 50 50 1 1 O
+X RXD1 12 200 -800 200 R 50 50 1 1 I
+X GND 13 2200 -650 200 L 50 50 1 1 W
+X TXD2 14 200 -650 200 R 50 50 1 1 O
+X RXD2 15 2200 -500 200 L 50 50 1 1 I
+X GND 16 200 -500 200 R 50 50 1 1 I
+X PV 17 2200 -350 200 L 50 50 1 1 O
+X GND 18 200 -350 200 R 50 50 1 1 W
+X PPS 19 2200 -200 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -1224,6 +1430,87 @@ DRAW
 S -100 100 200 -150 0 1 0 N
 X INNER 1 -300 50 200 R 50 50 1 1 P
 X OUTER 2 -300 -100 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SMAJ26CA
+#
+DEF ~SMAJ26CA D 0 10 N N 1 F N
+F0 "D" 0 60 50 H V C BNN
+F1 "SMAJ26CA" 0 -65 50 H I C TNN
+F2 "SFUSat:DO-214AC-BI" 0 0 50 H I C CNN
+F3 "" 0 60 50 H I C CNN
+F4 "General Purpose" 0 0 50 H I C CNN "Applications"
+F5 "1" 0 0 50 H I C CNN "Bidirectional Channels"
+F6 "-" 0 0 50 H I C CNN "Capacitance @ Frequency"
+F7 "Circuit Protection - TVS - Diodes" 0 0 50 H I C CNN "Categories"
+F8 "9.5A" 0 0 50 H I C CNN "Current - Peak Pulse (10/1000µs)"
+F9 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F10 "Littelfuse Inc." 0 0 50 H I C CNN "Manufacturer 1"
+F11 "SMAJ26CA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F12 "13 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F13 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F14 "-55°C ~ 150°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
+F15 "DO-214AC, SMA" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "400W" 0 0 50 H I C CNN "Power - Peak Pulse"
+F18 "No" 0 0 50 H I C CNN "Power Line Protection"
+F19 "SMAJ" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "DO-214AC (SMA)" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "SMAJ26CALFCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "Zener" 0 0 50 H I C CNN "Type"
+F24 "28.9V" 0 0 50 H I C CNN "Voltage - Breakdown (Min)"
+F25 "42.1V" 0 0 50 H I C CNN "Voltage - Clamping (Max) @ Ipp"
+F26 "26V" 0 0 50 H I C CNN "Voltage - Reverse Standoff (Typ)"
+DRAW
+P 3 0 1 0 0 0 0 -25 25 -50 N
+P 3 0 1 0 0 0 0 25 -25 50 N
+P 4 0 1 0 -5 0 -55 -50 -55 50 -5 0 N
+P 5 0 1 0 55 0 55 50 5 0 55 -50 55 0 N
+X 1 1 -100 0 45 R 50 50 1 1 I
+X 2 2 100 0 45 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMM4F5.0A-TR
+#
+DEF SMM4F5.0A-TR D 0 10 Y Y 1 F N
+F0 "D" 0 50 50 H V C BNN
+F1 "SMM4F5.0A-TR" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "General Purpose" 0 0 50 H I C CNN "Applications"
+F5 "-" 0 0 50 H I C CNN "Capacitance @ Frequency"
+F6 "Circuit Protection - TVS - Diodes" 0 0 50 H I C CNN "Categories"
+F7 "174A (8/20µs)" 0 0 50 H I C CNN "Current - Peak Pulse (10/1000µs)"
+F8 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F9 "STMicroelectronics" 0 0 50 H I C CNN "Manufacturer 1"
+F10 "SMM4F5.0A-TR" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F11 "30 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F12 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F13 "-55°C ~ 175°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
+F14 "DO-222AA" 0 0 50 H I C CNN "Package / Case"
+F15 "Active" 0 0 50 H I C CNN "Part Status"
+F16 "400W" 0 0 50 H I C CNN "Power - Peak Pulse"
+F17 "No" 0 0 50 H I C CNN "Power Line Protection"
+F18 "SMM4F, TRANSIL™" 0 0 50 H I C CNN "Series"
+F19 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F20 "DO222-AA" 0 0 50 H I C CNN "Supplier Device Package"
+F21 "497-15660-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F22 "Zener" 0 0 50 H I C CNN "Type"
+F23 "1" 0 0 50 H I C CNN "Unidirectional Channels"
+F24 "6.46V" 0 0 50 H I C CNN "Voltage - Breakdown (Min)"
+F25 "13.4V" 0 0 50 H I C CNN "Voltage - Clamping (Max) @ Ipp"
+F26 "5V" 0 0 50 H I C CNN "Voltage - Reverse Standoff (Typ)"
+$FPLIST
+ SMM4F
+$ENDFPLIST
+DRAW
+P 5 0 1 8 -70 50 -50 30 -50 -30 -30 -50 -30 -50 N
+P 5 0 1 0 -50 0 50 50 50 -50 -50 0 -50 0 F
+X A A 200 0 150 L 50 50 1 1 P
+X K C -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

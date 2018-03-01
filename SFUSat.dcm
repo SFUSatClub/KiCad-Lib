@@ -11,7 +11,7 @@ $ENDCMP
 $CMP BAT54HT1G
 D DIODE SCHOTTKY 30V 200MA SOD323
 $ENDCMP
-#
+-#
 $CMP CONN_01X02
 D Connector, single row, 01x02
 K connector
@@ -37,6 +37,10 @@ $ENDCMP
 #
 $CMP GPS_ANTENNA
 D Generic Single Port GPS antenna
+$ENDCMP
+#
+$CMP OEM719
+D OEM719 Pin Header
 $ENDCMP
 #
 $CMP SMAJ26CA

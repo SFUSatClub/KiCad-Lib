@@ -1,8 +1,8 @@
-(module FFC-Fasteners-8mm (layer F.Cu) (tedit 5A9B5163)
-  (fp_text reference REF** (at 0 4.6) (layer F.SilkS)
+(module FFC-Fasteners-8mm (layer F.Cu) (tedit 5A9B5685)
+  (fp_text reference REF** (at 0 4.6) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FFC-Fasteners-8mm (at 0 -6) (layer F.Fab)
+  (fp_text value FFC-Fasteners-8mm (at 0 -6) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -10 -2) (end -10 2) (layer F.SilkS) (width 0.15))

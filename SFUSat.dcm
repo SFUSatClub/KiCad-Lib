@@ -12,4 +12,39 @@ $CMP BAT54HT1G
 D DIODE SCHOTTKY 30V 200MA SOD323
 $ENDCMP
 #
+$CMP CONN_01X02
+D Connector, single row, 01x02
+K connector
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector, single row, 01x03
+K connector
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector, single row, 01x04
+K connector
+$ENDCMP
+#
+$CMP CSD17551Q3A
+D MOSFET N-CH 30V 12A 8VSON
+$ENDCMP
+#
+$CMP CSD25402Q3A
+D MOSFET P-CH 20V 76A 8SON
+$ENDCMP
+#
+$CMP GPS_ANTENNA
+D Generic Single Port GPS antenna
+$ENDCMP
+#
+$CMP OEM719
+D OEM719 Pin Header
+$ENDCMP
+#
+$CMP SMAJ26CA
+D TVS DIODE 26VWM 42.1VC SMA
+$ENDCMP
+#
 #End Doc Library

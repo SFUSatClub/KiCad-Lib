@@ -154,7 +154,7 @@ dataToWrite = [] #data to write to the library file
 #            "541-2.0MGCT-ND",#end of resistors
 #            "296-35025-1-ND"] 
 
-partNums = ["BAT54HT1GOSCT-ND"]
+partNums = ["P1.0KDECT-ND"]
 
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace
@@ -636,7 +636,7 @@ def removeAttrs(productAttrDict):
 
 #Read data from the library file
 def readFile(filepath):
-    libfile = open(filepath, "r")
+    libfile = open(filepath, "r", encoding="utf-8", errors="replace")
     contents = libfile.read()
     libfile.close()
     

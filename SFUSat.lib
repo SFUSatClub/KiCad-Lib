@@ -1935,5 +1935,66 @@ X 8 8 650 200 200 D 50 50 1 1 I
 X 9 9 800 200 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
+# 
+# B3B-XH-A(LF)(SN)
+#
+DEF B3B-XH-A(LF)(SN) U 0 10 Y Y 1 F N
+F0 "U" 0 50 50 H V C BNN
+F1 "B3B-XH-A(LF)(SN)" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "-" 0 0 50 H I C CNN "Applications"
+F5 "Connectors, Interconnects - Rectangular Connectors - Headers, Male Pins" 0 0 50 H I C CNN "Categories"
+F6 "Header" 0 0 50 H I C CNN "Connector Type"
+F7 "Tin" 0 0 50 H I C CNN "Contact Finish - Mating"
+F8 "Tin" 0 0 50 H I C CNN "Contact Finish - Post"
+F9 "-" 0 0 50 H I C CNN "Contact Finish Thickness - Mating"
+F10 "-" 0 0 50 H I C CNN "Contact Finish Thickness - Post"
+F11 "-" 0 0 50 H I C CNN "Contact Length - Mating"
+F12 "0.134\" (3.40mm)" 0 0 50 H I C CNN "Contact Length - Post"
+F13 "Brass" 0 0 50 H I C CNN "Contact Material"
+F14 "Square" 0 0 50 H I C CNN "Contact Shape"
+F15 "Male Pin" 0 0 50 H I C CNN "Contact Type"
+F16 "3A" 0 0 50 H I C CNN "Current Rating"
+F18 "Detent Lock" 0 0 50 H I C CNN "Fastening Type"
+F19 "-" 0 0 50 H I C CNN "Features"
+F20 "-" 0 0 50 H I C CNN "Ingress Protection"
+F21 "Natural" 0 0 50 H I C CNN "Insulation Color"
+F22 "0.276\" (7.00mm)" 0 0 50 H I C CNN "Insulation Height"
+F23 "Polyamide (PA66), Nylon 6/6" 0 0 50 H I C CNN "Insulation Material"
+F24 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F25 "JST Sales America Inc." 0 0 50 H I C CNN "Manufacturer 1"
+F26 "B3B-XH-A(LF)(SN)" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F27 "14 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F28 "9.8mm" 0 0 50 H I C CNN "Mated Stacking Heights"
+F29 "UL94 V-0" 0 0 50 H I C CNN "Material Flammability Rating"
+F30 "Through Hole" 0 0 50 H I C CNN "Mounting Type"
+F31 "3" 0 0 50 H I C CNN "Number of Positions"
+F32 "All" 0 0 50 H I C CNN "Number of Positions Loaded"
+F33 "1" 0 0 50 H I C CNN "Number of Rows"
+F34 "-25°C ~ 85°C" 0 0 50 H I C CNN "Operating Temperature"
+F35 "-" 0 0 50 H I C CNN "Overall Contact Length"
+F36 "Active" 0 0 50 H I C CNN "Part Status"
+F37 "0.098\" (2.50mm)" 0 0 50 H I C CNN "Pitch - Mating"
+F38 "-" 0 0 50 H I C CNN "Row Spacing - Mating"
+F39 "XH" 0 0 50 H I C CNN "Series"
+F40 "Shrouded - 4 Wall" 0 0 50 H I C CNN "Shrouding"
+F41 "Board to Cable/Wire" 0 0 50 H I C CNN "Style"
+F42 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F43 "455-2248-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F44 "Press-Fit, Solder" 0 0 50 H I C CNN "Termination"
+F45 "250V" 0 0 50 H I C CNN "Voltage Rating"
+F46 "XHP-3" 0 0 50 H I C CNN "Mating Part Number"
+F47 "455-2219-ND" 0 0 50 H I C CNN "Mating Part Digikey"
+DRAW
+S -50 -95 10 -105 0 1 0 N
+S -50 5 10 -5 0 1 0 N
+S -50 105 10 95 0 1 0 N
+S -50 150 50 -150 0 1 0 N
+X P1 1 -200 100 150 R 50 50 1 1 P
+X P2 2 -200 0 150 R 50 50 1 1 P
+X P3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
 #
 #End Library

@@ -17,7 +17,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW08051R00JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
@@ -27,8 +27,8 @@ F20 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0805" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-1.0ACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±5%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½200ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -52,7 +52,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW040240K2FKED" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
@@ -62,8 +62,8 @@ F20 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0402" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-40.2KLCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -87,7 +87,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW06032M00JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -97,8 +97,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-2.0MGCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±5%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½200ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -123,7 +123,7 @@ F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RC0603FR-07137KL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -133,8 +133,8 @@ F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "311-137KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -158,7 +158,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW060330K1FKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -168,8 +168,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-30.1KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -193,7 +193,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW060310R0FKEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -202,8 +202,8 @@ F19 "CRCW-C" 0 0 50 H I C CNN "Series"
 F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F22 "541-3952-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F23 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F24 "±1%" 0 0 50 H I C CNN "Tolerance"
+F23 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -227,7 +227,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW060310R0JNEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -236,8 +236,8 @@ F19 "CRCW-C" 0 0 50 H I C CNN "Series"
 F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F22 "541-4057-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F23 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F24 "±5%" 0 0 50 H I C CNN "Tolerance"
+F23 "ï¿½200ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -261,7 +261,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW0603383KFKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -271,8 +271,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-383KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -296,7 +296,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW060310K0JNEAHP" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
@@ -306,8 +306,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-10KSACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±5%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½200ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -332,7 +332,7 @@ F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RC0603FR-07100KL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -342,8 +342,8 @@ F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "311-100KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -367,7 +367,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW06032K00FKEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -376,8 +376,8 @@ F19 "CRCW-C" 0 0 50 H I C CNN "Series"
 F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F22 "541-3953-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F23 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F24 "±1%" 0 0 50 H I C CNN "Tolerance"
+F23 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -401,7 +401,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW0603280KFKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -411,8 +411,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-280KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -437,7 +437,7 @@ F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RC0603FR-07220KL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -447,8 +447,8 @@ F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "311-220KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -472,7 +472,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "WSLP1206R0100FEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-65°C ~ 170°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-65ï¿½C ~ 170ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "1206 (3216 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "1W" 0 0 50 H I C CNN "Power (Watts)"
@@ -482,8 +482,8 @@ F20 "0.126\" L x 0.063\" W (3.20mm x 1.60mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "1206" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "WSLP-.01CT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±75ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½75ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -507,7 +507,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW060320K0JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -517,8 +517,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-20KGCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±5%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½200ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -542,7 +542,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW0603100RFKEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -551,8 +551,8 @@ F19 "CRCW-C" 0 0 50 H I C CNN "Series"
 F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F22 "541-3951-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F23 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F24 "±1%" 0 0 50 H I C CNN "Tolerance"
+F23 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -577,7 +577,7 @@ F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RC0603FR-07120KL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -587,8 +587,8 @@ F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "311-120KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -612,7 +612,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW0603300KFKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -622,8 +622,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-300KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -647,7 +647,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW040210K0FKED" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
@@ -657,8 +657,8 @@ F20 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0402" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-10.0KLCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -682,7 +682,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW12063R90JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "1206 (3216 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
@@ -692,8 +692,8 @@ F20 "0.126\" L x 0.063\" W (3.20mm x 1.60mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "1206" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-3.9ECT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±5%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½200ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -717,7 +717,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW06034R99FKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -727,8 +727,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-4.99HHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -752,7 +752,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "ERJ-8ENF10R0V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "1206 (3216 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
@@ -762,8 +762,8 @@ F20 "0.126\" L x 0.063\" W (3.20mm x 1.60mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "1206" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "P10.0FCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -788,7 +788,7 @@ F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RC0603FR-0764K9L" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -798,8 +798,8 @@ F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "311-64.9KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -823,7 +823,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW060310K0FKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -833,8 +833,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-10.0KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½100ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -858,7 +858,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW060356R0JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -868,8 +868,8 @@ F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension
 F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F23 "541-56GCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F25 "±5%" 0 0 50 H I C CNN "Tolerance"
+F24 "ï¿½200ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -893,7 +893,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW06030000Z0EA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -929,7 +929,7 @@ F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RG2012P-334-B-T5" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
@@ -939,8 +939,8 @@ F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "RG20P330KBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±25ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±0.1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½25ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½0.1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -965,7 +965,7 @@ F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RG2012P-273-B-T5" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
@@ -975,8 +975,8 @@ F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "RG20P27.0KBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±25ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±0.1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½25ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½0.1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -1001,7 +1001,7 @@ F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "AC0402JR-070RL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "17 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
@@ -1036,7 +1036,7 @@ F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Statu
 F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "CRCW060310K0JNEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "2" 0 0 50 H I C CNN "Number of Terminations"
-F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F14 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
 F16 "Active" 0 0 50 H I C CNN "Part Status"
 F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
@@ -1045,8 +1045,8 @@ F19 "CRCW-C" 0 0 50 H I C CNN "Series"
 F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
 F22 "541-3957-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F23 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F24 "±5%" 0 0 50 H I C CNN "Tolerance"
+F23 "ï¿½200ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -1071,7 +1071,7 @@ F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RG2012P-102-B-T5" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
@@ -1081,8 +1081,8 @@ F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "RG20P1.0KBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±25ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±0.1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½25ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½0.1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -1107,7 +1107,7 @@ F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RL1220T-R010-J" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 125ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
@@ -1117,8 +1117,8 @@ F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "RL12T.010JCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "0/ +350ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±5%" 0 0 50 H I C CNN "Tolerance"
+F25 "0/ +350ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -1143,7 +1143,7 @@ F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "RG2012P-105-B-T5" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
@@ -1153,8 +1153,8 @@ F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "RG20P1.0MBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±25ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±0.1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½25ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½0.1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -1179,7 +1179,7 @@ F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "ERA-6AEB4223V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "22 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
@@ -1189,8 +1189,8 @@ F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "P422KDACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±25ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±0.1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½25ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½0.1%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P
@@ -1215,7 +1215,7 @@ F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
 F12 "ERA-6AEB3573V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
 F13 "22 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
 F14 "2" 0 0 50 H I C CNN "Number of Terminations"
-F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "-55ï¿½C ~ 155ï¿½C" 0 0 50 H I C CNN "Operating Temperature"
 F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
 F17 "Active" 0 0 50 H I C CNN "Part Status"
 F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
@@ -1225,8 +1225,152 @@ F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension
 F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
 F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
 F24 "P357KDACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F25 "±25ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
-F26 "±0.1%" 0 0 50 H I C CNN "Tolerance"
+F25 "ï¿½25ppm/ï¿½C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "ï¿½0.1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_1k0_5%_0.25W_0603
+#
+DEF R_1k0_5%_0.25W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_1k0_5%_0.25W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200, Pulse Withstanding" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Rohm Semiconductor" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ESR03EZPJ102" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55Â°C ~ 155Â°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "1 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "ESR" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RHM1.0KDCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "Â±200ppm/Â°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "Â±5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_250R0_0.01%_0.1W_0603
+#
+DEF R_250R0_0.01%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_250R0_0.01%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Stackpole Electronics Inc." 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RNCF0603TKY250R" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55Â°C ~ 155Â°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "250 Ohms" 0 0 50 H I C CNN "Resistance"
+F20 "RNCF" 0 0 50 H I C CNN "Series"
+F21 "0.061\" L x 0.031\" W (1.55mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RNCF0603TKY250RCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "Â±5ppm/Â°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "Â±0.01%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_160R0_5%_0.1W_0603
+#
+DEF R_160R0_5%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_160R0_5%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Moisture Resistant" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RC0603JR-07160RL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "23 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55Â°C ~ 155Â°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "160 Ohms" 0 0 50 H I C CNN "Resistance"
+F20 "RC" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "311-160GRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "Â±100ppm/Â°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "Â±5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_1k0_0.5%_0.063W_0402
+#
+DEF R_1k0_0.5%_0.063W_0402 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_1k0_0.5%_0.063W_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERA-2AED102X" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "23 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55Â°C ~ 155Â°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "1 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "ERA-2A" 0 0 50 H I C CNN "Series"
+F21 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "P1.0KDECT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "Â±25ppm/Â°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "Â±0.5%" 0 0 50 H I C CNN "Tolerance"
 DRAW
 S 100 -40 -100 40 0 1 10 N
 X ~ 1 -150 0 50 R 50 50 1 1 P

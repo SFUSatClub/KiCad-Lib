@@ -254,6 +254,67 @@ X 2 2 100 0 80 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# B3B-XH-A(LF)(SN)
+#
+DEF B3B-XH-A(LF)(SN) U 0 10 Y Y 1 F N
+F0 "U" 0 50 50 H V C BNN
+F1 "B3B-XH-A(LF)(SN)" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "-" 0 0 50 H I C CNN "Applications"
+F5 "Connectors, Interconnects - Rectangular Connectors - Headers, Male Pins" 0 0 50 H I C CNN "Categories"
+F6 "Header" 0 0 50 H I C CNN "Connector Type"
+F7 "Tin" 0 0 50 H I C CNN "Contact Finish - Mating"
+F8 "Tin" 0 0 50 H I C CNN "Contact Finish - Post"
+F9 "-" 0 0 50 H I C CNN "Contact Finish Thickness - Mating"
+F10 "-" 0 0 50 H I C CNN "Contact Finish Thickness - Post"
+F11 "-" 0 0 50 H I C CNN "Contact Length - Mating"
+F12 "0.134\" (3.40mm)" 0 0 50 H I C CNN "Contact Length - Post"
+F13 "Brass" 0 0 50 H I C CNN "Contact Material"
+F14 "Square" 0 0 50 H I C CNN "Contact Shape"
+F15 "Male Pin" 0 0 50 H I C CNN "Contact Type"
+F16 "3A" 0 0 50 H I C CNN "Current Rating"
+F17 "Detent Lock" 0 0 50 H I C CNN "Fastening Type"
+F18 "-" 0 0 50 H I C CNN "Features"
+F19 "-" 0 0 50 H I C CNN "Ingress Protection"
+F20 "Natural" 0 0 50 H I C CNN "Insulation Color"
+F21 "0.276\" (7.00mm)" 0 0 50 H I C CNN "Insulation Height"
+F22 "Polyamide (PA66), Nylon 6/6" 0 0 50 H I C CNN "Insulation Material"
+F23 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F24 "JST Sales America Inc." 0 0 50 H I C CNN "Manufacturer 1"
+F25 "B3B-XH-A(LF)(SN)" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F26 "14 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F27 "9.8mm" 0 0 50 H I C CNN "Mated Stacking Heights"
+F28 "UL94 V-0" 0 0 50 H I C CNN "Material Flammability Rating"
+F29 "Through Hole" 0 0 50 H I C CNN "Mounting Type"
+F30 "3" 0 0 50 H I C CNN "Number of Positions"
+F31 "All" 0 0 50 H I C CNN "Number of Positions Loaded"
+F32 "1" 0 0 50 H I C CNN "Number of Rows"
+F33 "-25°C ~ 85°C" 0 0 50 H I C CNN "Operating Temperature"
+F34 "-" 0 0 50 H I C CNN "Overall Contact Length"
+F35 "Active" 0 0 50 H I C CNN "Part Status"
+F36 "0.098\" (2.50mm)" 0 0 50 H I C CNN "Pitch - Mating"
+F37 "-" 0 0 50 H I C CNN "Row Spacing - Mating"
+F38 "XH" 0 0 50 H I C CNN "Series"
+F39 "Shrouded - 4 Wall" 0 0 50 H I C CNN "Shrouding"
+F40 "Board to Cable/Wire" 0 0 50 H I C CNN "Style"
+F41 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F42 "455-2248-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F43 "Press-Fit, Solder" 0 0 50 H I C CNN "Termination"
+F44 "250V" 0 0 50 H I C CNN "Voltage Rating"
+F45 "XHP-3" 0 0 50 H I C CNN "Mating Part Number"
+F46 "455-2219-ND" 0 0 50 H I C CNN "Mating Part Digikey"
+DRAW
+S -50 -95 10 -105 0 1 0 N
+S -50 5 10 -5 0 1 0 N
+S -50 105 10 95 0 1 0 N
+S -50 150 50 -150 0 1 0 N
+X P1 1 -200 100 150 R 50 50 1 1 P
+X P2 2 -200 0 150 R 50 50 1 1 P
+X P3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BALF-112X-02D3
 #
 DEF BALF-112X-02D3 U 0 40 Y Y 1 F N
@@ -678,6 +739,59 @@ X S 8 400 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# DCX124EK-7-F
+#
+DEF DCX124EK-7-F Q 0 10 Y N 2 L N
+F0 "Q" 30 360 50 H V L BNN
+F1 "DCX124EK-7-F" 110 -65 50 H V L TNN
+F2 "SFUSat:SC-74" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DCX124" 0 0 50 H I C CNN "Base Part Number"
+F5 "Discrete Semiconductor Products - Transistors - Bipolar (BJT) - Arrays, Pre-Biased" 0 0 50 H I C CNN "Categories"
+F6 "100mA" 0 0 50 H I C CNN "Current - Collector (Ic) (Max)"
+F7 "500nA" 0 0 50 H I C CNN "Current - Collector Cutoff (Max)"
+F8 "80 @ 5mA, 5V" 0 0 50 H I C CNN "DC Current Gain (hFE) (Min) @ Ic, Vce"
+F9 "250MHz" 0 0 50 H I C CNN "Frequency - Transition"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Diodes Incorporated" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "DCX124EK-7-F" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F15 "SC-74, SOT-457" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "300mW" 0 0 50 H I C CNN "Power - Max"
+F18 "22 kOhms" 0 0 50 H I C CNN "Resistor - Base (R1)"
+F19 "22 kOhms" 0 0 50 H I C CNN "Resistor - Emitter Base (R2)"
+F20 "-" 0 0 50 H I C CNN "Series"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "SC-74R" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "DCX124EK-FDICT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "1 NPN, 1 PNP - Pre-Biased (Dual)" 0 0 50 H I C CNN "Transistor Type"
+F25 "300mV @ 500µA, 10mA" 0 0 50 H I C CNN "Vce Saturation (Max) @ Ib, Ic"
+F26 "50V" 0 0 50 H I C CNN "Voltage - Collector Emitter Breakdown (Max)"
+DRAW
+P 2 0 1 0 0 350 180 350 N
+P 2 0 1 0 100 -70 20 -150 N
+P 2 0 1 0 100 70 20 150 N
+P 2 0 1 0 100 100 100 -100 N
+P 2 0 1 0 175 65 175 5 N
+P 2 0 1 0 180 315 180 350 N
+P 2 0 1 0 200 5 100 5 N
+P 3 0 1 0 0 350 0 170 20 150 N
+P 3 0 1 0 20 -150 0 -170 0 -250 N
+P 7 0 1 0 175 65 175 115 120 140 230 190 120 240 230 290 180 315 N
+P 7 0 1 0 200 5 250 5 275 60 325 -50 375 60 425 -50 450 0 N
+P 4 1 1 0 90 80 90 125 45 80 90 80 F
+X B 2 500 0 50 L 50 50 1 1 I
+X E 3 0 400 50 D 50 50 1 1 I
+X C 4 0 -300 50 U 50 50 1 1 I
+P 4 2 1 0 5 165 5 120 50 165 5 165 F
+X C 1 0 -300 50 U 50 50 2 1 I
+X B 5 500 0 50 L 50 50 2 1 I
+X E 6 0 400 50 D 50 50 2 1 I
+ENDDRAW
+ENDDEF
+#
 # DIPSW_218-4LPST
 #
 DEF DIPSW_218-4LPST SW 0 40 Y Y 1 F N
@@ -732,6 +846,74 @@ P 4 0 1 0 -100 -100 -50 -50 -50 -150 -100 -100 f
 X D 1 0 300 200 D 50 50 1 1 I
 X G 2 -400 0 200 R 50 50 1 1 I
 X S 3 0 -300 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DMP3035SFG-7
+#
+DEF DMP3035SFG-7 Q 0 10 Y Y 1 F N
+F0 "Q" 0 300 50 H V C BNN
+F1 "DMP3035SFG-7" 0 -300 50 H V C TNN
+F2 "SFUSat:8-PowerWDFN" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Discrete Semiconductor Products - Transistors - FETs, MOSFETs - Single" 0 0 50 H I C CNN "Categories"
+F5 "8.5A (Ta)" 0 0 50 H I C CNN "Current - Continuous Drain (Id) @ 25°C"
+F6 "30V" 0 0 50 H I C CNN "Drain to Source Voltage (Vdss)"
+F7 "5V, 10V" 0 0 50 H I C CNN "Drive Voltage (Max Rds On,  Min Rds On)"
+F8 "-" 0 0 50 H I C CNN "FET Feature"
+F9 "P-Channel" 0 0 50 H I C CNN "FET Type"
+F10 "17nC @ 10V" 0 0 50 H I C CNN "Gate Charge (Qg) (Max) @ Vgs"
+F11 "1633pF @ 15V" 0 0 50 H I C CNN "Input Capacitance (Ciss) (Max) @ Vds"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "Diodes Incorporated" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "DMP3035SFG-7" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F17 "-55°C ~ 150°C (TJ)" 0 0 50 H I C CNN "Operating Temperature"
+F18 "8-PowerWDFN" 0 0 50 H I C CNN "Package / Case"
+F19 "Active" 0 0 50 H I C CNN "Part Status"
+F20 "950mW (Ta)" 0 0 50 H I C CNN "Power Dissipation (Max)"
+F21 "20 mOhm @ 8A, 10V" 0 0 50 H I C CNN "Rds On (Max) @ Id, Vgs"
+F22 "-" 0 0 50 H I C CNN "Series"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "PowerDI3333-8" 0 0 50 H I C CNN "Supplier Device Package"
+F25 "DMP3035SFG-7DI-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F26 "MOSFET (Metal Oxide)" 0 0 50 H I C CNN "Technology"
+F27 "±25V" 0 0 50 H I C CNN "Vgs (Max)"
+F28 "2.5V @ 250µA" 0 0 50 H I C CNN "Vgs(th) (Max) @ Id"
+DRAW
+C 0 0 111 0 1 10 N
+C 35 -70 11 0 1 0 F
+C 35 70 11 0 1 0 F
+S -300 250 300 -250 0 1 0 N
+S 50 15 80 15 0 1 0 N
+P 2 0 1 10 -35 -90 -35 -50 N
+P 2 0 1 0 -35 -70 35 -70 N
+P 2 0 1 10 -35 -20 -35 20 N
+P 2 0 1 0 -35 0 35 0 N
+P 2 0 1 10 -35 50 -35 90 N
+P 2 0 1 0 -35 70 35 70 N
+P 2 0 1 0 35 0 35 70 N
+P 2 0 1 0 150 0 190 0 N
+P 2 0 1 0 150 100 190 100 N
+P 3 0 1 0 -150 100 -150 0 -190 0 N
+P 3 0 1 10 -55 -75 -55 75 -55 75 N
+P 3 0 1 0 35 70 35 200 -150 200 N
+P 3 0 1 0 150 -100 35 -100 35 -70 N
+P 4 0 1 0 -190 200 -150 200 -150 100 -190 100 N
+P 4 0 1 0 -55 0 -130 0 -130 -200 -195 -200 N
+P 4 0 1 0 30 0 -10 15 -10 -15 30 0 F
+P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
+P 4 0 1 0 65 10 50 -15 80 -15 65 10 N
+P 4 0 1 0 190 -100 150 -100 150 200 190 200 N
+X S 1 -400 200 100 R 50 50 1 1 I
+X S 2 -400 100 100 R 50 50 1 1 I
+X S 3 -400 0 100 R 50 50 1 1 I
+X G 4 -400 -200 100 R 50 50 1 1 I
+X D 5 400 -100 100 L 50 50 1 1 O
+X D 6 400 0 100 L 50 50 1 1 O
+X D 7 400 100 100 L 50 50 1 1 O
+X D 8 400 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -1933,67 +2115,6 @@ X 6 6 350 200 200 D 50 50 1 1 I
 X 7 7 500 200 200 D 50 50 1 1 I
 X 8 8 650 200 200 D 50 50 1 1 I
 X 9 9 800 200 200 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-# 
-# B3B-XH-A(LF)(SN)
-#
-DEF B3B-XH-A(LF)(SN) U 0 10 Y Y 1 F N
-F0 "U" 0 50 50 H V C BNN
-F1 "B3B-XH-A(LF)(SN)" 0 -50 50 H V C TNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "-" 0 0 50 H I C CNN "Applications"
-F5 "Connectors, Interconnects - Rectangular Connectors - Headers, Male Pins" 0 0 50 H I C CNN "Categories"
-F6 "Header" 0 0 50 H I C CNN "Connector Type"
-F7 "Tin" 0 0 50 H I C CNN "Contact Finish - Mating"
-F8 "Tin" 0 0 50 H I C CNN "Contact Finish - Post"
-F9 "-" 0 0 50 H I C CNN "Contact Finish Thickness - Mating"
-F10 "-" 0 0 50 H I C CNN "Contact Finish Thickness - Post"
-F11 "-" 0 0 50 H I C CNN "Contact Length - Mating"
-F12 "0.134\" (3.40mm)" 0 0 50 H I C CNN "Contact Length - Post"
-F13 "Brass" 0 0 50 H I C CNN "Contact Material"
-F14 "Square" 0 0 50 H I C CNN "Contact Shape"
-F15 "Male Pin" 0 0 50 H I C CNN "Contact Type"
-F16 "3A" 0 0 50 H I C CNN "Current Rating"
-F18 "Detent Lock" 0 0 50 H I C CNN "Fastening Type"
-F19 "-" 0 0 50 H I C CNN "Features"
-F20 "-" 0 0 50 H I C CNN "Ingress Protection"
-F21 "Natural" 0 0 50 H I C CNN "Insulation Color"
-F22 "0.276\" (7.00mm)" 0 0 50 H I C CNN "Insulation Height"
-F23 "Polyamide (PA66), Nylon 6/6" 0 0 50 H I C CNN "Insulation Material"
-F24 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
-F25 "JST Sales America Inc." 0 0 50 H I C CNN "Manufacturer 1"
-F26 "B3B-XH-A(LF)(SN)" 0 0 50 H I C CNN "Manufacturer Part Number 1"
-F27 "14 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
-F28 "9.8mm" 0 0 50 H I C CNN "Mated Stacking Heights"
-F29 "UL94 V-0" 0 0 50 H I C CNN "Material Flammability Rating"
-F30 "Through Hole" 0 0 50 H I C CNN "Mounting Type"
-F31 "3" 0 0 50 H I C CNN "Number of Positions"
-F32 "All" 0 0 50 H I C CNN "Number of Positions Loaded"
-F33 "1" 0 0 50 H I C CNN "Number of Rows"
-F34 "-25°C ~ 85°C" 0 0 50 H I C CNN "Operating Temperature"
-F35 "-" 0 0 50 H I C CNN "Overall Contact Length"
-F36 "Active" 0 0 50 H I C CNN "Part Status"
-F37 "0.098\" (2.50mm)" 0 0 50 H I C CNN "Pitch - Mating"
-F38 "-" 0 0 50 H I C CNN "Row Spacing - Mating"
-F39 "XH" 0 0 50 H I C CNN "Series"
-F40 "Shrouded - 4 Wall" 0 0 50 H I C CNN "Shrouding"
-F41 "Board to Cable/Wire" 0 0 50 H I C CNN "Style"
-F42 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
-F43 "455-2248-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F44 "Press-Fit, Solder" 0 0 50 H I C CNN "Termination"
-F45 "250V" 0 0 50 H I C CNN "Voltage Rating"
-F46 "XHP-3" 0 0 50 H I C CNN "Mating Part Number"
-F47 "455-2219-ND" 0 0 50 H I C CNN "Mating Part Digikey"
-DRAW
-S -50 -95 10 -105 0 1 0 N
-S -50 5 10 -5 0 1 0 N
-S -50 105 10 95 0 1 0 N
-S -50 150 50 -150 0 1 0 N
-X P1 1 -200 100 150 R 50 50 1 1 P
-X P2 2 -200 0 150 R 50 50 1 1 P
-X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -17,6 +17,7 @@ siUnitToValDict = {'y': 1e-24,  # yocto
                    'm': 1e-3,   # mili
                    'c': 1e-2,   # centi
                    'd': 1e-1,   # deci
+                   'R': 1e0,    
                    'k': 1e3,    # kilo
                    'M': 1e6,    # mega
                    'G': 1e9,    # giga

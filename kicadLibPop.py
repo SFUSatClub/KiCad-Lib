@@ -12,7 +12,7 @@ add in either one or a group of Digi-Key part numbers to the list "partNum".
 Only capacitors, inductors, and resistors are supported at this time.
 
 Created: Wed 20180131-0007
-Last updated: Mon 20180219-
+Last updated: Wed 20180321-
 Author: Alex Naylor
 
 FUTURE ADDITIONS:
@@ -22,10 +22,10 @@ FUTURE ADDITIONS:
 -Make the script runnable from the CLI
 -Add Mouser support
 
-CHANGELOG (V0.0.4):
+CHANGELOG (V0.0.5):
 AN:
--Changed the search term to use a Digi-Key script mentioned here:
- https://electronics.stackexchange.com/questions/3329/how-to-retrieve-part-information-from-digi-key-automatically
+-Fixed a unicode issue with certain characters not getting written properly
+-Added automatic ferrite bead parsing
 """
 
 import bs4
@@ -108,53 +108,19 @@ libDict = {"capLib":{capLibFile:capLibContents},#list of all of the libraries to
 dataToWrite = [] #data to write to the library file
 
 #Part numbers to add to the library
-#partNums = ["490-5523-1-ND",
-#            "490-1520-1-ND",
-#            "490-1522-1-ND",
-#            "399-7752-1-ND",
-#            "490-5307-1-ND", #duplicate item in BOM
-#            "399-1063-1-ND",
-#            "490-1524-1-ND",
-#            "399-8099-1-ND",
-#            "490-6518-1-ND",
-#            "490-5307-1-ND",
-#            "490-7204-1-ND",
-#            "490-5936-1-ND",
-#            "490-3240-1-ND",
-#            "490-3246-1-ND",
-#            "490-5888-1-ND",
-#            "399-6842-1-ND",
-#            "490-1521-1-ND",
-#            "P16249CT-ND", #End of caps
-#            "732-7201-1-ND", #End of inductors
-#            "WSLP-.01CT-ND",
-#            "541-3.9ECT-ND",
-#            "311-100KHRCT-ND",
-#            "P10.0FCT-ND",
-#            "541-4.99HHCT-ND",
-#            "541-1.0ACT-ND",
-#            "541-20KGCT-ND",
-#            "541-4057-1-ND",
-#            "541-10KSACT-ND",
-#            "541-3952-1-ND",
-#            "541-383KHCT-ND",
-#            "311-120KHRCT-ND",
-#            "311-64.9KHRCT-ND",
-#            "541-40.2KLCT-ND",
-#            "541-10.0KLCT-ND",
-#            "541-280KHCT-ND",
-#            "541-10.0KHCT-ND",
-#            "311-220KHRCT-ND",
-#            "541-300KHCT-ND",
-#            "311-137KHRCT-ND",
-#            "541-3951-1-ND",
-#            "541-10.0KHCT-ND", #duplicate item in BOM
-#            "541-30.1KHCT-ND",
-#            "541-3953-1-ND",
-#            "541-2.0MGCT-ND",#end of resistors
-#            "296-35025-1-ND"] 
+#partNums = ["490-3992-1-ND",
+#            "490-3117-1-ND",
+#            "490-3115-1-ND",
+#            "490-3113-1-ND",
+#            "490-5869-1-ND",
+#            "490-3103-1-ND",
+#            "490-3081-1-ND",
+#            "490-5871-1-ND",
+#            "587-3710-1-ND",
+#            "490-8227-1-ND",
+#            "490-1100-1-ND"]
 
-partNums = ["863-1450-1-ND"]
+partNums = ["490-3992-1-ND"]
 
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace
@@ -360,7 +326,7 @@ def makeLibPart(productAttrDict,fixedAttrDict,attrConfig,symbolShape):
                                                                      attrConfig['other']['hTextJustify'],
                                                                      attrConfig['other']['vTextJustify']))
 
-    for key, value in sorted(productAttrDict.items()):
+    for key, value in sorted(productAttrDict.items()):       
         #put the description into the description file instead
         if not key == "Description":
             dataToWrite.append('F{0} "{1}" {2} {3} {4} {5} {6} {7} {8} "{9}"'.format(attributeNum,
@@ -487,6 +453,57 @@ def makeFixedAttrs(productAttrDict):
         
         footprint = "SFUSat-ind:L_{0}".format(package)
         
+        if not any(footprint.split(":")[1] in file for file in os.listdir(path="SFUSat-ind.pretty")):
+            print("No footprint '{0}' found for {1}".format(footprint,symbolName))
+            footprint = ""
+        
+        fixedAttrDict["Reference"] = "L"
+
+    elif "Ferrite" in productAttrDict["Categories"]:
+        
+        #Make sure the value is formatted properly
+        unit = productAttrDict["Impedance @ Frequency"][-14]
+        
+        if unit.isdigit() or unit == " ":
+            unit = "R"
+        
+        if unit == "µ": unit = "u"
+        
+        print("unit: {0}".format(unit))
+        
+        value = float(re.sub(nonNumericChars, "", productAttrDict["Impedance @ Frequency"][0:-14]))
+        
+        print("value: {0}".format(value))
+        
+        #want to fix any value that can be expressed with a different unit (usually nano)
+        if value < 1.0: 
+            value *= 1000 #avoid values with decimals; move them to the previous unit
+            unitValue = siUnitToValDict[unit] #get the value associated with the unit
+            unit = getSiUnit(unitValue*1e-3) #the new unit
+        elif value >= 1000.0:
+            value /= 1000 #avoid values larger than 1000; move them to the next unit
+            unitValue = siUnitToValDict[unit] #get the value associated with the unit
+            unit = getSiUnit(unitValue*1e3) #the new unit            
+
+        print("unit: {0}".format(unit))
+        
+        valueStr = str(value).replace(".",unit)
+
+        print("valueStr: {0}".format(valueStr))
+
+        if productAttrDict["Package / Case"] == "Nonstandard":
+            package = productAttrDict["Supplier Device Package"]
+        else:
+            package = productAttrDict["Package / Case"].split(" ")[0]
+    
+        currentRating = productAttrDict["Current Rating (Max)"]
+    
+        symbolName = "FB_{0}_{1}_{2}".format(valueStr,
+                                             currentRating,
+                                             package)
+        
+        footprint = "SFUSat-ind:L_{0}".format(package)
+
         if not any(footprint.split(":")[1] in file for file in os.listdir(path="SFUSat-ind.pretty")):
             print("No footprint '{0}' found for {1}".format(footprint,symbolName))
             footprint = ""
@@ -644,11 +661,11 @@ def readFile(filepath):
 
 #Write data to the library file
 def writeFile(filepath,dataToWrite):
-    libfile = open(filepath, "w")
+    libfile = open(filepath, "wb")
 
     for part in dataToWrite:
         for item in part:
-            libfile.write("%s\n" % item)
+            libfile.write("{0}\n".format(item).encode("utf-8"))
         
     libfile.close()
 
@@ -656,7 +673,7 @@ def writeFile(filepath,dataToWrite):
 def writeToLibFile(filepath,libContents,dataToWrite):    
     dataToWrite = [[libContents.rstrip("#\n#End Library")]]+dataToWrite
     dataToWrite.append(["#\n#End Library"])
-
+                        
     writeFile(filepath,dataToWrite)
     
     return(dataToWrite)
@@ -690,14 +707,18 @@ for partNum in partNums:
             print("Part number ({0}) already exists in capacitor library, checking next part...".format(partNum))
             continue
         
-        if fixedAttrDict["Value"] in capLibContents:
-            print("Similar part ({0}) already exists in capacitor library, checking next part...".format(fixedAttrDict["Value"]))
+        elif fixedAttrDict["Value"] in capLibContents:
+            print("Similar part to {0} ({1}) already exists in library, checking next part...".format(partNum,
+                                                                                                      fixedAttrDict["Value"]))
             continue
 
+        else:
+            print("Adding {0} to capacitor library...".format(partNum))
+            
         capParts.append(makeLibPart(productAttrDict,fixedAttrDict,capAttrConfig,capSymbolShape))
         capDesc.append(makeDesc(productAttrDict["Description"],fixedAttrDict["Value"]))
 
-    elif "Inductor" in productAttrDict["Categories"]:
+    elif ("Inductor" in productAttrDict["Categories"]) or ("Ferrite" in productAttrDict["Categories"]):
         if indLibContents == None:
             indLibContents = readFile(indLibFilePath) #read the library file so we can see whether or not the part number/name already exists
             indDescContents = readFile(indDescFilePath) #read the description file to populate it later
@@ -706,9 +727,13 @@ for partNum in partNums:
             print("Part number ({0}) already exists in inductor library, checking next part...".format(partNum))
             continue
         
-        if fixedAttrDict["Value"] in indLibContents:
-            print("Similar part ({0}) already exists in inductor library, checking next part...".format(fixedAttrDict["Value"]))
+        elif fixedAttrDict["Value"] in indLibContents:
+            print("Similar part to {0} ({1}) already exists in library, checking next part...".format(partNum,
+                                                                                                      fixedAttrDict["Value"]))
             continue
+
+        else:
+            print("Adding {0} to inductor library...".format(partNum))        
 
         indParts.append(makeLibPart(productAttrDict,fixedAttrDict,indAttrConfig,indSymbolShape))
         indDesc.append(makeDesc(productAttrDict["Description"],fixedAttrDict["Value"]))
@@ -722,9 +747,12 @@ for partNum in partNums:
             print("Part number ({0}) already exists in resistor library, checking next part...".format(partNum))
             continue
         
-        if fixedAttrDict["Value"] in resLibContents:
+        elif fixedAttrDict["Value"] in resLibContents:
             print("Similar part ({0}) already exists in resistor library, checking next part...".format(fixedAttrDict["Value"]))
             continue
+
+        else:
+            print("Adding {0} to resistor library...").format(partNum)
 
         resParts.append(makeLibPart(productAttrDict,fixedAttrDict,resAttrConfig,resSymbolShape))
         resDesc.append(makeDesc(productAttrDict["Description"],fixedAttrDict["Value"]))
@@ -739,7 +767,8 @@ for partNum in partNums:
             continue
         
         if fixedAttrDict["Value"] in otherLibContents:
-            print("Similar part ({0}) already exists in library, checking next part...".format(fixedAttrDict["Value"]))
+            print("Similar part to {0} ({1}) already exists in library, checking next part...".format(partNum,
+                                                                                                      fixedAttrDict["Value"]))
             continue
 
         otherParts.append(makeLibPart(productAttrDict,fixedAttrDict,otherAttrConfig,otherSymbolShape))

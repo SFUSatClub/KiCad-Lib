@@ -120,7 +120,7 @@ dataToWrite = [] #data to write to the library file
 #            "490-8227-1-ND",
 #            "490-1100-1-ND"]
 
-partNums = ["490-3992-1-ND"]
+partNums = ["S9169-ND"]
 
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace

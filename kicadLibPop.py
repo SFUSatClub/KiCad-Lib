@@ -154,7 +154,24 @@ dataToWrite = [] #data to write to the library file
 #            "541-2.0MGCT-ND",#end of resistors
 #            "296-35025-1-ND"] 
 
-partNums = ["863-1450-1-ND"]
+partNums = ["399-1167-1-ND",
+"490-1882-1-ND",
+"587-1779-1-ND",
+"490-6338-1-ND",
+"SRN8040-2R2CYCT-ND",
+"P10.2KCCT-ND",
+"541-34.0KLCT-ND",
+"541-100KLCT-ND",
+"445-14761-6-ND",
+"541-21.5KLCT-ND",
+"541-3.01LLTR-ND",
+"541-3994-1-ND",
+"587-1376-1-ND",
+"490-6182-1-ND",
+"490-6287-1-ND",
+"490-3266-1-ND",
+"490-6295-1-ND",
+"490-3339-1-ND"]
 
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace
@@ -299,7 +316,7 @@ otherSymbolShape = "DRAW\nENDDRAW" #If the symbol is not standard
 def openUrl(partNum):
     dkUrl = "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name={0}".format(partNum) 
     webpage = urlopen(dkUrl).read().decode("utf-8")
-    soup = bs4.BeautifulSoup(webpage,"html5lib")
+    soup = bs4.BeautifulSoup(webpage,"html.parser")
 
     return(soup)
 

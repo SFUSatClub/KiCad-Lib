@@ -666,6 +666,79 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_02X05_SHRD
+#
+DEF CONN_02X05_SHRD U 0 10 Y N 1 F N
+F0 "U" 0 300 50 H V C BNN
+F1 "CONN_02X05_SHRD" 50 -300 50 H V C TNN
+F2 "SFUSat:Socket_Strip_Straight_2x05" -100 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "-" 0 0 50 H I C CNN "Applications"
+F5 "Connectors, Interconnects - Rectangular Connectors - Headers, Male Pins" 0 0 50 H I C CNN "Categories"
+F6 "Header" 0 0 50 H I C CNN "Connector Type"
+F7 "Gold" 0 0 50 H I C CNN "Contact Finish - Mating"
+F8 "Gold" 0 0 50 H I C CNN "Contact Finish - Post"
+F9 "Flash" 0 0 50 H I C CNN "Contact Finish Thickness - Mating"
+F10 "Flash" 0 0 50 H I C CNN "Contact Finish Thickness - Post"
+F11 "-" 0 0 50 H I C CNN "Contact Length - Mating"
+F12 "0.118\" (3.00mm)" 0 0 50 H I C CNN "Contact Length - Post"
+F13 "Brass" 0 0 50 H I C CNN "Contact Material"
+F14 "Square" 0 0 50 H I C CNN "Contact Shape"
+F15 "Male Pin" 0 0 50 H I C CNN "Contact Type"
+F16 "3A" 0 0 50 H I C CNN "Current Rating"
+F17 "Push-Pull" 0 0 50 H I C CNN "Fastening Type"
+F18 "Keying Slot" 0 0 50 H I C CNN "Features"
+F19 "-" 0 0 50 H I C CNN "Ingress Protection"
+F20 "Black" 0 0 50 H I C CNN "Insulation Color"
+F21 "0.358\" (9.10mm)" 0 0 50 H I C CNN "Insulation Height"
+F22 "Polybutylene Terephthalate (PBT)" 0 0 50 H I C CNN "Insulation Material"
+F23 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F24 "Sullins Connector Solutions" 0 0 50 H I C CNN "Manufacturer 1"
+F25 "SBH11-PBPC-D05-ST-BK" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F26 "4 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F27 "9.65mm, 11.2mm, 13.35mm, 18.35mm" 0 0 50 H I C CNN "Mated Stacking Heights"
+F28 "UL94 V-0" 0 0 50 H I C CNN "Material Flammability Rating"
+F29 "Through Hole" 0 0 50 H I C CNN "Mounting Type"
+F30 "10" 0 0 50 H I C CNN "Number of Positions"
+F31 "All" 0 0 50 H I C CNN "Number of Positions Loaded"
+F32 "2" 0 0 50 H I C CNN "Number of Rows"
+F33 "-40°C ~ 105°C" 0 0 50 H I C CNN "Operating Temperature"
+F34 "-" 0 0 50 H I C CNN "Overall Contact Length"
+F35 "Active" 0 0 50 H I C CNN "Part Status"
+F36 "0.100\" (2.54mm)" 0 0 50 H I C CNN "Pitch - Mating"
+F37 "0.100\" (2.54mm)" 0 0 50 H I C CNN "Row Spacing - Mating"
+F38 "SBH11" 0 0 50 H I C CNN "Series"
+F39 "Shrouded - 4 Wall" 0 0 50 H I C CNN "Shrouding"
+F40 "Board to Board or Cable" 0 0 50 H I C CNN "Style"
+F41 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F42 "S9169-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F43 "Solder" 0 0 50 H I C CNN "Termination"
+F44 "-" 0 0 50 H I C CNN "Voltage Rating"
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CSD17551Q3A
 #
 DEF CSD17551Q3A Q 0 10 Y Y 1 F N

@@ -108,71 +108,12 @@ libDict = {"capLib":{capLibFile:capLibContents},#list of all of the libraries to
 dataToWrite = [] #data to write to the library file
 
 #Part numbers to add to the library
-<<<<<<< HEAD
-#partNums = ["490-5523-1-ND",
-#            "490-1520-1-ND",
-#            "490-1522-1-ND",
-#            "399-7752-1-ND",
-#            "490-5307-1-ND", #duplicate item in BOM
-#            "399-1063-1-ND",
-#            "490-1524-1-ND",
-#            "399-8099-1-ND",
-#            "490-6518-1-ND",
-#            "490-5307-1-ND",
-#            "490-7204-1-ND",
-#            "490-5936-1-ND",
-#            "490-3240-1-ND",
-#            "490-3246-1-ND",
-#            "490-5888-1-ND",
-#            "399-6842-1-ND",
-#            "490-1521-1-ND",
-#            "P16249CT-ND", #End of caps
-#            "732-7201-1-ND", #End of inductors
-#            "WSLP-.01CT-ND",
-#            "541-3.9ECT-ND",
-#            "311-100KHRCT-ND",
-#            "P10.0FCT-ND",
-#            "541-4.99HHCT-ND",
-#            "541-1.0ACT-ND",
-#            "541-20KGCT-ND",
-#            "541-4057-1-ND",
-#            "541-10KSACT-ND",
-#            "541-3952-1-ND",
-#            "541-383KHCT-ND",
-#            "311-120KHRCT-ND",
-#            "311-64.9KHRCT-ND",
-#            "541-40.2KLCT-ND",
-#            "541-10.0KLCT-ND",
-#            "541-280KHCT-ND",
-#            "541-10.0KHCT-ND",
-#            "311-220KHRCT-ND",
-#            "541-300KHCT-ND",
-#            "311-137KHRCT-ND",
-#            "541-3951-1-ND",
-#            "541-10.0KHCT-ND", #duplicate item in BOM
-#            "541-30.1KHCT-ND",
-#            "541-3953-1-ND",
-#            "541-2.0MGCT-ND",#end of resistors
-#            "296-35025-1-ND"] 
-
-partNums = ["399-1167-1-ND",
-"490-1882-1-ND",
-"587-1779-1-ND",
-"490-6338-1-ND",
-"SRN8040-2R2CYCT-ND",
-"P10.2KCCT-ND",
-"541-34.0KLCT-ND",
-"541-100KLCT-ND",
-"445-14761-6-ND",
-"541-21.5KLCT-ND",
-"541-3.01LLTR-ND",
-"541-3994-1-ND",
-"587-1376-1-ND",
-"490-6182-1-ND",
-"490-6287-1-ND",
-"490-3266-1-ND",
-"490-6295-1-ND",
-"490-3339-1-ND"]
+partNums = ["296-25361-1-ND", "296-39451-1-ND", "445-2014-1-ND", "490-4738-1-ND", "490-1696-1-ND", 
+"490-6296-1-ND", "399-3118-1-ND", "311-1776-1-ND",
+ "296-47482-1-ND", "445-4573-1-ND", "490-3339-1-ND",
+  "490-6508-1-ND", "490-6308-1-ND", "490-6308-1-ND", "587-1376-1-ND", "490-6182-1-ND", "490-3266-1-ND", 
+  "490-6287-1-ND", "P100KCCT-ND", "P19.1KCCT-ND", "P49.9KCCT-ND", "541-2.37MLCT-ND", "541-383KLCT-ND"
+  , "541-3.01LLCT-ND"]
 
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace

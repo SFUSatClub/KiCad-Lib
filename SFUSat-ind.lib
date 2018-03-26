@@ -213,5 +213,91 @@ X 1 1 -150 0 50 R 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
+# 
+# L_10u0_20%_1.78A_-
+#
+DEF L_10u0_20%_1.78A_- L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_10u0_20%_1.78A_-" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Inductors, Coils, Chokes - Fixed Inductors" 0 0 50 H I C CNN "Categories"
+F5 "1.3A" 0 0 50 H I C CNN "Current - Saturation"
+F6 "1.78A" 0 0 50 H I C CNN "Current Rating"
+F7 "43.2 mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F9 "100kHz" 0 0 50 H I C CNN "Frequency - Test"
+F10 "0.189\" (4.80mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "10µH" 0 0 50 H I C CNN "Inductance"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "TDK Corporation" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "SLF7045T-100M1R3-PF" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "14 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Ferrite" 0 0 50 H I C CNN "Material - Core"
+F17 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F18 "-40°C ~ 105°C" 0 0 50 H I C CNN "Operating Temperature"
+F19 "Nonstandard" 0 0 50 H I C CNN "Package / Case"
+F20 "Active" 0 0 50 H I C CNN "Part Status"
+F21 "-" 0 0 50 H I C CNN "Q @ Freq"
+F22 "-" 0 0 50 H I C CNN "Ratings"
+F23 "SLF" 0 0 50 H I C CNN "Series"
+F24 "Shielded" 0 0 50 H I C CNN "Shielding"
+F25 "0.276\" L x 0.276\" W (7.00mm x 7.00mm)" 0 0 50 H I C CNN "Size / Dimension"
+F26 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F27 "-" 0 0 50 H I C CNN "Supplier Device Package"
+F28 "445-2014-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F29 "±20%" 0 0 50 H I C CNN "Tolerance"
+F30 "Wirewound" 0 0 50 H I C CNN "Type"
+DRAW
+A -75 0 25 1 -1801 0 1 0 N -50 0 -100 0
+A -25 0 25 1 -1801 0 1 0 N 0 0 -50 0
+A 25 0 25 1 -1801 0 1 0 N 50 0 0 0
+A 75 0 25 1 -1801 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# L_10u0_20%_2.7A_-
+#
+DEF L_10u0_20%_2.7A_- L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_10u0_20%_2.7A_-" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Inductors, Coils, Chokes - Fixed Inductors" 0 0 50 H I C CNN "Categories"
+F5 "1.6A" 0 0 50 H I C CNN "Current - Saturation"
+F6 "2.7A" 0 0 50 H I C CNN "Current Rating"
+F7 "46.8 mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F9 "100kHz" 0 0 50 H I C CNN "Frequency - Test"
+F10 "0.189\" (4.80mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "10µH" 0 0 50 H I C CNN "Inductance"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "TDK Corporation" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "SLF6045T-100M1R6-3PF" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "14 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Ferrite" 0 0 50 H I C CNN "Material - Core"
+F17 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F18 "-40°C ~ 105°C" 0 0 50 H I C CNN "Operating Temperature"
+F19 "Nonstandard" 0 0 50 H I C CNN "Package / Case"
+F20 "Active" 0 0 50 H I C CNN "Part Status"
+F21 "-" 0 0 50 H I C CNN "Q @ Freq"
+F22 "-" 0 0 50 H I C CNN "Ratings"
+F23 "SLF" 0 0 50 H I C CNN "Series"
+F24 "Shielded" 0 0 50 H I C CNN "Shielding"
+F25 "0.236\" L x 0.236\" W (6.00mm x 6.00mm)" 0 0 50 H I C CNN "Size / Dimension"
+F26 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F27 "-" 0 0 50 H I C CNN "Supplier Device Package"
+F28 "445-4573-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F29 "±20%" 0 0 50 H I C CNN "Tolerance"
+F30 "Wirewound" 0 0 50 H I C CNN "Type"
+DRAW
+A -75 0 25 1 -1801 0 1 0 N -50 0 -100 0
+A -25 0 25 1 -1801 0 1 0 N 0 0 -50 0
+A 25 0 25 1 -1801 0 1 0 N 50 0 0 0
+A 75 0 25 1 -1801 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
 #
 #End Library

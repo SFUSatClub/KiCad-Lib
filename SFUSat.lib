@@ -2340,5 +2340,113 @@ X 8 8 650 200 200 D 50 50 1 1 I
 X 9 9 800 200 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
+# 
+# LMS3635AQRNLTQ1
+#
+DEF LMS3635AQRNLTQ1 U 0 10 Y Y 1 F N
+F0 "U" 0 50 50 H V C BNN
+F1 "LMS3635AQRNLTQ1" 0 -50 50 H V C TNN
+F2 "LMS3635AQRNLTQ1" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - DC DC Switching Regulators" 0 0 50 H I C CNN "Categories"
+F5 "3.5A" 0 0 50 H I C CNN "Current - Output"
+F7 "250kHz ~ 500kHz" 0 0 50 H I C CNN "Frequency - Switching"
+F8 "Step-Down" 0 0 50 H I C CNN "Function"
+F9 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F10 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
+F11 "LMS3635AQRNLTQ1" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F12 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F13 "1" 0 0 50 H I C CNN "Number of Outputs"
+F14 "-40°C ~ 125°C (TA)" 0 0 50 H I C CNN "Operating Temperature"
+F15 "Positive" 0 0 50 H I C CNN "Output Configuration"
+F16 "Adjustable" 0 0 50 H I C CNN "Output Type"
+F17 "22-VFQFN Exposed Pad" 0 0 50 H I C CNN "Package / Case"
+F18 "Active" 0 0 50 H I C CNN "Part Status"
+F19 "Automotive, AEC-Q100" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "22-VQFN-HR (5x4)" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "296-47482-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "No" 0 0 50 H I C CNN "Synchronous Rectifier"
+F24 "Buck" 0 0 50 H I C CNN "Topology"
+F25 "36V" 0 0 50 H I C CNN "Voltage - Input (Max)"
+F26 "3.9V" 0 0 50 H I C CNN "Voltage - Input (Min)"
+F27 "15V" 0 0 50 H I C CNN "Voltage - Output (Max)"
+F28 "1V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
+DRAW
+ENDDRAW
+ENDDEF
+# 
+# TPS71750DSER
+#
+DEF TPS71750DSER U 0 10 Y Y 1 F N
+F0 "U" 0 50 50 H V C BNN
+F1 "TPS71750DSER" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TPS71750" 0 0 50 H I C CNN "Base Part Number"
+F5 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - Linear" 0 0 50 H I C CNN "Categories"
+F6 "Enable" 0 0 50 H I C CNN "Control Features"
+F7 "150mA" 0 0 50 H I C CNN "Current - Output"
+F8 "100µA" 0 0 50 H I C CNN "Current - Quiescent (Iq)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "TPS71750DSER" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F15 "1" 0 0 50 H I C CNN "Number of Regulators"
+F16 "-40°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F17 "Positive" 0 0 50 H I C CNN "Output Configuration"
+F18 "Fixed" 0 0 50 H I C CNN "Output Type"
+F19 "70dB ~ 45dB (100Hz ~ 1MHz)" 0 0 50 H I C CNN "PSRR"
+F20 "6-WFDFN" 0 0 50 H I C CNN "Package / Case"
+F21 "Active" 0 0 50 H I C CNN "Part Status"
+F22 "Over Current, Over Temperature, Reverse Polarity, Under Voltage Lockout (UVLO)" 0 0 50 H I C CNN "Protection Features"
+F23 "-" 0 0 50 H I C CNN "Series"
+F24 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F25 "6-WSON (1.5x1.5)" 0 0 50 H I C CNN "Supplier Device Package"
+F26 "296-25361-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F27 "6.5V" 0 0 50 H I C CNN "Voltage - Input (Max)"
+F28 "-" 0 0 50 H I C CNN "Voltage - Output (Max)"
+F29 "5V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F30 "0.3V @ 150mA" 0 0 50 H I C CNN "Voltage Dropout (Max)"
+DRAW
+ENDDRAW
+ENDDEF
+# 
+# TPS62175DQCR
+#
+DEF TPS62175DQCR U 0 10 Y Y 1 F N
+F0 "U" 0 50 50 H V C BNN
+F1 "TPS62175DQCR" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - DC DC Switching Regulators" 0 0 50 H I C CNN "Categories"
+F5 "500mA" 0 0 50 H I C CNN "Current - Output"
+F7 "1MHz" 0 0 50 H I C CNN "Frequency - Switching"
+F8 "Step-Down, Step-Up/Step-Down" 0 0 50 H I C CNN "Function"
+F9 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F10 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
+F11 "TPS62175DQCR" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F12 "12 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F13 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F14 "1" 0 0 50 H I C CNN "Number of Outputs"
+F15 "-40°C ~ 85°C (TA)" 0 0 50 H I C CNN "Operating Temperature"
+F16 "Positive or Negative" 0 0 50 H I C CNN "Output Configuration"
+F17 "Adjustable" 0 0 50 H I C CNN "Output Type"
+F18 "10-WFDFN Exposed Pad" 0 0 50 H I C CNN "Package / Case"
+F19 "Active" 0 0 50 H I C CNN "Part Status"
+F20 "DCS-Control™" 0 0 50 H I C CNN "Series"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "10-WSON (3x2)" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "296-39451-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "Yes" 0 0 50 H I C CNN "Synchronous Rectifier"
+F25 "Buck, Buck-Boost" 0 0 50 H I C CNN "Topology"
+F26 "28V" 0 0 50 H I C CNN "Voltage - Input (Max)"
+F27 "4.75V" 0 0 50 H I C CNN "Voltage - Input (Min)"
+F28 "6V" 0 0 50 H I C CNN "Voltage - Output (Max)"
+F29 "1V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
+DRAW
+ENDDRAW
+ENDDEF
 #
 #End Library

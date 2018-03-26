@@ -745,7 +745,7 @@ for partNum in partNums:
             continue
 
         else:
-            print("Adding {0} to resistor library...").format(partNum)
+            print("Adding {0} to resistor library...".format(partNum))
 
         resParts.append(makeLibPart(productAttrDict,fixedAttrDict,resAttrConfig,resSymbolShape))
         resDesc.append(makeDesc(productAttrDict["Description"],fixedAttrDict["Value"]))

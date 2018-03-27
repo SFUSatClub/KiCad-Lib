@@ -74,20 +74,20 @@ C 0 0 111 0 1 10 N
 C 35 -70 11 0 1 0 F
 C 35 70 11 0 1 0 F
 S 50 20 80 20 0 1 0 N
-P 2 0 1 0 -55 0 -135 0 N
-P 2 0 1 10 -35 -90 -35 -50 N
-P 2 0 1 0 -35 -70 35 -70 N
-P 2 0 1 10 -35 -20 -35 20 N
-P 2 0 1 0 -35 0 35 0 N
-P 2 0 1 10 -35 50 -35 90 N
-P 2 0 1 0 -35 70 35 70 N
-P 2 0 1 0 35 -70 35 0 N
-P 3 0 1 10 -55 -75 -55 75 -55 75 N
-P 4 0 1 0 -30 0 10 15 10 -15 -30 0 F
-P 4 0 1 0 35 -70 35 -90 0 -90 0 -140 N
-P 4 0 1 0 35 70 35 90 0 90 0 140 N
-P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
-P 4 0 1 0 65 15 50 -10 80 -10 65 15 N
+P 2 0 1 0  -55 0  -135 0 N
+P 2 0 1 10  -35 -90  -35 -50 N
+P 2 0 1 0  -35 -70  35 -70 N
+P 2 0 1 10  -35 -20  -35 20 N
+P 2 0 1 0  -35 0  35 0 N
+P 2 0 1 10  -35 50  -35 90 N
+P 2 0 1 0  -35 70  35 70 N
+P 2 0 1 0  35 -70  35 0 N
+P 3 0 1 10  -55 -75  -55 75  -55 75 N
+P 4 0 1 0  -30 0  10 15  10 -15  -30 0 F
+P 4 0 1 0  35 -70  35 -90  0 -90  0 -140 N
+P 4 0 1 0  35 70  35 90  0 90  0 140 N
+P 4 0 1 0  35 70  65 70  65 -70  35 -70 N
+P 4 0 1 0  65 15  50 -10  80 -10  65 15 N
 X G 1 -200 0 65 R 50 50 1 1 I
 X S 2 0 -200 60 U 50 50 1 1 I
 X D 3 0 200 60 D 50 50 1 1 I
@@ -142,12 +142,12 @@ $FPLIST
  TSSOP-16
 $ENDFPLIST
 DRAW
-P 2 0 1 0 -200 400 -200 -450 N
-P 2 0 1 0 -200 450 -200 400 N
-P 2 0 1 0 200 -250 -200 -450 N
-P 2 0 1 0 200 200 200 -250 N
-P 2 0 1 0 200 250 -200 450 N
-P 2 0 1 0 200 250 200 200 N
+P 2 0 1 0  -200 400  -200 -450 N
+P 2 0 1 0  -200 450  -200 400 N
+P 2 0 1 0  200 -250  -200 -450 N
+P 2 0 1 0  200 200  200 -250 N
+P 2 0 1 0  200 250  -200 450 N
+P 2 0 1 0  200 250  200 200 N
 X SCL 1 0 -550 200 U 50 50 1 1 I
 X !RESET 2 500 -550 200 U 50 50 1 1 I
 X SDA 3 100 -500 200 U 50 50 1 1 B
@@ -246,9 +246,9 @@ F21 "B220A-FDICT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
 F22 "20V" 0 0 50 H I C CNN "Voltage - DC Reverse (Vr) (Max)"
 F23 "500mV @ 2A" 0 0 50 H I C CNN "Voltage - Forward (Vf) (Max) @ If"
 DRAW
-P 4 0 1 0 20 0 -30 -50 -30 50 20 0 N
-P 4 0 1 0 20 0 20 -50 30 -50 30 -40 N
-P 4 0 1 0 20 0 20 50 10 50 10 40 N
+P 4 0 1 0  20 0  -30 -50  -30 50  20 0 N
+P 4 0 1 0  20 0  20 -50  30 -50  30 -40 N
+P 4 0 1 0  20 0  20 50  10 50  10 40 N
 X 1 1 -100 0 70 R 50 50 1 1 I
 X 2 2 100 0 80 L 50 50 1 1 I
 ENDDRAW
@@ -365,9 +365,9 @@ F23 "BAT54HT1GOSCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
 F24 "30V" 0 0 50 H I C CNN "Voltage - DC Reverse (Vr) (Max)"
 F25 "800mV @ 100mA" 0 0 50 H I C CNN "Voltage - Forward (Vf) (Max) @ If"
 DRAW
-P 4 0 1 0 20 0 -30 -50 -30 50 20 0 N
-P 4 0 1 0 20 0 20 -50 30 -50 30 -40 N
-P 4 0 1 0 20 0 20 50 10 50 10 40 N
+P 4 0 1 0  20 0  -30 -50  -30 50  20 0 N
+P 4 0 1 0  20 0  20 -50  30 -50  30 -40 N
+P 4 0 1 0  20 0  20 50  10 50  10 40 N
 X 1 1 -100 0 70 R 50 50 1 1 I
 X 2 2 100 0 80 L 50 50 1 1 I
 ENDDRAW
@@ -547,20 +547,20 @@ DRAW
 S -200 600 200 -500 0 1 0 N
 S -50 25 50 -325 0 1 0 N
 S 50 75 -50 425 0 1 0 N
-P 2 0 1 0 -75 -200 -50 -200 N
-P 2 0 1 0 -75 -100 -50 -100 N
-P 2 0 1 0 -75 200 -50 200 N
-P 2 0 1 0 -75 300 -50 300 N
-P 2 0 1 0 -75 400 -50 400 N
-P 2 0 1 0 -50 0 -75 0 N
-P 2 0 1 0 50 -300 75 -300 N
-P 2 0 1 0 50 -200 75 -200 N
-P 2 0 1 0 50 -100 75 -100 N
-P 2 0 1 0 50 0 75 0 N
-P 2 0 1 0 50 100 75 100 N
-P 2 0 1 0 50 200 75 200 N
-P 2 0 1 0 50 300 75 300 N
-P 2 0 1 0 50 400 75 400 N
+P 2 0 1 0  -75 -200  -50 -200 N
+P 2 0 1 0  -75 -100  -50 -100 N
+P 2 0 1 0  -75 200  -50 200 N
+P 2 0 1 0  -75 300  -50 300 N
+P 2 0 1 0  -75 400  -50 400 N
+P 2 0 1 0  -50 0  -75 0 N
+P 2 0 1 0  50 -300  75 -300 N
+P 2 0 1 0  50 -200  75 -200 N
+P 2 0 1 0  50 -100  75 -100 N
+P 2 0 1 0  50 0  75 0 N
+P 2 0 1 0  50 100  75 100 N
+P 2 0 1 0  50 200  75 200 N
+P 2 0 1 0  50 300  75 300 N
+P 2 0 1 0  50 400  75 400 N
 X ~E 1 -400 200 200 R 50 50 1 1 I I
 X A 2 -400 400 200 R 50 50 1 1 I
 X B 3 -400 300 200 R 50 50 1 1 I
@@ -777,26 +777,26 @@ C 35 -70 11 0 1 0 F
 C 35 70 11 0 1 0 F
 S -300 250 300 -250 0 1 0 N
 S 50 20 80 20 0 1 0 N
-P 2 0 1 10 -35 -90 -35 -50 N
-P 2 0 1 0 -35 -70 35 -70 N
-P 2 0 1 10 -35 -20 -35 20 N
-P 2 0 1 0 -35 0 35 0 N
-P 2 0 1 10 -35 50 -35 90 N
-P 2 0 1 0 -35 70 35 70 N
-P 2 0 1 0 35 70 35 0 N
-P 2 0 1 0 150 0 190 0 N
-P 2 0 1 0 150 100 190 100 N
-P 3 0 1 0 -150 100 -150 0 -190 0 N
-P 3 0 1 0 -145 -125 -150 -125 -150 0 N
-P 3 0 1 10 -55 -75 -55 75 -55 75 N
-P 3 0 1 0 35 -70 35 -125 -115 -125 N
-P 3 0 1 0 35 70 35 200 150 200 N
-P 4 0 1 0 -190 200 -150 200 -150 100 -190 100 N
-P 4 0 1 0 -55 0 -130 0 -130 -200 -190 -200 N
-P 4 0 1 0 -30 0 10 15 10 -15 -30 0 F
-P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
-P 4 0 1 0 65 15 50 -10 80 -10 65 15 N
-P 4 0 1 0 190 -100 150 -100 150 200 190 200 N
+P 2 0 1 10  -35 -90  -35 -50 N
+P 2 0 1 0  -35 -70  35 -70 N
+P 2 0 1 10  -35 -20  -35 20 N
+P 2 0 1 0  -35 0  35 0 N
+P 2 0 1 10  -35 50  -35 90 N
+P 2 0 1 0  -35 70  35 70 N
+P 2 0 1 0  35 70  35 0 N
+P 2 0 1 0  150 0  190 0 N
+P 2 0 1 0  150 100  190 100 N
+P 3 0 1 0  -150 100  -150 0  -190 0 N
+P 3 0 1 0  -145 -125  -150 -125  -150 0 N
+P 3 0 1 10  -55 -75  -55 75  -55 75 N
+P 3 0 1 0  35 -70  35 -125  -115 -125 N
+P 3 0 1 0  35 70  35 200  150 200 N
+P 4 0 1 0  -190 200  -150 200  -150 100  -190 100 N
+P 4 0 1 0  -55 0  -130 0  -130 -200  -190 -200 N
+P 4 0 1 0  -30 0  10 15  10 -15  -30 0 F
+P 4 0 1 0  35 70  65 70  65 -70  35 -70 N
+P 4 0 1 0  65 15  50 -10  80 -10  65 15 N
+P 4 0 1 0  190 -100  150 -100  150 200  190 200 N
 X S 1 -400 200 100 R 50 50 1 1 I
 X S 2 -400 100 100 R 50 50 1 1 I
 X S 3 -400 0 100 R 50 50 1 1 I
@@ -846,25 +846,25 @@ C 35 -70 11 0 1 0 F
 C 35 70 11 0 1 0 F
 S -300 250 300 -250 0 1 0 N
 S 50 -20 80 -20 0 1 0 N
-P 2 0 1 10 -35 -90 -35 -50 N
-P 2 0 1 0 -35 -70 35 -70 N
-P 2 0 1 10 -35 -20 -35 20 N
-P 2 0 1 0 -35 0 35 0 N
-P 2 0 1 10 -35 50 -35 90 N
-P 2 0 1 0 -35 70 35 70 N
-P 2 0 1 0 35 70 35 0 N
-P 2 0 1 0 150 0 190 0 N
-P 2 0 1 0 150 100 190 100 N
-P 3 0 1 0 -150 100 -150 0 -190 0 N
-P 3 0 1 10 -55 -75 -55 75 -55 75 N
-P 3 0 1 0 35 70 35 200 -150 200 N
-P 3 0 1 0 150 -100 35 -100 35 -70 N
-P 4 0 1 0 -190 200 -150 200 -150 100 -190 100 N
-P 4 0 1 0 -55 0 -130 0 -130 -200 -195 -200 N
-P 4 0 1 0 30 0 -10 15 -10 -15 30 0 F
-P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
-P 4 0 1 0 65 -15 50 10 80 10 65 -15 N
-P 4 0 1 0 190 -100 150 -100 150 200 190 200 N
+P 2 0 1 10  -35 -90  -35 -50 N
+P 2 0 1 0  -35 -70  35 -70 N
+P 2 0 1 10  -35 -20  -35 20 N
+P 2 0 1 0  -35 0  35 0 N
+P 2 0 1 10  -35 50  -35 90 N
+P 2 0 1 0  -35 70  35 70 N
+P 2 0 1 0  35 70  35 0 N
+P 2 0 1 0  150 0  190 0 N
+P 2 0 1 0  150 100  190 100 N
+P 3 0 1 0  -150 100  -150 0  -190 0 N
+P 3 0 1 10  -55 -75  -55 75  -55 75 N
+P 3 0 1 0  35 70  35 200  -150 200 N
+P 3 0 1 0  150 -100  35 -100  35 -70 N
+P 4 0 1 0  -190 200  -150 200  -150 100  -190 100 N
+P 4 0 1 0  -55 0  -130 0  -130 -200  -195 -200 N
+P 4 0 1 0  30 0  -10 15  -10 -15  30 0 F
+P 4 0 1 0  35 70  65 70  65 -70  35 -70 N
+P 4 0 1 0  65 -15  50 10  80 10  65 -15 N
+P 4 0 1 0  190 -100  150 -100  150 200  190 200 N
 X D 1 -400 200 100 R 50 50 1 1 I
 X D 2 -400 100 100 R 50 50 1 1 I
 X D 3 -400 0 100 R 50 50 1 1 I
@@ -907,22 +907,22 @@ F24 "1 NPN, 1 PNP - Pre-Biased (Dual)" 0 0 50 H I C CNN "Transistor Type"
 F25 "300mV @ 500µA, 10mA" 0 0 50 H I C CNN "Vce Saturation (Max) @ Ib, Ic"
 F26 "50V" 0 0 50 H I C CNN "Voltage - Collector Emitter Breakdown (Max)"
 DRAW
-P 2 0 1 0 0 350 180 350 N
-P 2 0 1 0 100 -70 20 -150 N
-P 2 0 1 0 100 70 20 150 N
-P 2 0 1 0 100 100 100 -100 N
-P 2 0 1 0 175 65 175 5 N
-P 2 0 1 0 180 315 180 350 N
-P 2 0 1 0 200 5 100 5 N
-P 3 0 1 0 0 350 0 170 20 150 N
-P 3 0 1 0 20 -150 0 -170 0 -250 N
-P 7 0 1 0 175 65 175 115 120 140 230 190 120 240 230 290 180 315 N
-P 7 0 1 0 200 5 250 5 275 60 325 -50 375 60 425 -50 450 0 N
-P 4 1 1 0 90 80 90 125 45 80 90 80 F
+P 2 0 1 0  0 350  180 350 N
+P 2 0 1 0  100 -70  20 -150 N
+P 2 0 1 0  100 70  20 150 N
+P 2 0 1 0  100 100  100 -100 N
+P 2 0 1 0  175 65  175 5 N
+P 2 0 1 0  180 315  180 350 N
+P 2 0 1 0  200 5  100 5 N
+P 3 0 1 0  0 350  0 170  20 150 N
+P 3 0 1 0  20 -150  0 -170  0 -250 N
+P 7 0 1 0  175 65  175 115  120 140  230 190  120 240  230 290  180 315 N
+P 7 0 1 0  200 5  250 5  275 60  325 -50  375 60  425 -50  450 0 N
+P 4 1 1 0  90 80  90 125  45 80  90 80 F
 X B 2 500 0 50 L 50 50 1 1 I
 X E 3 0 400 50 D 50 50 1 1 I
 X C 4 0 -300 50 U 50 50 1 1 I
-P 4 2 1 0 5 165 5 120 50 165 5 165 F
+P 4 2 1 0  5 165  5 120  50 165  5 165 F
 X C 1 0 -300 50 U 50 50 2 1 I
 X B 5 500 0 50 L 50 50 2 1 I
 X E 6 0 400 50 D 50 50 2 1 I
@@ -975,11 +975,11 @@ F1 "DMN2075U" 300 150 60 H V C CNN
 F2 "" -300 -100 60 V I C CNN
 F3 "" -300 -100 60 V I C CNN
 DRAW
-P 2 0 1 0 -200 50 -200 -50 N
-P 2 0 1 0 -50 -100 0 -100 N
-P 2 0 1 0 0 100 -150 100 N
-P 3 0 1 0 -100 -100 -150 -100 -150 100 N
-P 4 0 1 0 -100 -100 -50 -50 -50 -150 -100 -100 f
+P 2 0 1 0  -200 50  -200 -50 N
+P 2 0 1 0  -50 -100  0 -100 N
+P 2 0 1 0  0 100  -150 100 N
+P 3 0 1 0  -100 -100  -150 -100  -150 100 N
+P 4 0 1 0  -100 -100  -50 -50  -50 -150  -100 -100 f
 X D 1 0 300 200 D 50 50 1 1 I
 X G 2 -400 0 200 R 50 50 1 1 I
 X S 3 0 -300 200 U 50 50 1 1 I
@@ -1024,25 +1024,25 @@ C 35 -70 11 0 1 0 F
 C 35 70 11 0 1 0 F
 S -300 250 300 -250 0 1 0 N
 S 50 15 80 15 0 1 0 N
-P 2 0 1 10 -35 -90 -35 -50 N
-P 2 0 1 0 -35 -70 35 -70 N
-P 2 0 1 10 -35 -20 -35 20 N
-P 2 0 1 0 -35 0 35 0 N
-P 2 0 1 10 -35 50 -35 90 N
-P 2 0 1 0 -35 70 35 70 N
-P 2 0 1 0 35 0 35 70 N
-P 2 0 1 0 150 0 190 0 N
-P 2 0 1 0 150 100 190 100 N
-P 3 0 1 0 -150 100 -150 0 -190 0 N
-P 3 0 1 10 -55 -75 -55 75 -55 75 N
-P 3 0 1 0 35 70 35 200 -150 200 N
-P 3 0 1 0 150 -100 35 -100 35 -70 N
-P 4 0 1 0 -190 200 -150 200 -150 100 -190 100 N
-P 4 0 1 0 -55 0 -130 0 -130 -200 -195 -200 N
-P 4 0 1 0 30 0 -10 15 -10 -15 30 0 F
-P 4 0 1 0 35 70 65 70 65 -70 35 -70 N
-P 4 0 1 0 65 10 50 -15 80 -15 65 10 N
-P 4 0 1 0 190 -100 150 -100 150 200 190 200 N
+P 2 0 1 10  -35 -90  -35 -50 N
+P 2 0 1 0  -35 -70  35 -70 N
+P 2 0 1 10  -35 -20  -35 20 N
+P 2 0 1 0  -35 0  35 0 N
+P 2 0 1 10  -35 50  -35 90 N
+P 2 0 1 0  -35 70  35 70 N
+P 2 0 1 0  35 0  35 70 N
+P 2 0 1 0  150 0  190 0 N
+P 2 0 1 0  150 100  190 100 N
+P 3 0 1 0  -150 100  -150 0  -190 0 N
+P 3 0 1 10  -55 -75  -55 75  -55 75 N
+P 3 0 1 0  35 70  35 200  -150 200 N
+P 3 0 1 0  150 -100  35 -100  35 -70 N
+P 4 0 1 0  -190 200  -150 200  -150 100  -190 100 N
+P 4 0 1 0  -55 0  -130 0  -130 -200  -195 -200 N
+P 4 0 1 0  30 0  -10 15  -10 -15  30 0 F
+P 4 0 1 0  35 70  65 70  65 -70  35 -70 N
+P 4 0 1 0  65 10  50 -15  80 -15  65 10 N
+P 4 0 1 0  190 -100  150 -100  150 200  190 200 N
 X S 1 -400 200 100 R 50 50 1 1 I
 X S 2 -400 100 100 R 50 50 1 1 I
 X S 3 -400 0 100 R 50 50 1 1 I
@@ -1234,10 +1234,45 @@ F1 "LIMIT_SWITCH" 0 250 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
-P 2 0 1 0 -100 0 0 50 N
+P 2 0 1 0  -100 0  0 50 N
 X ~ NC 250 50 200 L 50 50 1 1 P
 X ~ NO 250 -50 200 L 50 50 1 1 P
 X ~ COM -300 0 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LMS3635AQRNLTQ1
+#
+DEF LMS3635AQRNLTQ1 U 0 10 Y Y 1 F N
+F0 "U" 0 50 50 H V C BNN
+F1 "LMS3635AQRNLTQ1" 0 -50 50 H V C TNN
+F2 "LMS3635AQRNLTQ1" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - DC DC Switching Regulators" 0 0 50 H I C CNN "Categories"
+F5 "3.5A" 0 0 50 H I C CNN "Current - Output"
+F6 "250kHz ~ 500kHz" 0 0 50 H I C CNN "Frequency - Switching"
+F7 "Step-Down" 0 0 50 H I C CNN "Function"
+F8 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F9 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
+F10 "LMS3635AQRNLTQ1" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F11 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F12 "1" 0 0 50 H I C CNN "Number of Outputs"
+F13 "-40°C ~ 125°C (TA)" 0 0 50 H I C CNN "Operating Temperature"
+F14 "Positive" 0 0 50 H I C CNN "Output Configuration"
+F15 "Adjustable" 0 0 50 H I C CNN "Output Type"
+F16 "22-VFQFN Exposed Pad" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "Automotive, AEC-Q100" 0 0 50 H I C CNN "Series"
+F19 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F20 "22-VQFN-HR (5x4)" 0 0 50 H I C CNN "Supplier Device Package"
+F21 "296-47482-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F22 "No" 0 0 50 H I C CNN "Synchronous Rectifier"
+F23 "Buck" 0 0 50 H I C CNN "Topology"
+F24 "36V" 0 0 50 H I C CNN "Voltage - Input (Max)"
+F25 "3.9V" 0 0 50 H I C CNN "Voltage - Input (Min)"
+F26 "15V" 0 0 50 H I C CNN "Voltage - Output (Max)"
+F27 "1V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
+DRAW
 ENDDRAW
 ENDDEF
 #
@@ -1249,46 +1284,46 @@ F1 "LTC2644" 700 725 60 H V R BNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 DRAW
-T 0 0 -400 45 0 0 0 BIN Normal 0 C C
-T 0 0 -400 45 0 0 0 BIN Normal 0 C C
-T 0 0 -400 45 0 0 0 BIN Normal 0 C C
-T 0 0 -400 45 0 0 0 BIN Normal 0 C C
-T 0 0 -400 45 0 0 0 BIN Normal 0 C C
-T 0 0 -400 45 0 0 0 BIN Normal 0 C C
-T 0 0 -400 45 0 0 0 BIN Normal 0 C C
-T 0 0 -400 45 0 0 0 BIN Normal 0 C C
-T 0 0 -125 45 0 0 0 BIN Normal 0 C C
-T 0 0 -125 45 0 0 0 BIN Normal 0 C C
-T 0 0 -125 45 0 0 0 BIN Normal 0 C C
-T 0 0 -125 45 0 0 0 BIN Normal 0 C C
-T 0 0 -125 45 0 0 0 BIN Normal 0 C C
-T 0 0 -125 45 0 0 0 BIN Normal 0 C C
-T 0 0 -125 45 0 0 0 BIN Normal 0 C C
-T 0 0 -125 45 0 0 0 BIN Normal 0 C C
-T 0 275 -350 45 0 0 0 DAC Normal 0 C C
-T 0 275 -350 45 0 0 0 DAC Normal 0 C C
-T 0 275 -75 45 0 0 0 DAC Normal 0 C C
-T 0 275 -75 45 0 0 0 DAC Normal 0 C C
-T 0 -100 235 45 0 0 0 INTERNAL Normal 0 C C
-T 0 0 -300 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -300 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -300 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -300 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -300 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -300 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -300 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -300 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -25 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -25 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -25 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -25 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -25 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -25 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -25 45 0 0 0 PWM~TO Normal 0 C C
-T 0 0 -25 45 0 0 0 PWM~TO Normal 0 C C
-T 0 -100 160 45 0 0 0 REFERENCE Normal 0 C C
-T 0 275 200 45 0 0 0 SWITCH Normal 0 C C
-T 0 425 75 45 0 0 0 VREF Normal 0 C C
+T 0 0 -400 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -400 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -400 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -400 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -400 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -400 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -400 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -400 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -125 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -125 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -125 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -125 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -125 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -125 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -125 45 0 0 0 BIN  Normal 0 C C
+T 0 0 -125 45 0 0 0 BIN  Normal 0 C C
+T 0 275 -350 45 0 0 0 DAC  Normal 0 C C
+T 0 275 -350 45 0 0 0 DAC  Normal 0 C C
+T 0 275 -75 45 0 0 0 DAC  Normal 0 C C
+T 0 275 -75 45 0 0 0 DAC  Normal 0 C C
+T 0 -100 235 45 0 0 0 INTERNAL  Normal 0 C C
+T 0 0 -300 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -300 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -300 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -300 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -300 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -300 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -300 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -300 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -25 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -25 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -25 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -25 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -25 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -25 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -25 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 0 -25 45 0 0 0 PWM~TO  Normal 0 C C
+T 0 -100 160 45 0 0 0 REFERENCE  Normal 0 C C
+T 0 275 200 45 0 0 0 SWITCH  Normal 0 C C
+T 0 425 75 45 0 0 0 VREF  Normal 0 C C
 S -650 700 700 -700 0 0 0 N
 S -300 285 100 110 0 0 0 N
 S -150 -250 150 -450 0 0 0 N
@@ -1312,47 +1347,47 @@ S 200 -300 350 -400 0 0 0 N
 S 200 -300 350 -400 0 0 0 N
 S 200 -25 350 -125 0 0 0 N
 S 200 -25 350 -125 0 0 0 N
-P 2 0 0 0 -400 -350 -450 -350 N
-P 2 0 0 0 -400 -75 -450 -75 N
-P 2 0 0 0 -295 -340 -270 -340 N
-P 2 0 0 0 -295 -340 -270 -340 N
-P 2 0 0 0 -295 -65 -270 -65 N
-P 2 0 0 0 -295 -65 -270 -65 N
-P 2 0 0 0 -200 -350 -150 -350 N
-P 2 0 0 0 -200 -350 -150 -350 N
-P 2 0 0 0 -200 -350 -150 -350 N
-P 2 0 0 0 -200 -350 -150 -350 N
-P 2 0 0 0 -200 -75 -150 -75 N
-P 2 0 0 0 -200 -75 -150 -75 N
-P 2 0 0 0 -200 -75 -150 -75 N
-P 2 0 0 0 -200 -75 -150 -75 N
-P 2 0 0 0 100 200 150 200 N
-P 2 0 0 0 150 -350 200 -350 N
-P 2 0 0 0 150 -350 200 -350 N
-P 2 0 0 0 150 -75 200 -75 N
-P 2 0 0 0 150 -75 200 -75 N
-P 2 0 0 0 275 50 275 -25 N
-P 2 0 0 0 275 150 275 100 N
-P 2 0 0 0 275 250 260 265 N
-P 2 0 0 0 275 250 290 265 N
-P 2 0 0 0 275 335 275 250 N
-P 2 0 0 0 350 -350 400 -350 N
-P 2 0 0 0 350 -75 400 -75 N
-P 2 0 0 0 400 200 415 185 N
-P 2 0 0 0 400 200 415 215 N
-P 2 0 0 0 400 200 500 200 N
-P 2 0 0 0 500 200 485 185 N
-P 2 0 0 0 500 200 485 215 N
-P 3 0 0 0 375 425 275 425 275 325 N
-P 4 0 0 0 -395 -250 -395 -450 -195 -350 -395 -250 N
-P 4 0 0 0 -395 -250 -395 -450 -195 -350 -395 -250 N
-P 4 0 0 0 -395 25 -395 -175 -195 -75 -395 25 N
-P 4 0 0 0 -395 25 -395 -175 -195 -75 -395 25 N
-P 4 0 0 0 225 100 325 100 275 50 225 100 N
-P 6 0 0 0 -370 -365 -345 -365 -320 -340 -295 -340 -320 -365 -345 -365 N
-P 6 0 0 0 -370 -365 -345 -365 -320 -340 -295 -340 -320 -365 -345 -365 N
-P 6 0 0 0 -370 -90 -345 -90 -320 -65 -295 -65 -320 -90 -345 -90 N
-P 6 0 0 0 -370 -90 -345 -90 -320 -65 -295 -65 -320 -90 -345 -90 N
+P 2 0 0 0  -400 -350  -450 -350 N
+P 2 0 0 0  -400 -75  -450 -75 N
+P 2 0 0 0  -295 -340  -270 -340 N
+P 2 0 0 0  -295 -340  -270 -340 N
+P 2 0 0 0  -295 -65  -270 -65 N
+P 2 0 0 0  -295 -65  -270 -65 N
+P 2 0 0 0  -200 -350  -150 -350 N
+P 2 0 0 0  -200 -350  -150 -350 N
+P 2 0 0 0  -200 -350  -150 -350 N
+P 2 0 0 0  -200 -350  -150 -350 N
+P 2 0 0 0  -200 -75  -150 -75 N
+P 2 0 0 0  -200 -75  -150 -75 N
+P 2 0 0 0  -200 -75  -150 -75 N
+P 2 0 0 0  -200 -75  -150 -75 N
+P 2 0 0 0  100 200  150 200 N
+P 2 0 0 0  150 -350  200 -350 N
+P 2 0 0 0  150 -350  200 -350 N
+P 2 0 0 0  150 -75  200 -75 N
+P 2 0 0 0  150 -75  200 -75 N
+P 2 0 0 0  275 50  275 -25 N
+P 2 0 0 0  275 150  275 100 N
+P 2 0 0 0  275 250  260 265 N
+P 2 0 0 0  275 250  290 265 N
+P 2 0 0 0  275 335  275 250 N
+P 2 0 0 0  350 -350  400 -350 N
+P 2 0 0 0  350 -75  400 -75 N
+P 2 0 0 0  400 200  415 185 N
+P 2 0 0 0  400 200  415 215 N
+P 2 0 0 0  400 200  500 200 N
+P 2 0 0 0  500 200  485 185 N
+P 2 0 0 0  500 200  485 215 N
+P 3 0 0 0  375 425  275 425  275 325 N
+P 4 0 0 0  -395 -250  -395 -450  -195 -350  -395 -250 N
+P 4 0 0 0  -395 -250  -395 -450  -195 -350  -395 -250 N
+P 4 0 0 0  -395 25  -395 -175  -195 -75  -395 25 N
+P 4 0 0 0  -395 25  -395 -175  -195 -75  -395 25 N
+P 4 0 0 0  225 100  325 100  275 50  225 100 N
+P 6 0 0 0  -370 -365  -345 -365  -320 -340  -295 -340  -320 -365  -345 -365 N
+P 6 0 0 0  -370 -365  -345 -365  -320 -340  -295 -340  -320 -365  -345 -365 N
+P 6 0 0 0  -370 -90  -345 -90  -320 -65  -295 -65  -320 -90  -345 -90 N
+P 6 0 0 0  -370 -90  -345 -90  -320 -65  -295 -65  -320 -90  -345 -90 N
 X VCC 1 0 900 200 D 50 50 1 1 W
 X VOUTA 2 900 -75 200 L 50 50 1 1 O
 X VOUTB 3 900 -350 200 L 50 50 1 1 O
@@ -1416,7 +1451,7 @@ $FPLIST
  MOLEX_FFC-14
 $ENDFPLIST
 DRAW
-P 6 0 1 0 200 -1300 200 -1350 -150 -1350 -150 350 200 350 200 300 N
+P 6 0 1 0  200 -1300  200 -1350  -150 -1350  -150 350  200 350  200 300 N
 X ~ 1 300 200 200 L 50 50 1 1 B
 X ~ 2 300 100 200 L 50 50 1 1 B
 X ~ 3 300 0 200 L 50 50 1 1 B
@@ -1444,8 +1479,8 @@ F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
 S -50 150 50 -150 0 1 0 N
-P 2 0 1 0 -100 150 -100 -150 N
-P 2 0 1 0 100 150 100 -150 N
+P 2 0 1 0  -100 150  -100 -150 N
+P 2 0 1 0  100 150  100 -150 N
 X XTAL 1 -300 0 200 R 50 0 1 1 P
 X NC 2 -300 -150 200 R 50 0 1 1 N N
 X XTAL 3 300 0 200 L 50 0 1 1 P
@@ -1496,8 +1531,8 @@ $FPLIST
  VSSOP_8
 $ENDFPLIST
 DRAW
-P 2 0 1 0 -150 -200 -150 200 N
-P 5 0 1 0 -150 -200 -150 -250 200 0 -150 250 -150 200 N
+P 2 0 1 0  -150 -200  -150 200 N
+P 5 0 1 0  -150 -200  -150 -250  200 0  -150 250  -150 200 N
 X - 2 -350 100 200 R 50 50 1 1 I
 X + 3 -350 -100 200 R 50 50 1 1 I
 X V- 4 0 -350 200 U 50 50 1 1 W
@@ -1603,9 +1638,9 @@ F1 "PESD5Zx" -250 100 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
-P 2 0 1 0 0 100 0 0 N
-P 3 0 1 0 100 0 -100 0 -100 -50 N
-P 4 0 1 0 0 0 -50 -100 50 -100 0 0 N
+P 2 0 1 0  0 100  0 0 N
+P 3 0 1 0  100 0  -100 0  -100 -50 N
+P 4 0 1 0  0 0  -50 -100  50 -100  0 0 N
 X c 1 0 300 200 D 50 50 1 1 I
 X a 2 0 -300 200 U 50 50 1 1 I
 ENDDRAW
@@ -1732,12 +1767,12 @@ F26 "Reflective" 0 0 50 H I C CNN "Topology"
 F27 "2.5 V ~ 5.5 V" 0 0 50 H I C CNN "Voltage - Supply"
 DRAW
 S -300 300 300 -600 0 1 0 N
-P 2 0 1 0 0 0 80 0 N
-P 3 0 1 0 0 0 0 -100 80 -100 N
-P 3 0 1 0 200 -100 130 -100 80 -80 N
-P 3 0 1 0 200 0 130 0 80 20 N
-P 3 0 1 0 200 100 130 100 80 120 N
-P 4 0 1 0 -140 0 0 0 0 100 80 100 N
+P 2 0 1 0  0 0  80 0 N
+P 3 0 1 0  0 0  0 -100  80 -100 N
+P 3 0 1 0  200 -100  130 -100  80 -80 N
+P 3 0 1 0  200 0  130 0  80 20 N
+P 3 0 1 0  200 100  130 100  80 120 N
+P 4 0 1 0  -140 0  0 0  0 100  80 100 N
 X J1 1 500 100 200 L 50 50 1 1 B
 X GND 2 -200 -800 200 U 50 50 1 1 P
 X J3 3 500 -100 200 L 50 50 1 1 B
@@ -1869,10 +1904,10 @@ F24 "28.9V" 0 0 50 H I C CNN "Voltage - Breakdown (Min)"
 F25 "42.1V" 0 0 50 H I C CNN "Voltage - Clamping (Max) @ Ipp"
 F26 "26V" 0 0 50 H I C CNN "Voltage - Reverse Standoff (Typ)"
 DRAW
-P 3 0 1 0 0 0 0 -25 25 -50 N
-P 3 0 1 0 0 0 0 25 -25 50 N
-P 4 0 1 0 -5 0 -55 -50 -55 50 -5 0 N
-P 5 0 1 0 55 0 55 50 5 0 55 -50 55 0 N
+P 3 0 1 0  0 0  0 -25  25 -50 N
+P 3 0 1 0  0 0  0 25  -25 50 N
+P 4 0 1 0  -5 0  -55 -50  -55 50  -5 0 N
+P 5 0 1 0  55 0  55 50  5 0  55 -50  55 0 N
 X 1 1 -100 0 45 R 50 50 1 1 I
 X 2 2 100 0 45 L 50 50 1 1 I
 ENDDRAW
@@ -1912,8 +1947,8 @@ $FPLIST
  SMM4F
 $ENDFPLIST
 DRAW
-P 5 0 1 8 -70 50 -50 30 -50 -30 -30 -50 -30 -50 N
-P 5 0 1 0 -50 0 50 50 50 -50 -50 0 -50 0 F
+P 5 0 1 8  -70 50  -50 30  -50 -30  -30 -50  -30 -50 N
+P 5 0 1 0  -50 0  50 50  50 -50  -50 0  -50 0 F
 X A A 200 0 150 L 50 50 1 1 P
 X C C -200 0 150 R 50 50 1 1 P
 ENDDRAW
@@ -1944,8 +1979,8 @@ F1 "SPST" 0 -150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
-P 2 0 1 0 0 100 0 50 N
-P 3 0 1 0 0 -100 0 -50 -100 50 N
+P 2 0 1 0  0 100  0 50 N
+P 3 0 1 0  0 -100  0 -50  -100 50 N
 X ~ 1 -200 100 200 R 50 50 1 1 P
 X ~ 2 200 100 200 L 50 50 1 1 P
 X ~ 3 -200 -100 200 R 50 50 1 1 P
@@ -1998,36 +2033,36 @@ F1 "TMS570LS0714" -50 550 60 H V C CNN
 F2 "" -2400 -1250 60 H I C CNN
 F3 "" -2400 -1250 60 H I C CNN
 DRAW
-T 0 100 -550 90 0 1 0 GIO Normal 0 C C
-T 900 0 -850 90 0 2 0 GND Normal 0 C C
+T 0 100 -550 90 0 1 0 GIO  Normal 0 C C
+T 900 0 -850 90 0 2 0 GND  Normal 0 C C
 S -400 400 400 -1450 2 0 0 N
-T 0 0 50 90 0 3 0 3V3 Normal 0 C C
+T 0 0 50 90 0 3 0 3V3  Normal 0 C C
 S -350 200 400 -300 3 0 0 N
-T 900 50 -150 90 0 4 0 1V2 Normal 0 C C
+T 900 50 -150 90 0 4 0 1V2  Normal 0 C C
 S -350 350 400 -500 4 0 0 N
-T 0 0 -300 90 0 5 0 JTAG Normal 0 C C
+T 0 0 -300 90 0 5 0 JTAG  Normal 0 C C
 S -350 300 350 -400 5 0 0 N
-T 0 350 0 90 0 6 0 CLOCK Normal 0 C C
+T 0 350 0 90 0 6 0 CLOCK  Normal 0 C C
 S -600 300 600 -200 6 0 0 N
-T 900 400 0 90 0 7 0 RESET Normal 0 C C
+T 900 400 0 90 0 7 0 RESET  Normal 0 C C
 S -250 250 500 -250 7 0 0 N
-T 900 500 -50 90 0 8 0 I2C Normal 0 C C
+T 900 500 -50 90 0 8 0 I2C  Normal 0 C C
 S -350 150 650 -200 8 0 0 N
-T 900 550 0 90 0 9 0 SCI/UART Normal 0 C C
+T 900 550 0 90 0 9 0 SCI/UART  Normal 0 C C
 S -350 350 650 -350 9 0 0 N
-T 0 400 -1000 60 0 10 0 MIBSPI1 Normal 0 C C
-T 0 1000 -4000 60 0 10 0 MIBSPI3 Normal 0 C C
-T 900 600 -200 90 0 10 0 SPI4 Normal 0 C C
+T 0 400 -1000 60 0 10 0 MIBSPI1  Normal 0 C C
+T 0 1000 -4000 60 0 10 0 MIBSPI3  Normal 0 C C
+T 900 600 -200 90 0 10 0 SPI4  Normal 0 C C
 S -650 300 750 -400 10 0 0 N
 S -600 -3500 1300 -4450 10 0 0 N
 S -600 -2350 750 -3350 10 0 0 N
-T 0 400 -650 60 0 11 0 CAN Normal 0 C C
+T 0 400 -650 60 0 11 0 CAN  Normal 0 C C
 S -50 -300 550 -1150 11 0 0 N
-T 0 300 -400 60 0 12 0 ADC Normal 0 C C
-T 0 400 350 60 0 12 0 ADC_Power Normal 0 C C
+T 0 300 -400 60 0 12 0 ADC  Normal 0 C C
+T 0 400 350 60 0 12 0 ADC_Power  Normal 0 C C
 S -200 -250 700 -2750 12 0 0 N
 S -200 450 700 -200 12 0 0 N
-T 0 750 200 60 0 13 0 NHET Normal 0 C C
+T 0 750 200 60 0 13 0 NHET  Normal 0 C C
 S 1300 -1650 -450 350 13 0 0 N
 S -600 450 600 -950 1 1 0 N
 X GIOB3 1 -800 -850 200 R 50 50 1 1 B
@@ -2095,7 +2130,7 @@ X MIBSPI3NCS[3]/I2CSCL/N2HET1[29]/nTZ1 3 -550 -150 200 R 50 20 8 1 B
 X MIBSPI3NCS[2]/I2CSDA/N2HET1[27]/nTZ2 4 -550 50 200 R 50 20 8 1 B
 X N2HET1[06]/SCIRX/EPWM5A 38 -550 100 200 R 50 30 9 1 B
 X N2HET1[13]/SCITX/EPWM5B 39 -550 -50 200 R 50 30 9 1 B
-T 0 450 -2750 60 0 10 1 MIBSPI5 Normal 0 C C
+T 0 450 -2750 60 0 10 1 MIBSPI5  Normal 0 C C
 S -450 -650 650 -2200 10 1 0 N
 X N2HET1[11]/MIBSPI3NCS[4]/N2HET2[18]/EPWM1SYNCO 6 -800 -3600 200 R 50 30 10 1 I
 X N2HET1[02]/SPI4SIMO[0]/EPWM3A 30 -850 -200 200 R 50 30 10 1 B
@@ -2198,6 +2233,98 @@ X VDD 6 500 200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# TPS62175DQCR
+#
+DEF TPS62175DQCR U 0 10 Y Y 1 F N
+F0 "U" 150 200 50 H V C BNN
+F1 "TPS62175DQCR" 0 900 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - DC DC Switching Regulators" 0 0 50 H I C CNN "Categories"
+F5 "500mA" 0 0 50 H I C CNN "Current - Output"
+F6 "1MHz" 0 0 50 H I C CNN "Frequency - Switching"
+F7 "Step-Down, Step-Up/Step-Down" 0 0 50 H I C CNN "Function"
+F8 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F9 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
+F10 "TPS62175DQCR" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F11 "12 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F12 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F13 "1" 0 0 50 H I C CNN "Number of Outputs"
+F14 "-40°C ~ 85°C (TA)" 0 0 50 H I C CNN "Operating Temperature"
+F15 "Positive or Negative" 0 0 50 H I C CNN "Output Configuration"
+F16 "Adjustable" 0 0 50 H I C CNN "Output Type"
+F17 "10-WFDFN Exposed Pad" 0 0 50 H I C CNN "Package / Case"
+F18 "Active" 0 0 50 H I C CNN "Part Status"
+F19 "DCS-Control™" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "10-WSON (3x2)" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "296-39451-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "Yes" 0 0 50 H I C CNN "Synchronous Rectifier"
+F24 "Buck, Buck-Boost" 0 0 50 H I C CNN "Topology"
+F25 "28V" 0 0 50 H I C CNN "Voltage - Input (Max)"
+F26 "4.75V" 0 0 50 H I C CNN "Voltage - Input (Min)"
+F27 "6V" 0 0 50 H I C CNN "Voltage - Output (Max)"
+F28 "1V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
+DRAW
+S -250 800 250 300 0 1 0 N
+X PGND 1 -450 350 200 R 50 50 1 1 w
+X VIN 2 -450 750 200 R 50 50 1 1 W
+X EN 3 -450 650 200 R 50 50 1 1 I
+X NC 4 450 350 200 L 50 50 1 1 N
+X FB 5 450 450 200 L 50 50 1 1 I
+X AGND 6 -450 450 200 R 50 50 1 1 w
+X PG 7 450 550 200 L 50 50 1 1 O
+X SLEEP 8 -450 550 200 R 50 50 1 1 I
+X SW 9 450 750 200 L 50 50 1 1 w
+X VOS 10 450 650 200 L 50 50 1 1 I
+X ~ EP 0 100 200 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# TPS71750DSER
+#
+DEF TPS71750DSER U 0 10 Y Y 1 F N
+F0 "U" 150 50 50 H V C BNN
+F1 "TPS71750DSER" 0 550 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TPS71750" 0 0 50 H I C CNN "Base Part Number"
+F5 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - Linear" 0 0 50 H I C CNN "Categories"
+F6 "Enable" 0 0 50 H I C CNN "Control Features"
+F7 "150mA" 0 0 50 H I C CNN "Current - Output"
+F8 "100µA" 0 0 50 H I C CNN "Current - Quiescent (Iq)"
+F9 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F10 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
+F11 "TPS71750DSER" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F12 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F13 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F14 "1" 0 0 50 H I C CNN "Number of Regulators"
+F15 "-40°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "Positive" 0 0 50 H I C CNN "Output Configuration"
+F17 "Fixed" 0 0 50 H I C CNN "Output Type"
+F18 "70dB ~ 45dB (100Hz ~ 1MHz)" 0 0 50 H I C CNN "PSRR"
+F19 "6-WFDFN" 0 0 50 H I C CNN "Package / Case"
+F20 "Active" 0 0 50 H I C CNN "Part Status"
+F21 "Over Current, Over Temperature, Reverse Polarity, Under Voltage Lockout (UVLO)" 0 0 50 H I C CNN "Protection Features"
+F22 "-" 0 0 50 H I C CNN "Series"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "6-WSON (1.5x1.5)" 0 0 50 H I C CNN "Supplier Device Package"
+F25 "296-25361-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F26 "6.5V" 0 0 50 H I C CNN "Voltage - Input (Max)"
+F27 "-" 0 0 50 H I C CNN "Voltage - Output (Max)"
+F28 "5V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F29 "0.3V @ 150mA" 0 0 50 H I C CNN "Voltage Dropout (Max)"
+DRAW
+S -200 450 200 150 0 1 0 N
+X OUT 1 400 400 200 L 50 50 1 1 w
+X GND 2 -400 200 200 R 50 50 1 1 W
+X NR 3 400 300 200 L 50 50 1 1 P
+X EN 4 -400 300 200 R 50 50 1 1 I
+X NC 5 400 200 200 L 50 50 1 1 W
+X IN 6 -400 400 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # TPS799
 #
 DEF TPS799 U 0 40 Y Y 1 F N
@@ -2243,8 +2370,8 @@ DRAW
 S -100 0 100 0 0 1 0 N
 S 0 -150 0 -100 0 1 0 N
 S 0 0 0 -50 0 1 0 N
-P 2 0 1 0 0 -100 -50 -50 N
-P 4 0 1 0 0 -150 100 -150 0 -150 -100 -150 N
+P 2 0 1 0  0 -100  -50 -50 N
+P 4 0 1 0  0 -150  100 -150  0 -150  -100 -150 N
 X ~ 1 -300 0 200 R 50 50 1 1 I
 X ~ 2 300 0 200 L 50 50 1 1 I
 X ~ 3 -300 -150 200 R 50 50 1 1 I
@@ -2338,114 +2465,6 @@ X 6 6 350 200 200 D 50 50 1 1 I
 X 7 7 500 200 200 D 50 50 1 1 I
 X 8 8 650 200 200 D 50 50 1 1 I
 X 9 9 800 200 200 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-# 
-# LMS3635AQRNLTQ1
-#
-DEF LMS3635AQRNLTQ1 U 0 10 Y Y 1 F N
-F0 "U" 0 50 50 H V C BNN
-F1 "LMS3635AQRNLTQ1" 0 -50 50 H V C TNN
-F2 "LMS3635AQRNLTQ1" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - DC DC Switching Regulators" 0 0 50 H I C CNN "Categories"
-F5 "3.5A" 0 0 50 H I C CNN "Current - Output"
-F7 "250kHz ~ 500kHz" 0 0 50 H I C CNN "Frequency - Switching"
-F8 "Step-Down" 0 0 50 H I C CNN "Function"
-F9 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
-F10 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
-F11 "LMS3635AQRNLTQ1" 0 0 50 H I C CNN "Manufacturer Part Number 1"
-F12 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
-F13 "1" 0 0 50 H I C CNN "Number of Outputs"
-F14 "-40°C ~ 125°C (TA)" 0 0 50 H I C CNN "Operating Temperature"
-F15 "Positive" 0 0 50 H I C CNN "Output Configuration"
-F16 "Adjustable" 0 0 50 H I C CNN "Output Type"
-F17 "22-VFQFN Exposed Pad" 0 0 50 H I C CNN "Package / Case"
-F18 "Active" 0 0 50 H I C CNN "Part Status"
-F19 "Automotive, AEC-Q100" 0 0 50 H I C CNN "Series"
-F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
-F21 "22-VQFN-HR (5x4)" 0 0 50 H I C CNN "Supplier Device Package"
-F22 "296-47482-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F23 "No" 0 0 50 H I C CNN "Synchronous Rectifier"
-F24 "Buck" 0 0 50 H I C CNN "Topology"
-F25 "36V" 0 0 50 H I C CNN "Voltage - Input (Max)"
-F26 "3.9V" 0 0 50 H I C CNN "Voltage - Input (Min)"
-F27 "15V" 0 0 50 H I C CNN "Voltage - Output (Max)"
-F28 "1V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
-DRAW
-ENDDRAW
-ENDDEF
-# 
-# TPS71750DSER
-#
-DEF TPS71750DSER U 0 10 Y Y 1 F N
-F0 "U" 0 50 50 H V C BNN
-F1 "TPS71750DSER" 0 -50 50 H V C TNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "TPS71750" 0 0 50 H I C CNN "Base Part Number"
-F5 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - Linear" 0 0 50 H I C CNN "Categories"
-F6 "Enable" 0 0 50 H I C CNN "Control Features"
-F7 "150mA" 0 0 50 H I C CNN "Current - Output"
-F8 "100µA" 0 0 50 H I C CNN "Current - Quiescent (Iq)"
-F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
-F11 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
-F12 "TPS71750DSER" 0 0 50 H I C CNN "Manufacturer Part Number 1"
-F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
-F14 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
-F15 "1" 0 0 50 H I C CNN "Number of Regulators"
-F16 "-40°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
-F17 "Positive" 0 0 50 H I C CNN "Output Configuration"
-F18 "Fixed" 0 0 50 H I C CNN "Output Type"
-F19 "70dB ~ 45dB (100Hz ~ 1MHz)" 0 0 50 H I C CNN "PSRR"
-F20 "6-WFDFN" 0 0 50 H I C CNN "Package / Case"
-F21 "Active" 0 0 50 H I C CNN "Part Status"
-F22 "Over Current, Over Temperature, Reverse Polarity, Under Voltage Lockout (UVLO)" 0 0 50 H I C CNN "Protection Features"
-F23 "-" 0 0 50 H I C CNN "Series"
-F24 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
-F25 "6-WSON (1.5x1.5)" 0 0 50 H I C CNN "Supplier Device Package"
-F26 "296-25361-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F27 "6.5V" 0 0 50 H I C CNN "Voltage - Input (Max)"
-F28 "-" 0 0 50 H I C CNN "Voltage - Output (Max)"
-F29 "5V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
-F30 "0.3V @ 150mA" 0 0 50 H I C CNN "Voltage Dropout (Max)"
-DRAW
-ENDDRAW
-ENDDEF
-# 
-# TPS62175DQCR
-#
-DEF TPS62175DQCR U 0 10 Y Y 1 F N
-F0 "U" 0 50 50 H V C BNN
-F1 "TPS62175DQCR" 0 -50 50 H V C TNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "Integrated Circuits (ICs) - PMIC - Voltage Regulators - DC DC Switching Regulators" 0 0 50 H I C CNN "Categories"
-F5 "500mA" 0 0 50 H I C CNN "Current - Output"
-F7 "1MHz" 0 0 50 H I C CNN "Frequency - Switching"
-F8 "Step-Down, Step-Up/Step-Down" 0 0 50 H I C CNN "Function"
-F9 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
-F10 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer 1"
-F11 "TPS62175DQCR" 0 0 50 H I C CNN "Manufacturer Part Number 1"
-F12 "12 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
-F13 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
-F14 "1" 0 0 50 H I C CNN "Number of Outputs"
-F15 "-40°C ~ 85°C (TA)" 0 0 50 H I C CNN "Operating Temperature"
-F16 "Positive or Negative" 0 0 50 H I C CNN "Output Configuration"
-F17 "Adjustable" 0 0 50 H I C CNN "Output Type"
-F18 "10-WFDFN Exposed Pad" 0 0 50 H I C CNN "Package / Case"
-F19 "Active" 0 0 50 H I C CNN "Part Status"
-F20 "DCS-Control™" 0 0 50 H I C CNN "Series"
-F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
-F22 "10-WSON (3x2)" 0 0 50 H I C CNN "Supplier Device Package"
-F23 "296-39451-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
-F24 "Yes" 0 0 50 H I C CNN "Synchronous Rectifier"
-F25 "Buck, Buck-Boost" 0 0 50 H I C CNN "Topology"
-F26 "28V" 0 0 50 H I C CNN "Voltage - Input (Max)"
-F27 "4.75V" 0 0 50 H I C CNN "Voltage - Input (Min)"
-F28 "6V" 0 0 50 H I C CNN "Voltage - Output (Max)"
-F29 "1V" 0 0 50 H I C CNN "Voltage - Output (Min/Fixed)"
-DRAW
 ENDDRAW
 ENDDEF
 #

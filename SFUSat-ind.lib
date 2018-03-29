@@ -1,0 +1,303 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# L_10u0_10%_1.42A_2-SMD,
+#
+DEF L_10u0_10%_1.42A_2-SMD, L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_10u0_10%_1.42A_2-SMD," 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Inductors, Coils, Chokes - Fixed Inductors" 0 0 50 H I C CNN "Categories"
+F5 "2.28A" 0 0 50 H I C CNN "Current - Saturation"
+F6 "1.42A" 0 0 50 H I C CNN "Current Rating"
+F7 "132 mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F8 "19MHz" 0 0 50 H I C CNN "Frequency - Self Resonant"
+F9 "2.52MHz" 0 0 50 H I C CNN "Frequency - Test"
+F10 "0.209\" (5.30mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "10µH" 0 0 50 H I C CNN "Inductance"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "EPCOS (TDK)" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "B82442T1103K050" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Ferrite" 0 0 50 H I C CNN "Material - Core"
+F17 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F18 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F19 "2-SMD, J-Lead" 0 0 50 H I C CNN "Package / Case"
+F20 "Active" 0 0 50 H I C CNN "Part Status"
+F21 "15 @ 2.52MHz" 0 0 50 H I C CNN "Q @ Freq"
+F22 "AEC-Q200" 0 0 50 H I C CNN "Ratings"
+F23 "SIMID" 0 0 50 H I C CNN "Series"
+F24 "Unshielded" 0 0 50 H I C CNN "Shielding"
+F25 "0.220\" L x 0.197\" W (5.60mm x 5.00mm)" 0 0 50 H I C CNN "Size / Dimension"
+F26 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F27 "2220 (5650 Metric)" 0 0 50 H I C CNN "Supplier Device Package"
+F28 "495-5656-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F29 "±10%" 0 0 50 H I C CNN "Tolerance"
+F30 "Wirewound" 0 0 50 H I C CNN "Type"
+$FPLIST
+ L_2220
+$ENDFPLIST
+DRAW
+A -75 0 25 1 1799 0 1 0 N -50 0 -100 0
+A -25 0 25 1 1799 0 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 0 1 0 N 50 0 0 0
+A 75 0 25 1 1799 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_1n5_0.3nH_500mA_0603
+#
+DEF L_1n5_0.3nH_500mA_0603 L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_1n5_0.3nH_500mA_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-ind:L_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Inductors, Coils, Chokes - Fixed Inductors" 0 0 50 H I C CNN "Categories"
+F5 "500mA" 0 0 50 H I C CNN "Current Rating"
+F6 "100 mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F7 "6GHz" 0 0 50 H I C CNN "Frequency - Self Resonant"
+F8 "100MHz" 0 0 50 H I C CNN "Frequency - Test"
+F9 "0.037\" (0.95mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "1.5nH" 0 0 50 H I C CNN "Inductance"
+F11 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F12 "Murata Electronics North America" 0 0 50 H I C CNN "Manufacturer 1"
+F13 "LQG18HN1N5S00D" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F14 "8 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F15 "Air" 0 0 50 H I C CNN "Material - Core"
+F16 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F17 "-40°C ~ 85°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F19 "Active" 0 0 50 H I C CNN "Part Status"
+F20 "12 @ 100MHz" 0 0 50 H I C CNN "Q @ Freq"
+F21 "-" 0 0 50 H I C CNN "Ratings"
+F22 "LQG18" 0 0 50 H I C CNN "Series"
+F23 "Unshielded" 0 0 50 H I C CNN "Shielding"
+F24 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F25 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F26 "0603 (1608 Metric)" 0 0 50 H I C CNN "Supplier Device Package"
+F27 "490-1100-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F28 "±0.3nH" 0 0 50 H I C CNN "Tolerance"
+F29 "Multilayer" 0 0 50 H I C CNN "Type"
+DRAW
+A -75 0 25 1 1799 0 1 0 N -50 0 -100 0
+A -25 0 25 1 1799 0 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 0 1 0 N 50 0 0 0
+A 75 0 25 1 1799 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_5n6_5%_1600mA_1606
+#
+DEF L_5n6_5%_1600mA_1606 L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_5n6_5%_1600mA_1606" 0 -50 50 H V C TNN
+F2 "SFUSat-ind:L_1606" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Coilcraft" 0 0 50 H I C CNN "Manufacturer 1"
+F5 "1606-6JLC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier 1"
+F7 "994-1606-6JLC" 0 0 50 H I C CNN "Supplier Part Number 1"
+DRAW
+A -75 0 25 1 1799 0 1 0 N -50 0 -100 0
+A -25 0 25 1 1799 0 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 0 1 0 N 50 0 0 0
+A 75 0 25 1 1799 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_2n7_5%_640mA_0402
+#
+DEF L_2n7_5%_640mA_0402 L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_2n7_5%_640mA_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-ind:L_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Coilcraft" 0 0 50 H I C CNN "Manufacturer 1"
+F5 "0402CS-2N7XJLW" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier 1"
+F7 "994-0402CS-2N7XJLW" 0 0 50 H I C CNN "Supplier Part Number 1"
+DRAW
+A -75 0 25 1 1799 0 1 0 N -50 0 -100 0
+A -25 0 25 1 1799 0 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 0 1 0 N 50 0 0 0
+A 75 0 25 1 1799 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# L_2u2_20%_8.5A_8030
+#
+DEF L_2u2_20%_8.5A_8030 L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_2u2_20%_8.5A_8030" 0 -50 50 H V C TNN
+F2 "SFUSat-ind:L_8030" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Inductors, Coils, Chokes - Fixed Inductors" 0 0 50 H I C CNN "Categories"
+F5 "15.5A" 0 0 50 H I C CNN "Current - Saturation"
+F6 "8.5A" 0 0 50 H I C CNN "Current Rating"
+F7 "20.3 mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F8 "24MHz" 0 0 50 H I C CNN "Frequency - Self Resonant"
+F9 "100kHz" 0 0 50 H I C CNN "Frequency - Test"
+F10 "0.118\" (3.00mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "2.2µH" 0 0 50 H I C CNN "Inductance"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "Wurth Electronics Inc." 0 0 50 H I C CNN "Manufacturer 1"
+F14 "74437356022" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "12 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Powdered Iron" 0 0 50 H I C CNN "Material - Core"
+F17 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F18 "-40°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F19 "Nonstandard" 0 0 50 H I C CNN "Package / Case"
+F20 "Active" 0 0 50 H I C CNN "Part Status"
+F21 "-" 0 0 50 H I C CNN "Q @ Freq"
+F22 "-" 0 0 50 H I C CNN "Ratings"
+F23 "WE-LHMI" 0 0 50 H I C CNN "Series"
+F24 "Shielded" 0 0 50 H I C CNN "Shielding"
+F25 "0.362\" L x 0.335\" W (9.20mm x 8.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F26 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F27 "8030" 0 0 50 H I C CNN "Supplier Device Package"
+F28 "732-7201-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F29 "±20%" 0 0 50 H I C CNN "Tolerance"
+F30 "Molded" 0 0 50 H I C CNN "Type"
+DRAW
+A -75 0 25 1 1799 0 1 0 N -50 0 -100 0
+A -25 0 25 1 1799 0 1 0 N 0 0 -50 0
+A 25 0 25 1 1799 0 1 0 N 50 0 0 0
+A 75 0 25 1 1799 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# FB_220R0_2A_0603
+#
+DEF FB_220R0_2A_0603 L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "FB_220R0_2A_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-ind:L_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Filters - Ferrite Beads and Chips" 0 0 50 H I C CNN "Categories"
+F5 "2A" 0 0 50 H I C CNN "Current Rating (Max)"
+F6 "50 mOhm" 0 0 50 H I C CNN "DC Resistance (DCR) (Max)"
+F8 "-" 0 0 50 H I C CNN "Filter Type"
+F9 "0.037\" (0.95mm)" 0 0 50 H I C CNN "Height (Max)"
+F10 "220 Ohms @ 100MHz" 0 0 50 H I C CNN "Impedance @ Frequency"
+F11 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F12 "Murata Electronics North America" 0 0 50 H I C CNN "Manufacturer 1"
+F13 "BLM18EG221SN1D" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F14 "8 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F15 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F16 "1" 0 0 50 H I C CNN "Number of Lines"
+F17 "-55°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F18 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F19 "Active" 0 0 50 H I C CNN "Part Status"
+F20 "-" 0 0 50 H I C CNN "Ratings"
+F21 "EMIFIL®, BLM18" 0 0 50 H I C CNN "Series"
+F22 "0.063\" L x 0.031\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F23 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F24 "490-3992-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+DRAW
+A -75 0 25 1 -1801 0 1 0 N -50 0 -100 0
+A -25 0 25 1 -1801 0 1 0 N 0 0 -50 0
+A 25 0 25 1 -1801 0 1 0 N 50 0 0 0
+A 75 0 25 1 -1801 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# L_10u0_20%_1.78A_-
+#
+DEF L_10u0_20%_1.78A_- L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_10u0_20%_1.78A_-" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Inductors, Coils, Chokes - Fixed Inductors" 0 0 50 H I C CNN "Categories"
+F5 "1.3A" 0 0 50 H I C CNN "Current - Saturation"
+F6 "1.78A" 0 0 50 H I C CNN "Current Rating"
+F7 "43.2 mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F9 "100kHz" 0 0 50 H I C CNN "Frequency - Test"
+F10 "0.189\" (4.80mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "10µH" 0 0 50 H I C CNN "Inductance"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "TDK Corporation" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "SLF7045T-100M1R3-PF" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "14 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Ferrite" 0 0 50 H I C CNN "Material - Core"
+F17 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F18 "-40°C ~ 105°C" 0 0 50 H I C CNN "Operating Temperature"
+F19 "Nonstandard" 0 0 50 H I C CNN "Package / Case"
+F20 "Active" 0 0 50 H I C CNN "Part Status"
+F21 "-" 0 0 50 H I C CNN "Q @ Freq"
+F22 "-" 0 0 50 H I C CNN "Ratings"
+F23 "SLF" 0 0 50 H I C CNN "Series"
+F24 "Shielded" 0 0 50 H I C CNN "Shielding"
+F25 "0.276\" L x 0.276\" W (7.00mm x 7.00mm)" 0 0 50 H I C CNN "Size / Dimension"
+F26 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F27 "-" 0 0 50 H I C CNN "Supplier Device Package"
+F28 "445-2014-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F29 "±20%" 0 0 50 H I C CNN "Tolerance"
+F30 "Wirewound" 0 0 50 H I C CNN "Type"
+DRAW
+A -75 0 25 1 -1801 0 1 0 N -50 0 -100 0
+A -25 0 25 1 -1801 0 1 0 N 0 0 -50 0
+A 25 0 25 1 -1801 0 1 0 N 50 0 0 0
+A 75 0 25 1 -1801 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# L_10u0_20%_2.7A_-
+#
+DEF L_10u0_20%_2.7A_- L 0 10 N N 1 F N
+F0 "L" 0 50 50 H V C BNN
+F1 "L_10u0_20%_2.7A_-" 0 -50 50 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Inductors, Coils, Chokes - Fixed Inductors" 0 0 50 H I C CNN "Categories"
+F5 "1.6A" 0 0 50 H I C CNN "Current - Saturation"
+F6 "2.7A" 0 0 50 H I C CNN "Current Rating"
+F7 "46.8 mOhm Max" 0 0 50 H I C CNN "DC Resistance (DCR)"
+F9 "100kHz" 0 0 50 H I C CNN "Frequency - Test"
+F10 "0.189\" (4.80mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F11 "10µH" 0 0 50 H I C CNN "Inductance"
+F12 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F13 "TDK Corporation" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "SLF6045T-100M1R6-3PF" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "14 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "Ferrite" 0 0 50 H I C CNN "Material - Core"
+F17 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F18 "-40°C ~ 105°C" 0 0 50 H I C CNN "Operating Temperature"
+F19 "Nonstandard" 0 0 50 H I C CNN "Package / Case"
+F20 "Active" 0 0 50 H I C CNN "Part Status"
+F21 "-" 0 0 50 H I C CNN "Q @ Freq"
+F22 "-" 0 0 50 H I C CNN "Ratings"
+F23 "SLF" 0 0 50 H I C CNN "Series"
+F24 "Shielded" 0 0 50 H I C CNN "Shielding"
+F25 "0.236\" L x 0.236\" W (6.00mm x 6.00mm)" 0 0 50 H I C CNN "Size / Dimension"
+F26 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F27 "-" 0 0 50 H I C CNN "Supplier Device Package"
+F28 "445-4573-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F29 "±20%" 0 0 50 H I C CNN "Tolerance"
+F30 "Wirewound" 0 0 50 H I C CNN "Type"
+DRAW
+A -75 0 25 1 -1801 0 1 0 N -50 0 -100 0
+A -25 0 25 1 -1801 0 1 0 N 0 0 -50 0
+A 25 0 25 1 -1801 0 1 0 N 50 0 0 0
+A 75 0 25 1 -1801 0 1 0 N 100 0 50 0
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

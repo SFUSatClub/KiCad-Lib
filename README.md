@@ -40,3 +40,23 @@ Disable global aperture settings by going to PCBNew > Dimentions > Pad Mask Clea
 Solder mask clearence 0.075mm
 Solder paste clearence 0mm
 Make sure to set the Solder mask min width in accordance with your PCB manufacturer.
+
+
+#3D Models
+Both STEP and WRL files are stored in SFUSat.pretty
+
+The procedure for generating 3D models of boards is complicated due to KiCad not natively supporting export of 3D models. We will use KiCad-Stepup (https://sourceforge.net/p/kicadstepup/wiki/Home/) to perform the following operations: component STEP file -> WRL file -> PCBNew settings -> board STEP file. KiCad-Stepup is a macro written for FreeCad (https://www.freecadweb.org/).
+
+0. change ksu-config.ini: prefix3D_1 = /home/tobi/Cubesat/CubeSat-Radio-v0.1/KiCad-Lib/SFUSat.pretty
+1. Load the macro in FreeCAD: Macro > Macros .. > Set Macro Destination > Create > Execute
+2. Create new document in freecad
+3. Load kicad footprint using the macro
+4. Load step file using macro
+5. Union the varius compoentns of the 3d model in the model tab of freecad
+6. Move the 3D model such that it aligns with the footprint using the kicad-stepup macro interface. Note the orientation of the footprint indicated by the unit vectors in the bottom right of the 3D window.
+7. Export to kicad using the macro, use all default values, change the file names to something appropriate, file names for .step and .wrl should be the same, move both files to SFUSat.pretty
+8. in PCBnew > footprint properties > 3D settings > Add 3D shape to select the wrl file
+9. Confirm the model positioning and file selection usign the PCBnew 3D view
+10. Create a new document in freecad, Load Kicad_pcb using kicad-stepup macro
+11. Select all geometries you want to export using the model tab.
+12. Export to STEP using Export in Freecad

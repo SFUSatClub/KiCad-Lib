@@ -1,0 +1,1591 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+# 
+# R_1R0_5%_0.125W_0805
+#
+DEF R_1R0_5%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_1R0_5%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW08051R00JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "1 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-1.0ACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�200ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_40k2_1%_0.063W_0402
+#
+DEF R_40k2_1%_0.063W_0402 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_40k2_1%_0.063W_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW040240K2FKED" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "40.2 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-40.2KLCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_2M0_5%_0.1W_0603
+#
+DEF R_2M0_5%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_2M0_5%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW06032M00JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "2 MOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-2.0MGCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�200ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_137k0_1%_0.1W_0603
+#
+DEF R_137k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_137k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Moisture Resistant" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RC0603FR-07137KL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "137 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RC" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "311-137KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_30k1_1%_0.1W_0603
+#
+DEF R_30k1_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_30k1_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060330K1FKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "30.1 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-30.1KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_10R0_1%_0.1W_0603
+#
+DEF R_10R0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10R0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "-" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060310R0FKEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW-C" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "541-3952-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_10R0_5%_0.1W_0603
+#
+DEF R_10R0_5%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10R0_5%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "-" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060310R0JNEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW-C" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "541-4057-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "�200ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_383k0_1%_0.1W_0603
+#
+DEF R_383k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_383k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW0603383KFKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "383 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-383KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_10k0_5%_0.25W_0603
+#
+DEF R_10k0_5%_0.25W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10k0_5%_0.25W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200, Pulse Withstanding" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060310K0JNEAHP" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW-HP" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-10KSACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�200ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_100k0_1%_0.1W_0603
+#
+DEF R_100k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_100k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Moisture Resistant" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RC0603FR-07100KL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "100 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RC" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "311-100KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_2k0_1%_0.1W_0603
+#
+DEF R_2k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_2k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "-" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW06032K00FKEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "2 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW-C" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "541-3953-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_280k0_1%_0.1W_0603
+#
+DEF R_280k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_280k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW0603280KFKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "280 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-280KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_220k0_1%_0.1W_0603
+#
+DEF R_220k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_220k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Moisture Resistant" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RC0603FR-07220KL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "220 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RC" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "311-220KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_10m0_1%_1W_1206
+#
+DEF R_10m0_1%_1W_1206 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10m0_1%_1W_1206" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_1206" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Metal Element" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding" 0 0 50 H I C CNN "Features"
+F9 "0.035\" (0.89mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "WSLP1206R0100FEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-65�C ~ 170�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "1206 (3216 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "1W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 mOhms" 0 0 50 H I C CNN "Resistance"
+F19 "WSLP" 0 0 50 H I C CNN "Series"
+F20 "0.126\" L x 0.063\" W (3.20mm x 1.60mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "1206" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "WSLP-.01CT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�75ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_20k0_5%_0.1W_0603
+#
+DEF R_20k0_5%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_20k0_5%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060320K0JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "20 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-20KGCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�200ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_100R0_1%_0.1W_0603
+#
+DEF R_100R0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_100R0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "-" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW0603100RFKEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "100 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW-C" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "541-3951-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_120k0_1%_0.1W_0603
+#
+DEF R_120k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_120k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Moisture Resistant" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RC0603FR-07120KL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "120 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RC" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "311-120KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_300k0_1%_0.1W_0603
+#
+DEF R_300k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_300k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW0603300KFKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "300 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-300KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_10k0_1%_0.063W_0402
+#
+DEF R_10k0_1%_0.063W_0402 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10k0_1%_0.063W_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW040210K0FKED" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-10.0KLCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_3R9_5%_0.25W_1206
+#
+DEF R_3R9_5%_0.25W_1206 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_3R9_5%_0.25W_1206" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_1206" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.024\" (0.60mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW12063R90JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "1206 (3216 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "3.9 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.126\" L x 0.063\" W (3.20mm x 1.60mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "1206" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-3.9ECT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�200ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_4R99_1%_0.1W_0603
+#
+DEF R_4R99_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_4R99_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW06034R99FKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "4.99 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-4.99HHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_10R0_1%_0.25W_1206
+#
+DEF R_10R0_1%_0.25W_1206 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10R0_1%_0.25W_1206" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_1206" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.028\" (0.70mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERJ-8ENF10R0V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "1206 (3216 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "ERJ" 0 0 50 H I C CNN "Series"
+F20 "0.126\" L x 0.063\" W (3.20mm x 1.60mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "1206" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "P10.0FCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_64k9_1%_0.1W_0603
+#
+DEF R_64k9_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_64k9_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Moisture Resistant" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RC0603FR-0764K9L" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "16 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "64.9 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RC" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "311-64.9KHRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_10k0_1%_0.1W_0603
+#
+DEF R_10k0_1%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10k0_1%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060310K0FKEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-10.0KHCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�100ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_56R0_5%_0.1W_0603
+#
+DEF R_56R0_5%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_56R0_5%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060356R0JNEA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "56 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-56GCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "�200ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_0R0_0%_0.1W_0603
+#
+DEF R_0R0_0%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_0R0_0%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW06030000Z0EA" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "0 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.063\" L x 0.033\" W (1.60mm x 0.85mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-0.0GCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "-" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "Jumper" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_330k0_0.1%_0.125W_0805
+#
+DEF R_330k0_0.1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_330k0_0.1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Anti-Sulfur, Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RG2012P-334-B-T5" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "330 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RG" 0 0 50 H I C CNN "Series"
+F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RG20P330KBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�25ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�0.1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_27k0_0.1%_0.125W_0805
+#
+DEF R_27k0_0.1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_27k0_0.1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Anti-Sulfur, Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RG2012P-273-B-T5" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "27 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RG" 0 0 50 H I C CNN "Series"
+F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RG20P27.0KBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�25ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�0.1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_0R0_0%_0.063W_0402
+#
+DEF R_0R0_0%_0.063W_0402 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_0R0_0%_0.063W_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200, Moisture Resistant" 0 0 50 H I C CNN "Features"
+F9 "0.015\" (0.37mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "AC0402JR-070RL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "17 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "0 Ohms" 0 0 50 H I C CNN "Resistance"
+F20 "AC" 0 0 50 H I C CNN "Series"
+F21 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "311-0.0LBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "-" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "Jumper" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_10k0_5%_0.1W_0603
+#
+DEF R_10k0_5%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10k0_5%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "-" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW060310K0JNEAC" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "10 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW-C" 0 0 50 H I C CNN "Series"
+F20 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F21 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F22 "541-3957-1-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F23 "�200ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F24 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_1k0_0.1%_0.125W_0805
+#
+DEF R_1k0_0.1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_1k0_0.1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Anti-Sulfur, Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RG2012P-102-B-T5" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "1 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RG" 0 0 50 H I C CNN "Series"
+F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RG20P1.0KBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�25ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�0.1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_10m0_5%_0.25W_0805
+#
+DEF R_10m0_5%_0.25W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_10m0_5%_0.25W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Current Sense" 0 0 50 H I C CNN "Features"
+F9 "0.028\" (0.70mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RL1220T-R010-J" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 125�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "10 mOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RL" 0 0 50 H I C CNN "Series"
+F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RL12T.010JCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "0/ +350ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_1M0_0.1%_0.125W_0805
+#
+DEF R_1M0_0.1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_1M0_0.1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Anti-Sulfur, Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.020\" (0.50mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Susumu" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RG2012P-105-B-T5" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "1 MOhms" 0 0 50 H I C CNN "Resistance"
+F20 "RG" 0 0 50 H I C CNN "Series"
+F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RG20P1.0MBCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�25ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�0.1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_422k0_0.1%_0.125W_0805
+#
+DEF R_422k0_0.1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_422k0_0.1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.024\" (0.60mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERA-6AEB4223V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "22 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "422 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "ERA-6A" 0 0 50 H I C CNN "Series"
+F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "P422KDACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�25ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�0.1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_357k0_0.1%_0.125W_0805
+#
+DEF R_357k0_0.1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_357k0_0.1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.024\" (0.60mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERA-6AEB3573V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "22 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55�C ~ 155�C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "357 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "ERA-6A" 0 0 50 H I C CNN "Series"
+F21 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "P357KDACT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "�25ppm/�C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "�0.1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_1k0_5%_0.25W_0603
+#
+DEF R_1k0_5%_0.25W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_1k0_5%_0.25W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200, Pulse Withstanding" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Rohm Semiconductor" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ESR03EZPJ102" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.25W, 1/4W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "1 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "ESR" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RHM1.0KDCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "±200ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "±5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_250R0_0.01%_0.1W_0603
+#
+DEF R_250R0_0.01%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_250R0_0.01%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Stackpole Electronics Inc." 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RNCF0603TKY250R" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "10 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "250 Ohms" 0 0 50 H I C CNN "Resistance"
+F20 "RNCF" 0 0 50 H I C CNN "Series"
+F21 "0.061\" L x 0.031\" W (1.55mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "RNCF0603TKY250RCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "±5ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "±0.01%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_160R0_5%_0.1W_0603
+#
+DEF R_160R0_5%_0.1W_0603 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_160R0_5%_0.1W_0603" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0603" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Moisture Resistant" 0 0 50 H I C CNN "Features"
+F9 "0.022\" (0.55mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Yageo" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "RC0603JR-07160RL" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "23 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0603 (1608 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.1W, 1/10W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "160 Ohms" 0 0 50 H I C CNN "Resistance"
+F20 "RC" 0 0 50 H I C CNN "Series"
+F21 "0.063\" L x 0.032\" W (1.60mm x 0.80mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0603" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "311-160GRCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "±5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_1k0_0.5%_0.063W_0402
+#
+DEF R_1k0_0.5%_0.063W_0402 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_1k0_0.5%_0.063W_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thin Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERA-2AED102X" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "23 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F14 "2" 0 0 50 H I C CNN "Number of Terminations"
+F15 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F16 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F17 "Active" 0 0 50 H I C CNN "Part Status"
+F18 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F19 "1 kOhms" 0 0 50 H I C CNN "Resistance"
+F20 "ERA-2A" 0 0 50 H I C CNN "Series"
+F21 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F22 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F23 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F24 "P1.0KDECT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F25 "±25ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F26 "±0.5%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_2M37_1%_0.063W_0402
+#
+DEF R_2M37_1%_0.063W_0402 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_2M37_1%_0.063W_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW04022M37FKED" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "2.37 MOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-2.37MLCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_383k0_1%_0.063W_0402
+#
+DEF R_383k0_1%_0.063W_0402 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_383k0_1%_0.063W_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW0402383KFKED" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "383 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-383KLCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_49k9_1%_0.125W_0805
+#
+DEF R_49k9_1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_49k9_1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.028\" (0.70mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERJ-6ENF4992V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "49.9 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "ERJ" 0 0 50 H I C CNN "Series"
+F20 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "P49.9KCCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_100k0_1%_0.125W_0805
+#
+DEF R_100k0_1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_100k0_1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.028\" (0.70mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERJ-6ENF1003V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "100 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "ERJ" 0 0 50 H I C CNN "Series"
+F20 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "P100KCCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_3R01_1%_0.063W_0402
+#
+DEF R_3R01_1%_0.063W_0402 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_3R01_1%_0.063W_0402" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0402" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.016\" (0.40mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Vishay Dale" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "CRCW04023R01FKED" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0402 (1005 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.063W, 1/16W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "3.01 Ohms" 0 0 50 H I C CNN "Resistance"
+F19 "CRCW" 0 0 50 H I C CNN "Series"
+F20 "0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0402" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "541-3.01LLCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+# 
+# R_19k1_1%_0.125W_0805
+#
+DEF R_19k1_1%_0.125W_0805 R 0 10 N N 1 F N
+F0 "R" 0 50 50 H V C BNN
+F1 "R_19k1_1%_0.125W_0805" 0 -50 50 H V C TNN
+F2 "SFUSat-res:R_0805" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Resistors - Chip Resistor - Surface Mount" 0 0 50 H I C CNN "Categories"
+F5 "Thick Film" 0 0 50 H I C CNN "Composition"
+F7 "-" 0 0 50 H I C CNN "Failure Rate"
+F8 "Automotive AEC-Q200" 0 0 50 H I C CNN "Features"
+F9 "0.028\" (0.70mm)" 0 0 50 H I C CNN "Height - Seated (Max)"
+F10 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F11 "Panasonic Electronic Components" 0 0 50 H I C CNN "Manufacturer 1"
+F12 "ERJ-6ENF1912V" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F13 "2" 0 0 50 H I C CNN "Number of Terminations"
+F14 "-55°C ~ 155°C" 0 0 50 H I C CNN "Operating Temperature"
+F15 "0805 (2012 Metric)" 0 0 50 H I C CNN "Package / Case"
+F16 "Active" 0 0 50 H I C CNN "Part Status"
+F17 "0.125W, 1/8W" 0 0 50 H I C CNN "Power (Watts)"
+F18 "19.1 kOhms" 0 0 50 H I C CNN "Resistance"
+F19 "ERJ" 0 0 50 H I C CNN "Series"
+F20 "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" 0 0 50 H I C CNN "Size / Dimension"
+F21 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F22 "0805" 0 0 50 H I C CNN "Supplier Device Package"
+F23 "P19.1KCCT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F24 "±100ppm/°C" 0 0 50 H I C CNN "Temperature Coefficient"
+F25 "±1%" 0 0 50 H I C CNN "Tolerance"
+DRAW
+S 100 -40 -100 40 0 1 10 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

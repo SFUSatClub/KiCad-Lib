@@ -11,4 +11,8 @@ D Bare PV cell. JSLINTER 0.5V 0.27W 39x39mm
 F https://www.aliexpress.com/store/product/JSLINTER-100pcs-mini-Solar-Cell-Polycrystalline-Batteries-DIY-Prices-Cheap-Photovoltaic-Solar-Panel-China-0-5V/213231_32794663912.html?spm=2114.12010612.0.0.3752b5b1d29vhO
 $ENDCMP
 #
+$CMP LM3480
+D Quasi Low-Dropout Linear Voltage Regulator. 100mA fixed voltage regulator. For available output voltages, see catalogue
+$ENDCMP
+#
 #End Doc Library

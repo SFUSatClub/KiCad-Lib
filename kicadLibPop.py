@@ -108,12 +108,7 @@ libDict = {"capLib":{capLibFile:capLibContents},#list of all of the libraries to
 dataToWrite = [] #data to write to the library file
 
 #Part numbers to add to the library
-partNums = ["296-25361-1-ND", "296-39451-1-ND", "445-2014-1-ND", "490-4738-1-ND", "490-1696-1-ND", 
-"490-6296-1-ND", "399-3118-1-ND", "311-1776-1-ND",
- "296-47482-1-ND", "445-4573-1-ND", "490-3339-1-ND",
-  "490-6508-1-ND", "490-6308-1-ND", "490-6308-1-ND", "587-1376-1-ND", "490-6182-1-ND", "490-3266-1-ND", 
-  "490-6287-1-ND", "P100KCCT-ND", "P19.1KCCT-ND", "P49.9KCCT-ND", "541-2.37MLCT-ND", "541-383KLCT-ND"
-  , "541-3.01LLCT-ND"]
+partNums = ["478-3896-1-ND"]
 
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace

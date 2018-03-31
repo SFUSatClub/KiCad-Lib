@@ -15,4 +15,8 @@ $CMP LM3480
 D Quasi Low-Dropout Linear Voltage Regulator. 100mA fixed voltage regulator. For available output voltages, see catalogue
 $ENDCMP
 #
+$CMP LMS3635AQRNLRQ1
+D LMS3655-Q1 5.5-A, 36-V Synchronous, 400-kHz Step-Down Converter
+$ENDCMP
+#
 #End Doc Library

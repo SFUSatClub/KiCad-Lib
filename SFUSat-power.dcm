@@ -19,4 +19,9 @@ $CMP LMS3635AQRNLRQ1
 D LMS3655-Q1 5.5-A, 36-V Synchronous, 400-kHz Step-Down Converter
 $ENDCMP
 #
+$CMP TPS563219DDFR-ND
+D TPS56x219 4.5-V to 17-V Input, 2-A, 3-A Synchronous Step-Down Voltage Regulator
+in 8 Pin SOT-23
+$ENDCMP
+#
 #End Doc Library

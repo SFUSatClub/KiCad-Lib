@@ -59,6 +59,10 @@ $CMP GPS_ANTENNA
 D Generic Single Port GPS antenna
 $ENDCMP
 #
+$CMP NC7SZ157
+D 2 input non-inverting multiplexer with 1 bit digital control
+$ENDCMP
+#
 $CMP OEM719
 D OEM719 Pin Header
 $ENDCMP

@@ -47,6 +47,18 @@ $CMP CSD25402Q3A
 D MOSFET P-CH 20V 76A 8SON
 $ENDCMP
 #
+$CMP Conn_01x02
+D Generic connector, single row, 01x02
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x03
+D Generic connector, single row, 01x03
+K connector
+F ~
+$ENDCMP
+#
 $CMP DCX124EK-7-F
 D TRANS NPN/PNP PREBIAS 0.3W SC74R
 $ENDCMP
@@ -57,10 +69,6 @@ $ENDCMP
 #
 $CMP GPS_ANTENNA
 D Generic Single Port GPS antenna
-$ENDCMP
-#
-$CMP NC7SZ157
-D 2 input non-inverting multiplexer with 1 bit digital control
 $ENDCMP
 #
 $CMP OEM719

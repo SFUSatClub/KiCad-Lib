@@ -876,6 +876,56 @@ X S 8 400 200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# Conn_01x02
+#
+DEF Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_01x03
+#
+DEF Conn_01x03 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Conn_01x03" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # DCX124EK-7-F
 #
 DEF DCX124EK-7-F Q 0 10 Y N 2 L N
@@ -1460,27 +1510,6 @@ X ~ 12 300 -900 200 L 50 50 1 1 B
 X ~ 13 300 -1000 200 L 50 50 1 1 B
 X ~ 14 300 -1100 200 L 50 50 1 1 B
 X ~ SHLD 400 -1250 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# NC7SZ157
-#
-DEF NC7SZ157 U 0 40 Y Y 1 F N
-F0 "U" -100 -250 60 H V C CNN
-F1 "NC7SZ157" -150 350 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-$FPLIST
- SOT-363
-$ENDFPLIST
-DRAW
-P 5 0 1 0 -100 250 -100 -150 100 -50 100 150 -100 250 N
-X I1 1 -300 0 200 R 50 50 1 1 I
-X GND 2 200 -400 200 U 50 50 1 1 W
-X I0 3 -300 100 200 R 50 50 1 1 I
-X Z 4 300 50 200 L 50 50 1 1 O
-X VCC 5 200 550 200 D 50 50 1 1 W
-X S 6 50 -300 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

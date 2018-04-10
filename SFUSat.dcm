@@ -91,4 +91,9 @@ $CMP TPS71750DSER
 D IC REG LINEAR 5V 150MA 6WSON
 $ENDCMP
 #
+$CMP TP_100_SMD
+D point
+K point tp
+$ENDCMP
+#
 #End Doc Library

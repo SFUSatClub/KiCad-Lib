@@ -109,6 +109,51 @@ X GND 3 -200 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# 74LVC1G14SE-7
+#
+DEF 74LVC1G14SE-7 U 0 10 Y Y 1 F N
+F0 "U" 150 300 50 H V L BNN
+F1 "74LVC1G14SE-7" 50 -300 50 H V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "74LVC1G14" 0 0 50 H I C CNN "Base Part Number"
+F5 "Integrated Circuits (ICs) - Logic - Gates and Inverters" 0 0 50 H I C CNN "Categories"
+F6 "32mA, 32mA" 0 0 50 H I C CNN "Current - Output High, Low"
+F7 "200µA" 0 0 50 H I C CNN "Current - Quiescent (Max)"
+F8 "Schmitt Trigger" 0 0 50 H I C CNN "Features"
+F9 "Lead free / RoHS Compliant" 0 0 50 H I C CNN "Lead Free Status / RoHS Status"
+F10 "1.2 V ~ 3.33 V" 0 0 50 H I C CNN "Logic Level - High"
+F11 "0.3 V ~ 1.45 V" 0 0 50 H I C CNN "Logic Level - Low"
+F12 "Inverter" 0 0 50 H I C CNN "Logic Type"
+F13 "Diodes Incorporated" 0 0 50 H I C CNN "Manufacturer 1"
+F14 "74LVC1G14SE-7" 0 0 50 H I C CNN "Manufacturer Part Number 1"
+F15 "12 Weeks" 0 0 50 H I C CNN "Manufacturer Standard Lead Time 1"
+F16 "5ns @ 5V, 50pF" 0 0 50 H I C CNN "Max Propagation Delay @ V, Max CL"
+F17 "Surface Mount" 0 0 50 H I C CNN "Mounting Type"
+F18 "1" 0 0 50 H I C CNN "Number of Circuits"
+F19 "1" 0 0 50 H I C CNN "Number of Inputs"
+F20 "-40°C ~ 125°C" 0 0 50 H I C CNN "Operating Temperature"
+F21 "5-TSSOP, SC-70-5, SOT-353" 0 0 50 H I C CNN "Package / Case"
+F22 "Active" 0 0 50 H I C CNN "Part Status"
+F23 "74LVC" 0 0 50 H I C CNN "Series"
+F24 "Digi-Key" 0 0 50 H I C CNN "Supplier 1"
+F25 "SOT-353" 0 0 50 H I C CNN "Supplier Device Package"
+F26 "74LVC1G14SE-7CT-ND" 0 0 50 H I C CNN "Supplier Part Number 1"
+F27 "1.65 V ~ 5.5 V" 0 0 50 H I C CNN "Voltage - Supply"
+DRAW
+C 70 0 20 0 1 0 N
+S -200 250 200 -250 0 1 0 N
+P 2 0 1 0 -100 0 -130 0 N
+P 2 0 1 0 90 0 120 0 N
+P 4 0 1 0 -100 100 -100 -100 50 0 -100 100 N
+X NC 1 -300 -150 100 R 50 50 1 1 I
+X A 2 -300 0 100 R 50 50 1 1 I
+X GND 3 0 -350 100 U 50 50 1 1 I
+X Y 4 300 0 100 L 50 50 1 1 I
+X VCC 5 0 350 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # AB-RTCMC-EOA9-S3
 #
 DEF AB-RTCMC-EOA9-S3 U 0 40 Y Y 1 F N

@@ -108,8 +108,7 @@ libDict = {"capLib":{capLibFile:capLibContents},#list of all of the libraries to
 dataToWrite = [] #data to write to the library file
 
 #Part numbers to add to the library
-partNums = ["478-3896-1-ND"]
-
+partNums = ["74LVC1G14SE-7CT-ND"]
 partNums = list(set(partNums)) #Ensures no duplicates
 partNums = [partNum.strip() for partNum in partNums] #Removes beginning and trailing whitespace
 
@@ -498,7 +497,7 @@ def makeFixedAttrs(productAttrDict):
         
         fixedAttrDict["Reference"] = "L"
 
-    elif "Resistor" in productAttrDict["Categories"]:
+    elif ("Resistor" in productAttrDict["Categories"]) and not ("Potentiometers" in productAttrDict["Categories"]):
         
         #Make sure the value is formatted properly
         unit = productAttrDict["Resistance"][-5]
@@ -554,7 +553,7 @@ def makeFixedAttrs(productAttrDict):
     
         symbolName = productAttrDict["Manufacturer Part Number 1"]
         
-        footprint = symbolName
+        footprint = "SFUSat:{0}".format(symbolName)
 
         if not any(footprint in file for file in os.listdir(path="SFUSat.pretty")):
             print("No footprint '{0}' found for {1}".format(footprint,symbolName))

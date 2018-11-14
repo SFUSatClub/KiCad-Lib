@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7000
+D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
+$ENDCMP
+#
 $CMP Batt-Series
 D Battery (multiple cells)
 K batt voltage-source cell
@@ -19,12 +25,24 @@ $CMP LMS3635AQRNLRQ1
 D LMS3655-Q1 5.5-A, 36-V Synchronous, 400-kHz Step-Down Converter
 $ENDCMP
 #
+$CMP TP0610L
+D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
 $CMP TPS2296xC
 D TPS2296xC 5.5-V, 3-A, 13-mΩ On-Resistance Load Switch With Reverse Current Protection and Controlled Turn-On
 $ENDCMP
 #
 $CMP TPS563219DDFR-ND
 D TPS56x219 4.5-V to 17-V Input, 2-A, 3-A Synchronous Step-Down Voltage Regulator
+$ENDCMP
+#
+$CMP VP0610L
+D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 #End Doc Library
